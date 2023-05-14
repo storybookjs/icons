@@ -1,0 +1,9 @@
+dist
+coverage
+storybook-static
+.prettierignore
+yarn.lock
+*.snap
+.npmrc
+.gitignore
+.editorconfig

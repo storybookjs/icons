@@ -1,0 +1,42 @@
+import {
+  Meta,
+  Primary,
+  Controls,
+  IconGallery,
+  IconItem,
+} from '@storybook/blocks';
+import * as IconStories from './icon.stories';
+import { Icon } from './Icon';
+import { icons } from './iconPaths';
+
+<Meta title="Icon/Docs" of={IconStories} />
+
+<style>
+  {`
+    .spacer {
+      height: 24px
+    }
+  `}
+</style>
+
+# Icon
+
+This is a collection of icons that can be used in the UI.
+
+<Primary />
+
+## Props
+
+<Controls />
+
+## Iconography
+
+<div className="spacer" />
+
+<IconGallery>
+  {Object.keys(icons).map((icon) => (
+    <IconItem key={icon} name={icon}>
+      <Icon name={icon} />
+    </IconItem>
+  ))}
+</IconGallery>

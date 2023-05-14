@@ -1,0 +1,96 @@
+{
+  "name": "@chromaui/icons",
+  "version": "1.0.0",
+  "description": "Icon library for Chromatic apps and marketing site",
+  "author": {
+    "name": "cdedreuille"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chromaui/icons.git"
+  },
+  "scripts": {
+    "dev": "concurrently  -n \"Build,SB\" \"yarn build --watch\" \"yarn storybook\" ",
+    "build": "tsup --onSuccess \"cp -a public/. dist/public\"",
+    "type-check": "tsc",
+    "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
+    "lint:fix": "yarn lint --fix && prettier --write .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "release": "yarn build && auto shipit",
+    "chromatic": "npx chromatic --project-token=chpt_1004e0537cb3050"
+  },
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "lint-staged": {
+    "./src/**/*.{ts,js,jsx,tsx}": [
+      "eslint --ignore-path .gitignore --fix"
+    ],
+    "*": "prettier --write"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.11",
+    "@storybook/addon-interactions": "^7.0.11",
+    "@storybook/addon-mdx-gfm": "7.0.11",
+    "@storybook/blocks": "^7.0.11",
+    "@storybook/eslint-config-storybook": "3.1.2",
+    "@storybook/react": "^7.0.11",
+    "@storybook/react-vite": "^7.0.11",
+    "@storybook/testing-library": "^0.1.0",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
+    "@vitejs/plugin-react": "3.1.0",
+    "auto": "10.46.0",
+    "chromatic": "6.17.3",
+    "concurrently": "8.0.1",
+    "eslint": "8.36.0",
+    "eslint-plugin-jest": "27.2.1",
+    "eslint-plugin-storybook": "0.6.12",
+    "lint-staged": "13.2.0",
+    "prettier": "2.8.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "storybook": "7.0.11",
+    "tsup": "6.6.3",
+    "typescript": "5.0.2",
+    "vite": "4.2.1"
+  },
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "7.0.11",
+    "@storybook/design-system": "7.15.10",
+    "@storybook/theming": "7.0.11"
+  },
+  "bugs": {
+    "url": "https://github.com/chromaui/icons/issues"
+  },
+  "homepage": "https://github.com/chromaui/icons#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ]
+  }
+}
