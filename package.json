@@ -76,9 +76,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "7.0.11",
-    "@storybook/design-system": "7.15.10",
-    "@storybook/theming": "7.0.11"
+    "@storybook/addon-a11y": "7.0.11"
   },
   "bugs": {
     "url": "https://github.com/chromaui/icons/issues"
