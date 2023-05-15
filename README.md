@@ -1,5 +1,7 @@
 # Icons
 
+<img src="public/cover.jpg" />
+
 This library contains the icons used in Chromatic UI and marketing site.
 
 ## Install
