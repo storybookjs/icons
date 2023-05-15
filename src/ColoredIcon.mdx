@@ -5,11 +5,11 @@ import {
   IconGallery,
   IconItem,
 } from '@storybook/blocks';
-import * as IconStories from './icon.stories';
-import { Icon } from './Icon';
-import { icons } from './iconPaths';
+import * as IconStories from './coloredIcon.stories';
+import { ColoredIcon } from './ColoredIcon';
+import { icons } from './coloredIconPaths';
 
-<Meta title="Icon" of={IconStories} />
+<Meta title="Colored Icon" of={IconStories} />
 
 <style>
   {`
@@ -19,7 +19,7 @@ import { icons } from './iconPaths';
   `}
 </style>
 
-# Icon
+# Colored Icon
 
 An Icon is a piece of visual element, but we must ensure its accessibility while using it. It can have 2 purposes:
 
@@ -39,7 +39,7 @@ An Icon is a piece of visual element, but we must ensure its accessibility while
 <IconGallery>
   {Object.keys(icons).map((icon) => (
     <IconItem key={icon} name={icon}>
-      <Icon name={icon} />
+      <ColoredIcon name={icon} />
     </IconItem>
   ))}
 </IconGallery>

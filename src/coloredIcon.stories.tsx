@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Icon } from './Icon';
+import { ColoredIcon } from './ColoredIcon';
 
 const meta = {
-  title: 'Icon',
-  component: Icon,
-} satisfies Meta<typeof Icon>;
+  title: 'ColoredIcon',
+  component: ColoredIcon,
+} satisfies Meta<typeof ColoredIcon>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
@@ -12,9 +12,8 @@ type Story = StoryObj<typeof meta>;
 export const IconStory: Story = {
   name: 'Icon Component',
   args: {
-    size: 14,
-    name: 'plus',
-    color: '#000000',
+    size: 48,
+    name: 'accessibility',
   },
   parameters: {
     layout: 'centered',
