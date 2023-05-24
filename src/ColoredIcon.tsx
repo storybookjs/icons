@@ -1,14 +1,14 @@
 import React from 'react';
-import { icons } from './coloredIconPaths';
+import { coloredIcons } from './coloredIconPaths';
 
-export type IconType = keyof typeof icons;
+export type ColoredIconProps = keyof typeof coloredIcons;
 
-export interface IconProps {
-  name: IconType;
+interface Props {
+  name: ColoredIconProps;
   size?: number;
 }
 
-export const ColoredIcon = React.forwardRef<SVGSVGElement, IconProps>(
+export const ColoredIcon = React.forwardRef<SVGSVGElement, Props>(
   ({ name, size = 48, ...props }, forwardedRef) => {
     return (
       <svg
@@ -20,7 +20,7 @@ export const ColoredIcon = React.forwardRef<SVGSVGElement, IconProps>(
         {...props}
         ref={forwardedRef}
       >
-        {icons[name]}
+        {coloredIcons[name]}
       </svg>
     );
   }

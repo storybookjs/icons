@@ -1,15 +1,15 @@
 import React from 'react';
 import { icons } from './iconPaths';
 
-export type IconType = keyof typeof icons;
+export type IconProps = keyof typeof icons;
 
-export interface IconProps {
-  name: IconType;
+interface Props {
+  name: IconProps;
   size?: number;
   color?: string;
 }
 
-export const Icon = React.forwardRef<SVGSVGElement, IconProps>(
+export const Icon = React.forwardRef<SVGSVGElement, Props>(
   ({ name, size = 14, color = '#000000', ...props }, forwardedRef) => {
     return (
       <svg

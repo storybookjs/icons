@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const icons = {
+export const coloredIcons = {
   accessibility: (
     <>
       <circle fillOpacity={0.3} fill="#A849FF" cx={24} cy={24} r={24} />
