@@ -42,13 +42,13 @@
     "node": ">=14.0.0"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.0.11",
-    "@storybook/addon-interactions": "^7.0.11",
-    "@storybook/addon-mdx-gfm": "7.0.11",
-    "@storybook/blocks": "^7.0.11",
+    "@storybook/addon-essentials": "^7.0.15",
+    "@storybook/addon-interactions": "^7.0.15",
+    "@storybook/addon-mdx-gfm": "7.0.15",
+    "@storybook/blocks": "^7.0.15",
     "@storybook/eslint-config-storybook": "3.1.2",
-    "@storybook/react": "^7.0.11",
-    "@storybook/react-vite": "^7.0.11",
+    "@storybook/react": "^7.0.15",
+    "@storybook/react-vite": "^7.0.15",
     "@storybook/testing-library": "^0.1.0",
     "@types/node": "18.15.3",
     "@types/react": "18.0.28",
@@ -66,7 +66,7 @@
     "prettier": "2.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "storybook": "7.0.11",
+    "storybook": "7.0.15",
     "tsup": "6.6.3",
     "typescript": "5.0.2",
     "vite": "4.2.1"
@@ -76,7 +76,7 @@
     "react-dom": ">=17"
   },
   "dependencies": {
-    "@storybook/addon-a11y": "7.0.11"
+    "@storybook/addon-a11y": "7.0.15"
   },
   "bugs": {
     "url": "https://github.com/chromaui/icons/issues"
