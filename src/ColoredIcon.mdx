@@ -7,7 +7,7 @@ import {
 } from '@storybook/blocks';
 import * as IconStories from './coloredIcon.stories';
 import { ColoredIcon } from './ColoredIcon';
-import { icons } from './coloredIconPaths';
+import { coloredIcons } from './coloredIconPaths';
 
 <Meta title="Colored Icon" of={IconStories} />
 
@@ -37,7 +37,7 @@ An Icon is a piece of visual element, but we must ensure its accessibility while
 <div className="spacer" />
 
 <IconGallery>
-  {Object.keys(icons).map((icon) => (
+  {Object.keys(coloredIcons).map((icon) => (
     <IconItem key={icon} name={icon}>
       <ColoredIcon name={icon} />
     </IconItem>
