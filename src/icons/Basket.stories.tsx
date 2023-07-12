@@ -9,4 +9,4 @@ const meta: Meta<typeof Basket> = {
 export default meta;
 type Story = StoryObj<typeof Basket>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

@@ -9,4 +9,4 @@ const meta: Meta<typeof Arrowdown> = {
 export default meta;
 type Story = StoryObj<typeof Arrowdown>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

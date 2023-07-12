@@ -9,4 +9,4 @@ const meta: Meta<typeof Pin> = {
 export default meta;
 type Story = StoryObj<typeof Pin>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

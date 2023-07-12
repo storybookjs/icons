@@ -9,4 +9,4 @@ const meta: Meta<typeof Stopalt> = {
 export default meta;
 type Story = StoryObj<typeof Stopalt>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

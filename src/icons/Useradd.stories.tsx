@@ -9,4 +9,4 @@ const meta: Meta<typeof Useradd> = {
 export default meta;
 type Story = StoryObj<typeof Useradd>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

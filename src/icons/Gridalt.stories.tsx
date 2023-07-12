@@ -9,4 +9,4 @@ const meta: Meta<typeof Gridalt> = {
 export default meta;
 type Story = StoryObj<typeof Gridalt>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

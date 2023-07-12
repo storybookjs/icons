@@ -9,4 +9,4 @@ const meta: Meta<typeof Windows> = {
 export default meta;
 type Story = StoryObj<typeof Windows>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

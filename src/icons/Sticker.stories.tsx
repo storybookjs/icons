@@ -9,4 +9,4 @@ const meta: Meta<typeof Sticker> = {
 export default meta;
 type Story = StoryObj<typeof Sticker>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

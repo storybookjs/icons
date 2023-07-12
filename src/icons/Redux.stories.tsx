@@ -9,4 +9,4 @@ const meta: Meta<typeof Redux> = {
 export default meta;
 type Story = StoryObj<typeof Redux>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

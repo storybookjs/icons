@@ -117,6 +117,6 @@ const meta: Meta<typeof ${name}> = {
 export default meta;
 type Story = StoryObj<typeof ${name}>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };
 `;
 };

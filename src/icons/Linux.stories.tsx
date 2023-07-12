@@ -9,4 +9,4 @@ const meta: Meta<typeof Linux> = {
 export default meta;
 type Story = StoryObj<typeof Linux>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

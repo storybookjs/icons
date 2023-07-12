@@ -9,4 +9,4 @@ const meta: Meta<typeof Bitbucket> = {
 export default meta;
 type Story = StoryObj<typeof Bitbucket>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

@@ -9,4 +9,4 @@ const meta: Meta<typeof Outbox> = {
 export default meta;
 type Story = StoryObj<typeof Outbox>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

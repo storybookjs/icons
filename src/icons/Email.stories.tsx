@@ -9,4 +9,4 @@ const meta: Meta<typeof Email> = {
 export default meta;
 type Story = StoryObj<typeof Email>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

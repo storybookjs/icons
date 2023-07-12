@@ -9,4 +9,4 @@ const meta: Meta<typeof Share> = {
 export default meta;
 type Story = StoryObj<typeof Share>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

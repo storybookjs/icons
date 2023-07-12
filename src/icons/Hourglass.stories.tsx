@@ -9,4 +9,4 @@ const meta: Meta<typeof Hourglass> = {
 export default meta;
 type Story = StoryObj<typeof Hourglass>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

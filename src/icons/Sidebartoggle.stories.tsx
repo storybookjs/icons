@@ -9,4 +9,4 @@ const meta: Meta<typeof Sidebartoggle> = {
 export default meta;
 type Story = StoryObj<typeof Sidebartoggle>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

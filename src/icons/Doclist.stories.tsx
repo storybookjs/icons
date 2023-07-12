@@ -9,4 +9,4 @@ const meta: Meta<typeof Doclist> = {
 export default meta;
 type Story = StoryObj<typeof Doclist>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

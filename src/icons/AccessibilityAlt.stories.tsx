@@ -9,4 +9,4 @@ const meta: Meta<typeof AccessibilityAlt> = {
 export default meta;
 type Story = StoryObj<typeof AccessibilityAlt>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

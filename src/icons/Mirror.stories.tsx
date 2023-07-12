@@ -9,4 +9,4 @@ const meta: Meta<typeof Mirror> = {
 export default meta;
 type Story = StoryObj<typeof Mirror>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

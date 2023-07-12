@@ -9,4 +9,4 @@ const meta: Meta<typeof Bold> = {
 export default meta;
 type Story = StoryObj<typeof Bold>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

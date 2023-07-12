@@ -9,4 +9,4 @@ const meta: Meta<typeof Sync> = {
 export default meta;
 type Story = StoryObj<typeof Sync>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

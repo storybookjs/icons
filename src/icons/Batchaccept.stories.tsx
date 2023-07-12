@@ -9,4 +9,4 @@ const meta: Meta<typeof Batchaccept> = {
 export default meta;
 type Story = StoryObj<typeof Batchaccept>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

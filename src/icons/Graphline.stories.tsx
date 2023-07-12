@@ -9,4 +9,4 @@ const meta: Meta<typeof Graphline> = {
 export default meta;
 type Story = StoryObj<typeof Graphline>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

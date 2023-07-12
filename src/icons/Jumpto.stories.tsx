@@ -9,4 +9,4 @@ const meta: Meta<typeof Jumpto> = {
 export default meta;
 type Story = StoryObj<typeof Jumpto>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

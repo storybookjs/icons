@@ -9,4 +9,4 @@ const meta: Meta<typeof Requestchange> = {
 export default meta;
 type Story = StoryObj<typeof Requestchange>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

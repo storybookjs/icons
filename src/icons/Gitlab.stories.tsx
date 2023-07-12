@@ -9,4 +9,4 @@ const meta: Meta<typeof Gitlab> = {
 export default meta;
 type Story = StoryObj<typeof Gitlab>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

@@ -9,4 +9,4 @@ const meta: Meta<typeof Graphql> = {
 export default meta;
 type Story = StoryObj<typeof Graphql>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

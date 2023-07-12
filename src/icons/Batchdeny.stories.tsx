@@ -9,4 +9,4 @@ const meta: Meta<typeof Batchdeny> = {
 export default meta;
 type Story = StoryObj<typeof Batchdeny>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

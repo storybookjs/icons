@@ -9,4 +9,4 @@ const meta: Meta<typeof Structure> = {
 export default meta;
 type Story = StoryObj<typeof Structure>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

@@ -9,4 +9,4 @@ const meta: Meta<typeof VSCode> = {
 export default meta;
 type Story = StoryObj<typeof VSCode>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

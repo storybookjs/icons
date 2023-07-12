@@ -9,4 +9,4 @@ const meta: Meta<typeof Pinalt> = {
 export default meta;
 type Story = StoryObj<typeof Pinalt>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

@@ -9,4 +9,4 @@ const meta: Meta<typeof Linkbroken> = {
 export default meta;
 type Story = StoryObj<typeof Linkbroken>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

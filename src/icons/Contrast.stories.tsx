@@ -9,4 +9,4 @@ const meta: Meta<typeof Contrast> = {
 export default meta;
 type Story = StoryObj<typeof Contrast>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };

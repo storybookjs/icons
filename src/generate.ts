@@ -86,7 +86,7 @@ exporter
       componentsDirectoryPath: ICONS_DIRECTORY_PATH,
       indexDirectoryPath: INDEX_DIRECTORY_PATH,
       data: downloadedSVGsData,
-      indexFileName: 'index.tsx',
+      indexFileName: 'index.ts',
     });
 
     console.log(chalk.greenBright('-> All done! ✅'));

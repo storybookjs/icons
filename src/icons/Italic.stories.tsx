@@ -9,4 +9,4 @@ const meta: Meta<typeof Italic> = {
 export default meta;
 type Story = StoryObj<typeof Italic>;
 
-export const Default: Story = { args: { size: 14 } };
+export const Default: Story = { args: { size: 100 } };
