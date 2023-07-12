@@ -15,7 +15,7 @@ export const Circle = (allProps: IconProps) => {
           xmlns="http://www.w3.org/2000/svg"
           {...props}
         >
-          <path d="M14 7A7 7 0 110 7a7 7 0 0114 0z" fill="#000" />
+          <path d="M14 7A7 7 0 110 7a7 7 0 0114 0z" fill="currentColor" />
         </svg>
       }
       {...restProps}

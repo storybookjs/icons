@@ -17,7 +17,7 @@ export const Stopalt = (allProps: IconProps) => {
         >
           <path
             d="M1 1.504a.5.5 0 01.5-.5h11a.5.5 0 01.5.5v11a.5.5 0 01-.5.5h-11a.5.5 0 01-.5-.5v-11z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

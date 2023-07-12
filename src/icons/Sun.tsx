@@ -15,7 +15,7 @@ export const Sun = (allProps: IconProps) => {
           xmlns="http://www.w3.org/2000/svg"
           {...props}
         >
-          <g clipPath="url(#prefix__clip0_1107_3492)" fill="#000">
+          <g clipPath="url(#prefix__clip0_1107_3492)" fill="currentColor">
             <path d="M7.5.5a.5.5 0 00-1 0V2a.5.5 0 001 0V.5z" />
             <path
               fillRule="evenodd"

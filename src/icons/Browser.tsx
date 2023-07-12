@@ -19,7 +19,7 @@ export const Browser = (allProps: IconProps) => {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M.5 13.004a.5.5 0 01-.5-.5v-11a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v11a.5.5 0 01-.5.5H.5zm.5-1v-8h12v8H1zm1-9.5a.5.5 0 11-1 0 .5.5 0 011 0zm2 0a.5.5 0 11-1 0 .5.5 0 011 0zm2 0a.5.5 0 11-1 0 .5.5 0 011 0z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

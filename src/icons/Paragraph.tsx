@@ -17,7 +17,7 @@ export const Paragraph = (allProps: IconProps) => {
         >
           <path
             d="M6 7a3 3 0 110-6h5.5a.5.5 0 010 1H10v10.5a.5.5 0 01-1 0V2H7v10.5a.5.5 0 01-1 0V7z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

@@ -17,7 +17,7 @@ export const Check = (allProps: IconProps) => {
         >
           <path
             d="M13.854 3.354a.5.5 0 00-.708-.708L5 10.793.854 6.646a.5.5 0 10-.708.708l4.5 4.5a.5.5 0 00.708 0l8.5-8.5z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

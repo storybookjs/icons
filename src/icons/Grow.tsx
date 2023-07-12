@@ -17,17 +17,17 @@ export const Grow = (allProps: IconProps) => {
         >
           <path
             d="M1.5 1.004a.5.5 0 100 1H12v10.5a.5.5 0 001 0v-10.5a1 1 0 00-1-1H1.5z"
-            fill="#000"
+            fill="currentColor"
           />
           <path
             d="M1 3.504a.5.5 0 01.5-.5H10a1 1 0 011 1v8.5a.5.5 0 01-1 0v-8.5H1.5a.5.5 0 01-.5-.5z"
-            fill="#000"
+            fill="currentColor"
           />
           <path
             fillRule="evenodd"
             clipRule="evenodd"
             d="M1.5 5.004a.5.5 0 00-.5.5v7a.5.5 0 00.5.5h7a.5.5 0 00.5-.5v-7a.5.5 0 00-.5-.5h-7zm.5 1v6h6v-6H2z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

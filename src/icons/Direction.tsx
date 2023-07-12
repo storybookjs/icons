@@ -18,7 +18,7 @@ export const Direction = (allProps: IconProps) => {
           <g clipPath="url(#prefix__clip0_1107_3594)">
             <path
               d="M11.451.537l.01 12.922h0L7.61 8.946a1.077 1.077 0 00-.73-.374L.964 8.087 11.45.537h0z"
-              stroke="#000"
+              stroke="currentColor"
               strokeWidth={1.077}
             />
           </g>

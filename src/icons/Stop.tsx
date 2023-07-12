@@ -17,13 +17,13 @@ export const Stop = (allProps: IconProps) => {
         >
           <path
             d="M4.5 4a.5.5 0 00-.5.5v5a.5.5 0 00.5.5h5a.5.5 0 00.5-.5v-5a.5.5 0 00-.5-.5h-5z"
-            fill="#000"
+            fill="currentColor"
           />
           <path
             fillRule="evenodd"
             clipRule="evenodd"
             d="M14 7A7 7 0 110 7a7 7 0 0114 0zm-1 0A6 6 0 111 7a6 6 0 0112 0z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

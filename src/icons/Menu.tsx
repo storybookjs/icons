@@ -17,7 +17,7 @@ export const Menu = (allProps: IconProps) => {
         >
           <path
             d="M13 2a.5.5 0 010 1H1a.5.5 0 010-1h12zM10 5a.5.5 0 010 1H1a.5.5 0 010-1h9zM11.5 8.5A.5.5 0 0011 8H1a.5.5 0 000 1h10a.5.5 0 00.5-.5zM7.5 11a.5.5 0 010 1H1a.5.5 0 010-1h6.5z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

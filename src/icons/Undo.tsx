@@ -17,7 +17,7 @@ export const Undo = (allProps: IconProps) => {
         >
           <path
             d="M1.146 3.854a.5.5 0 010-.708l2-2a.5.5 0 11.708.708L2.707 3h6.295A4 4 0 019 11H3a.5.5 0 010-1h6a3 3 0 100-6H2.707l1.147 1.146a.5.5 0 11-.708.708l-2-2z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

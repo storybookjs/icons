@@ -17,7 +17,7 @@ export const Plus = (allProps: IconProps) => {
         >
           <path
             d="M7.5.5a.5.5 0 00-1 0v6h-6a.5.5 0 000 1h6v6a.5.5 0 001 0v-6h6a.5.5 0 000-1h-6v-6z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

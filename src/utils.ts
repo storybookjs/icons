@@ -37,42 +37,6 @@ export const toPascalCase = (str: string) => {
 export const createIndex = ({
   componentsDirectoryPath,
   indexDirectoryPath,
-  indexFileName,
-}: {
-  componentsDirectoryPath: string;
-  indexDirectoryPath: string;
-  indexFileName: string;
-}) => {
-  let indexContent = '';
-  fs.readdirSync(componentsDirectoryPath).forEach((componentFileName) => {
-    // Convert name to pascal case
-    const componentName = toPascalCase(
-      componentFileName.substr(0, componentFileName.indexOf('.')) ||
-        componentFileName
-    );
-
-    // Compute relative path from index file to component file
-    const relativePathToComponent = path.relative(
-      indexDirectoryPath,
-      path.resolve(componentsDirectoryPath, componentName)
-    );
-
-    // Export statement
-    const componentExport = `export { ${componentName} } from './${relativePathToComponent}';`;
-
-    indexContent += componentExport + os.EOL;
-  });
-
-  // Write the content to file system
-  fs.writeFileSync(
-    path.resolve(indexDirectoryPath, indexFileName),
-    indexContent
-  );
-};
-
-export const createIndex2 = ({
-  componentsDirectoryPath,
-  indexDirectoryPath,
   data,
   indexFileName,
 }: {

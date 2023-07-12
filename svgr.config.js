@@ -8,7 +8,7 @@ module.exports = {
     height: 'inherit',
   },
   replaceAttrValues: {
-    '#00164E': 'currentColor',
+    '#000': 'currentColor',
   },
   plugins: [
     // Clean SVG files using SVGO

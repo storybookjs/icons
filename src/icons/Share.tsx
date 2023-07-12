@@ -17,11 +17,11 @@ export const Share = (allProps: IconProps) => {
         >
           <path
             d="M6.646.15a.5.5 0 01.708 0l2 2a.5.5 0 11-.708.707L7.5 1.711v6.793a.5.5 0 01-1 0V1.71L5.354 2.857a.5.5 0 11-.708-.707l2-2z"
-            fill="#000"
+            fill="currentColor"
           />
           <path
             d="M2 4.004a1 1 0 00-1 1v7a1 1 0 001 1h10a1 1 0 001-1v-7a1 1 0 00-1-1H9.5a.5.5 0 100 1H12v7H2v-7h2.5a.5.5 0 000-1H2z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

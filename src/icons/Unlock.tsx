@@ -15,7 +15,7 @@ export const Unlock = (allProps: IconProps) => {
           xmlns="http://www.w3.org/2000/svg"
           {...props}
         >
-          <g clipPath="url(#prefix__clip0_1107_3614)" fill="#000">
+          <g clipPath="url(#prefix__clip0_1107_3614)" fill="currentColor">
             <path d="M6.5 8.87a1 1 0 111 0v1.634a.5.5 0 01-1 0V8.87z" />
             <path
               fillRule="evenodd"

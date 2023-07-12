@@ -19,7 +19,7 @@ export const Alertalt = (allProps: IconProps) => {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M14 7A7 7 0 110 7a7 7 0 0114 0zM6.5 8a.5.5 0 001 0V4a.5.5 0 00-1 0v4zm-.25 2.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

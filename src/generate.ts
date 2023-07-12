@@ -4,13 +4,7 @@ import chalk from 'chalk';
 import dotenv from 'dotenv';
 import figmaApiExporter from 'figma-api-exporter';
 import svgrConfig from '../svgr.config';
-import {
-  createIndex,
-  createIndex2,
-  downloadSVGsData,
-  story,
-  toPascalCase,
-} from './utils';
+import { createIndex, downloadSVGsData, story, toPascalCase } from './utils';
 
 const svgr = require('@svgr/core').default;
 
@@ -75,14 +69,12 @@ exporter
       );
     });
 
+    console.log(chalk.cyanBright('-> Write generated component'));
+    console.log(chalk.yellow('-> Create stories'));
+
     // 7. Generate index.ts
     console.log(chalk.yellowBright('-> Generating index file'));
-    // createIndex({
-    //   componentsDirectoryPath: ICONS_DIRECTORY_PATH,
-    //   indexDirectoryPath: INDEX_DIRECTORY_PATH,
-    //   indexFileName: 'index.tsx',
-    // });
-    createIndex2({
+    createIndex({
       componentsDirectoryPath: ICONS_DIRECTORY_PATH,
       indexDirectoryPath: INDEX_DIRECTORY_PATH,
       data: downloadedSVGsData,

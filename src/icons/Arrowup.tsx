@@ -17,7 +17,7 @@ export const Arrowup = (allProps: IconProps) => {
         >
           <path
             d="M7.354 2.896l5.5 5.5a.5.5 0 01-.708.708L7 3.957 1.854 9.104a.5.5 0 11-.708-.708l5.5-5.5a.5.5 0 01.708 0z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

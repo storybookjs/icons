@@ -17,7 +17,7 @@ export const Ellipsis = (allProps: IconProps) => {
         >
           <path
             d="M4 7a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM13 7a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM7 8.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

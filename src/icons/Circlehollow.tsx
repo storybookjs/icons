@@ -19,7 +19,7 @@ export const Circlehollow = (allProps: IconProps) => {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M7 13A6 6 0 107 1a6 6 0 000 12zm0 1A7 7 0 107 0a7 7 0 000 14z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

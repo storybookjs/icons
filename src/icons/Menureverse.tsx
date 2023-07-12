@@ -17,7 +17,7 @@ export const Menureverse = (allProps: IconProps) => {
         >
           <path
             d="M1 2a.5.5 0 000 1h12a.5.5 0 000-1H1zM4 5a.5.5 0 000 1h9a.5.5 0 000-1H4zM2.5 8.5A.5.5 0 013 8h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zM6.5 11a.5.5 0 000 1H13a.5.5 0 000-1H6.5z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

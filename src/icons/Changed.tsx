@@ -19,7 +19,7 @@ export const Changed = (allProps: IconProps) => {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M7 14A7 7 0 107 0a7 7 0 000 14zM3.5 6.5a.5.5 0 000 1h7a.5.5 0 000-1h-7z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }

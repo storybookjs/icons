@@ -17,7 +17,7 @@ export const Arrowupalt = (allProps: IconProps) => {
         >
           <path
             d="M11.854 4.646l-4.5-4.5a.5.5 0 00-.708 0l-4.5 4.5a.5.5 0 10.708.708L6.5 1.707V13.5a.5.5 0 001 0V1.707l3.646 3.647a.5.5 0 00.708-.708z"
-            fill="#000"
+            fill="currentColor"
           />
         </svg>
       }
