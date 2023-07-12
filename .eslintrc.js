@@ -11,12 +11,13 @@ module.exports = {
   ignorePatterns: ['.eslintrc.js'],
   overrides: [
     {
-      files: ['**/*.tsx'],
+      files: ['**/*.tsx', '**/*.ts'],
       rules: {
         'react/prop-types': 'off',
         'react/require-default-props': 'off',
         'react/default-props-match-prop-types': 'off',
         'jest/no-deprecated-functions': 'off',
+        'no-console': 'off',
       },
     },
   ],
