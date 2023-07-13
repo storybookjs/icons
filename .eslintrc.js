@@ -18,6 +18,7 @@ module.exports = {
         'react/default-props-match-prop-types': 'off',
         'jest/no-deprecated-functions': 'off',
         'no-console': 'off',
+        noUselessIndex: false,
       },
     },
   ],
