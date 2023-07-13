@@ -1,45 +1,5 @@
 import { lazy } from 'react';
 
-export const User = lazy(async () => {
-  const m = await import('./icons/User');
-  return { default: m.User };
-});
-export const Useralt = lazy(async () => {
-  const m = await import('./icons/Useralt');
-  return { default: m.Useralt };
-});
-export const Useradd = lazy(async () => {
-  const m = await import('./icons/Useradd');
-  return { default: m.Useradd };
-});
-export const Users = lazy(async () => {
-  const m = await import('./icons/Users');
-  return { default: m.Users };
-});
-export const Profile = lazy(async () => {
-  const m = await import('./icons/Profile');
-  return { default: m.Profile };
-});
-export const Facehappy = lazy(async () => {
-  const m = await import('./icons/Facehappy');
-  return { default: m.Facehappy };
-});
-export const Faceneutral = lazy(async () => {
-  const m = await import('./icons/Faceneutral');
-  return { default: m.Faceneutral };
-});
-export const Facesad = lazy(async () => {
-  const m = await import('./icons/Facesad');
-  return { default: m.Facesad };
-});
-export const Accessibility = lazy(async () => {
-  const m = await import('./icons/Accessibility');
-  return { default: m.Accessibility };
-});
-export const AccessibilityAlt = lazy(async () => {
-  const m = await import('./icons/AccessibilityAlt');
-  return { default: m.AccessibilityAlt };
-});
 export const Photo = lazy(async () => {
   const m = await import('./icons/Photo');
   return { default: m.Photo };
@@ -380,269 +340,69 @@ export const Linkedin = lazy(async () => {
   const m = await import('./icons/Linkedin');
   return { default: m.Linkedin };
 });
-export const Arrowup = lazy(async () => {
-  const m = await import('./icons/Arrowup');
-  return { default: m.Arrowup };
-});
-export const Arrowdown = lazy(async () => {
-  const m = await import('./icons/Arrowdown');
-  return { default: m.Arrowdown };
-});
-export const Arrowleft = lazy(async () => {
-  const m = await import('./icons/Arrowleft');
-  return { default: m.Arrowleft };
-});
-export const Arrowright = lazy(async () => {
-  const m = await import('./icons/Arrowright');
-  return { default: m.Arrowright };
-});
-export const Arrowupalt = lazy(async () => {
-  const m = await import('./icons/Arrowupalt');
-  return { default: m.Arrowupalt };
-});
-export const Arrowdownalt = lazy(async () => {
-  const m = await import('./icons/Arrowdownalt');
-  return { default: m.Arrowdownalt };
-});
-export const Arrowleftalt = lazy(async () => {
-  const m = await import('./icons/Arrowleftalt');
-  return { default: m.Arrowleftalt };
-});
-export const Arrowrightalt = lazy(async () => {
-  const m = await import('./icons/Arrowrightalt');
-  return { default: m.Arrowrightalt };
-});
-export const ExpandAlt = lazy(async () => {
-  const m = await import('./icons/ExpandAlt');
-  return { default: m.ExpandAlt };
-});
-export const Collapse = lazy(async () => {
-  const m = await import('./icons/Collapse');
-  return { default: m.Collapse };
-});
-export const Expand = lazy(async () => {
-  const m = await import('./icons/Expand');
-  return { default: m.Expand };
-});
-export const Unfold = lazy(async () => {
-  const m = await import('./icons/Unfold');
-  return { default: m.Unfold };
-});
-export const Transfer = lazy(async () => {
-  const m = await import('./icons/Transfer');
-  return { default: m.Transfer };
-});
-export const Redirect = lazy(async () => {
-  const m = await import('./icons/Redirect');
-  return { default: m.Redirect };
-});
-export const Undo = lazy(async () => {
-  const m = await import('./icons/Undo');
-  return { default: m.Undo };
-});
-export const Reply = lazy(async () => {
-  const m = await import('./icons/Reply');
-  return { default: m.Reply };
-});
-export const Sync = lazy(async () => {
-  const m = await import('./icons/Sync');
-  return { default: m.Sync };
-});
-export const Upload = lazy(async () => {
-  const m = await import('./icons/Upload');
-  return { default: m.Upload };
-});
-export const Download = lazy(async () => {
-  const m = await import('./icons/Download');
-  return { default: m.Download };
-});
-export const Back = lazy(async () => {
-  const m = await import('./icons/Back');
-  return { default: m.Back };
-});
-export const Proceed = lazy(async () => {
-  const m = await import('./icons/Proceed');
-  return { default: m.Proceed };
-});
-export const Refresh = lazy(async () => {
-  const m = await import('./icons/Refresh');
-  return { default: m.Refresh };
-});
-export const Globe = lazy(async () => {
-  const m = await import('./icons/Globe');
-  return { default: m.Globe };
-});
-export const Compass = lazy(async () => {
-  const m = await import('./icons/Compass');
-  return { default: m.Compass };
-});
-export const Location = lazy(async () => {
-  const m = await import('./icons/Location');
-  return { default: m.Location };
-});
-export const Pin = lazy(async () => {
-  const m = await import('./icons/Pin');
-  return { default: m.Pin };
-});
-export const Time = lazy(async () => {
-  const m = await import('./icons/Time');
-  return { default: m.Time };
-});
-export const Dashboard = lazy(async () => {
-  const m = await import('./icons/Dashboard');
-  return { default: m.Dashboard };
-});
-export const Timer = lazy(async () => {
-  const m = await import('./icons/Timer');
-  return { default: m.Timer };
-});
-export const Home = lazy(async () => {
-  const m = await import('./icons/Home');
-  return { default: m.Home };
-});
-export const Admin = lazy(async () => {
-  const m = await import('./icons/Admin');
-  return { default: m.Admin };
-});
-export const Direction = lazy(async () => {
-  const m = await import('./icons/Direction');
-  return { default: m.Direction };
-});
-export const Info = lazy(async () => {
-  const m = await import('./icons/Info');
-  return { default: m.Info };
-});
-export const Question = lazy(async () => {
-  const m = await import('./icons/Question');
-  return { default: m.Question };
-});
-export const Support = lazy(async () => {
-  const m = await import('./icons/Support');
-  return { default: m.Support };
-});
-export const Alert = lazy(async () => {
-  const m = await import('./icons/Alert');
-  return { default: m.Alert };
-});
-export const Alertalt = lazy(async () => {
-  const m = await import('./icons/Alertalt');
-  return { default: m.Alertalt };
-});
-export const Email = lazy(async () => {
-  const m = await import('./icons/Email');
-  return { default: m.Email };
-});
-export const Phone = lazy(async () => {
-  const m = await import('./icons/Phone');
-  return { default: m.Phone };
-});
-export const Link = lazy(async () => {
-  const m = await import('./icons/Link');
-  return { default: m.Link };
-});
-export const Linkbroken = lazy(async () => {
-  const m = await import('./icons/Linkbroken');
-  return { default: m.Linkbroken };
-});
-export const Bell = lazy(async () => {
-  const m = await import('./icons/Bell');
-  return { default: m.Bell };
-});
-export const Rss = lazy(async () => {
-  const m = await import('./icons/Rss');
-  return { default: m.Rss };
-});
-export const Sharealt = lazy(async () => {
-  const m = await import('./icons/Sharealt');
-  return { default: m.Sharealt };
-});
-export const Share = lazy(async () => {
-  const m = await import('./icons/Share');
-  return { default: m.Share };
-});
-export const Jumpto = lazy(async () => {
-  const m = await import('./icons/Jumpto');
-  return { default: m.Jumpto };
-});
-export const Circlehollow = lazy(async () => {
-  const m = await import('./icons/Circlehollow');
-  return { default: m.Circlehollow };
-});
-export const Circle = lazy(async () => {
-  const m = await import('./icons/Circle');
-  return { default: m.Circle };
-});
-export const Bookmarkhollow = lazy(async () => {
-  const m = await import('./icons/Bookmarkhollow');
-  return { default: m.Bookmarkhollow };
-});
-export const Bookmark = lazy(async () => {
-  const m = await import('./icons/Bookmark');
-  return { default: m.Bookmark };
-});
-export const Diamond = lazy(async () => {
-  const m = await import('./icons/Diamond');
-  return { default: m.Diamond };
-});
-export const Hearthollow = lazy(async () => {
-  const m = await import('./icons/Hearthollow');
-  return { default: m.Hearthollow };
-});
-export const Heart = lazy(async () => {
-  const m = await import('./icons/Heart');
-  return { default: m.Heart };
-});
-export const Starhollow = lazy(async () => {
-  const m = await import('./icons/Starhollow');
-  return { default: m.Starhollow };
-});
-export const Star = lazy(async () => {
-  const m = await import('./icons/Star');
-  return { default: m.Star };
-});
-export const Certificate = lazy(async () => {
-  const m = await import('./icons/Certificate');
-  return { default: m.Certificate };
-});
-export const Verified = lazy(async () => {
-  const m = await import('./icons/Verified');
-  return { default: m.Verified };
-});
-export const Thumbsup = lazy(async () => {
-  const m = await import('./icons/Thumbsup');
-  return { default: m.Thumbsup };
-});
-export const Shield = lazy(async () => {
-  const m = await import('./icons/Shield');
-  return { default: m.Shield };
-});
-export const Basket = lazy(async () => {
-  const m = await import('./icons/Basket');
-  return { default: m.Basket };
-});
-export const Beaker = lazy(async () => {
-  const m = await import('./icons/Beaker');
-  return { default: m.Beaker };
-});
-export const Hourglass = lazy(async () => {
-  const m = await import('./icons/Hourglass');
-  return { default: m.Hourglass };
-});
-export const Flag = lazy(async () => {
-  const m = await import('./icons/Flag');
-  return { default: m.Flag };
-});
-export const Cloudhollow = lazy(async () => {
-  const m = await import('./icons/Cloudhollow');
-  return { default: m.Cloudhollow };
-});
-export const Cloud = lazy(async () => {
-  const m = await import('./icons/Cloud');
-  return { default: m.Cloud };
-});
-export const Sticker = lazy(async () => {
-  const m = await import('./icons/Sticker');
-  return { default: m.Sticker };
+export const Browser = lazy(async () => {
+  const m = await import('./icons/Browser');
+  return { default: m.Browser };
+});
+export const Tablet = lazy(async () => {
+  const m = await import('./icons/Tablet');
+  return { default: m.Tablet };
+});
+export const Mobile = lazy(async () => {
+  const m = await import('./icons/Mobile');
+  return { default: m.Mobile };
+});
+export const Watch = lazy(async () => {
+  const m = await import('./icons/Watch');
+  return { default: m.Watch };
+});
+export const Sidebar = lazy(async () => {
+  const m = await import('./icons/Sidebar');
+  return { default: m.Sidebar };
+});
+export const SidebarAlt = lazy(async () => {
+  const m = await import('./icons/SidebarAlt');
+  return { default: m.SidebarAlt };
+});
+export const Sidebaralttoggle = lazy(async () => {
+  const m = await import('./icons/Sidebaralttoggle');
+  return { default: m.Sidebaralttoggle };
+});
+export const Sidebartoggle = lazy(async () => {
+  const m = await import('./icons/Sidebartoggle');
+  return { default: m.Sidebartoggle };
+});
+export const Bottombar = lazy(async () => {
+  const m = await import('./icons/Bottombar');
+  return { default: m.Bottombar };
+});
+export const Bottombartoggle = lazy(async () => {
+  const m = await import('./icons/Bottombartoggle');
+  return { default: m.Bottombartoggle };
+});
+export const Cpu = lazy(async () => {
+  const m = await import('./icons/Cpu');
+  return { default: m.Cpu };
+});
+export const Database = lazy(async () => {
+  const m = await import('./icons/Database');
+  return { default: m.Database };
+});
+export const Memory = lazy(async () => {
+  const m = await import('./icons/Memory');
+  return { default: m.Memory };
+});
+export const Structure = lazy(async () => {
+  const m = await import('./icons/Structure');
+  return { default: m.Structure };
+});
+export const Box = lazy(async () => {
+  const m = await import('./icons/Box');
+  return { default: m.Box };
+});
+export const Power = lazy(async () => {
+  const m = await import('./icons/Power');
+  return { default: m.Power };
 });
 export const Edit = lazy(async () => {
   const m = await import('./icons/Edit');
@@ -804,67 +564,307 @@ export const Command = lazy(async () => {
   const m = await import('./icons/Command');
   return { default: m.Command };
 });
-export const Browser = lazy(async () => {
-  const m = await import('./icons/Browser');
-  return { default: m.Browser };
+export const Info = lazy(async () => {
+  const m = await import('./icons/Info');
+  return { default: m.Info };
 });
-export const Tablet = lazy(async () => {
-  const m = await import('./icons/Tablet');
-  return { default: m.Tablet };
+export const Question = lazy(async () => {
+  const m = await import('./icons/Question');
+  return { default: m.Question };
 });
-export const Mobile = lazy(async () => {
-  const m = await import('./icons/Mobile');
-  return { default: m.Mobile };
+export const Support = lazy(async () => {
+  const m = await import('./icons/Support');
+  return { default: m.Support };
 });
-export const Watch = lazy(async () => {
-  const m = await import('./icons/Watch');
-  return { default: m.Watch };
+export const Alert = lazy(async () => {
+  const m = await import('./icons/Alert');
+  return { default: m.Alert };
 });
-export const Sidebar = lazy(async () => {
-  const m = await import('./icons/Sidebar');
-  return { default: m.Sidebar };
+export const Alertalt = lazy(async () => {
+  const m = await import('./icons/Alertalt');
+  return { default: m.Alertalt };
 });
-export const SidebarAlt = lazy(async () => {
-  const m = await import('./icons/SidebarAlt');
-  return { default: m.SidebarAlt };
+export const Email = lazy(async () => {
+  const m = await import('./icons/Email');
+  return { default: m.Email };
 });
-export const Sidebaralttoggle = lazy(async () => {
-  const m = await import('./icons/Sidebaralttoggle');
-  return { default: m.Sidebaralttoggle };
+export const Phone = lazy(async () => {
+  const m = await import('./icons/Phone');
+  return { default: m.Phone };
 });
-export const Sidebartoggle = lazy(async () => {
-  const m = await import('./icons/Sidebartoggle');
-  return { default: m.Sidebartoggle };
+export const Link = lazy(async () => {
+  const m = await import('./icons/Link');
+  return { default: m.Link };
 });
-export const Bottombar = lazy(async () => {
-  const m = await import('./icons/Bottombar');
-  return { default: m.Bottombar };
+export const Linkbroken = lazy(async () => {
+  const m = await import('./icons/Linkbroken');
+  return { default: m.Linkbroken };
 });
-export const Bottombartoggle = lazy(async () => {
-  const m = await import('./icons/Bottombartoggle');
-  return { default: m.Bottombartoggle };
+export const Bell = lazy(async () => {
+  const m = await import('./icons/Bell');
+  return { default: m.Bell };
 });
-export const Cpu = lazy(async () => {
-  const m = await import('./icons/Cpu');
-  return { default: m.Cpu };
+export const Rss = lazy(async () => {
+  const m = await import('./icons/Rss');
+  return { default: m.Rss };
 });
-export const Database = lazy(async () => {
-  const m = await import('./icons/Database');
-  return { default: m.Database };
+export const Sharealt = lazy(async () => {
+  const m = await import('./icons/Sharealt');
+  return { default: m.Sharealt };
 });
-export const Memory = lazy(async () => {
-  const m = await import('./icons/Memory');
-  return { default: m.Memory };
+export const Share = lazy(async () => {
+  const m = await import('./icons/Share');
+  return { default: m.Share };
 });
-export const Structure = lazy(async () => {
-  const m = await import('./icons/Structure');
-  return { default: m.Structure };
+export const Jumpto = lazy(async () => {
+  const m = await import('./icons/Jumpto');
+  return { default: m.Jumpto };
 });
-export const Box = lazy(async () => {
-  const m = await import('./icons/Box');
-  return { default: m.Box };
+export const Circlehollow = lazy(async () => {
+  const m = await import('./icons/Circlehollow');
+  return { default: m.Circlehollow };
 });
-export const Power = lazy(async () => {
-  const m = await import('./icons/Power');
-  return { default: m.Power };
+export const Circle = lazy(async () => {
+  const m = await import('./icons/Circle');
+  return { default: m.Circle };
+});
+export const Bookmarkhollow = lazy(async () => {
+  const m = await import('./icons/Bookmarkhollow');
+  return { default: m.Bookmarkhollow };
+});
+export const Bookmark = lazy(async () => {
+  const m = await import('./icons/Bookmark');
+  return { default: m.Bookmark };
+});
+export const Diamond = lazy(async () => {
+  const m = await import('./icons/Diamond');
+  return { default: m.Diamond };
+});
+export const Hearthollow = lazy(async () => {
+  const m = await import('./icons/Hearthollow');
+  return { default: m.Hearthollow };
+});
+export const Heart = lazy(async () => {
+  const m = await import('./icons/Heart');
+  return { default: m.Heart };
+});
+export const Starhollow = lazy(async () => {
+  const m = await import('./icons/Starhollow');
+  return { default: m.Starhollow };
+});
+export const Star = lazy(async () => {
+  const m = await import('./icons/Star');
+  return { default: m.Star };
+});
+export const Certificate = lazy(async () => {
+  const m = await import('./icons/Certificate');
+  return { default: m.Certificate };
+});
+export const Verified = lazy(async () => {
+  const m = await import('./icons/Verified');
+  return { default: m.Verified };
+});
+export const Thumbsup = lazy(async () => {
+  const m = await import('./icons/Thumbsup');
+  return { default: m.Thumbsup };
+});
+export const Shield = lazy(async () => {
+  const m = await import('./icons/Shield');
+  return { default: m.Shield };
+});
+export const Basket = lazy(async () => {
+  const m = await import('./icons/Basket');
+  return { default: m.Basket };
+});
+export const Beaker = lazy(async () => {
+  const m = await import('./icons/Beaker');
+  return { default: m.Beaker };
+});
+export const Hourglass = lazy(async () => {
+  const m = await import('./icons/Hourglass');
+  return { default: m.Hourglass };
+});
+export const Flag = lazy(async () => {
+  const m = await import('./icons/Flag');
+  return { default: m.Flag };
+});
+export const Cloudhollow = lazy(async () => {
+  const m = await import('./icons/Cloudhollow');
+  return { default: m.Cloudhollow };
+});
+export const Cloud = lazy(async () => {
+  const m = await import('./icons/Cloud');
+  return { default: m.Cloud };
+});
+export const Sticker = lazy(async () => {
+  const m = await import('./icons/Sticker');
+  return { default: m.Sticker };
+});
+export const Arrowup = lazy(async () => {
+  const m = await import('./icons/Arrowup');
+  return { default: m.Arrowup };
+});
+export const Arrowdown = lazy(async () => {
+  const m = await import('./icons/Arrowdown');
+  return { default: m.Arrowdown };
+});
+export const Arrowleft = lazy(async () => {
+  const m = await import('./icons/Arrowleft');
+  return { default: m.Arrowleft };
+});
+export const Arrowright = lazy(async () => {
+  const m = await import('./icons/Arrowright');
+  return { default: m.Arrowright };
+});
+export const Arrowupalt = lazy(async () => {
+  const m = await import('./icons/Arrowupalt');
+  return { default: m.Arrowupalt };
+});
+export const Arrowdownalt = lazy(async () => {
+  const m = await import('./icons/Arrowdownalt');
+  return { default: m.Arrowdownalt };
+});
+export const Arrowleftalt = lazy(async () => {
+  const m = await import('./icons/Arrowleftalt');
+  return { default: m.Arrowleftalt };
+});
+export const Arrowrightalt = lazy(async () => {
+  const m = await import('./icons/Arrowrightalt');
+  return { default: m.Arrowrightalt };
+});
+export const ExpandAlt = lazy(async () => {
+  const m = await import('./icons/ExpandAlt');
+  return { default: m.ExpandAlt };
+});
+export const Collapse = lazy(async () => {
+  const m = await import('./icons/Collapse');
+  return { default: m.Collapse };
+});
+export const Expand = lazy(async () => {
+  const m = await import('./icons/Expand');
+  return { default: m.Expand };
+});
+export const Unfold = lazy(async () => {
+  const m = await import('./icons/Unfold');
+  return { default: m.Unfold };
+});
+export const Transfer = lazy(async () => {
+  const m = await import('./icons/Transfer');
+  return { default: m.Transfer };
+});
+export const Redirect = lazy(async () => {
+  const m = await import('./icons/Redirect');
+  return { default: m.Redirect };
+});
+export const Undo = lazy(async () => {
+  const m = await import('./icons/Undo');
+  return { default: m.Undo };
+});
+export const Reply = lazy(async () => {
+  const m = await import('./icons/Reply');
+  return { default: m.Reply };
+});
+export const Sync = lazy(async () => {
+  const m = await import('./icons/Sync');
+  return { default: m.Sync };
+});
+export const Upload = lazy(async () => {
+  const m = await import('./icons/Upload');
+  return { default: m.Upload };
+});
+export const Download = lazy(async () => {
+  const m = await import('./icons/Download');
+  return { default: m.Download };
+});
+export const Back = lazy(async () => {
+  const m = await import('./icons/Back');
+  return { default: m.Back };
+});
+export const Proceed = lazy(async () => {
+  const m = await import('./icons/Proceed');
+  return { default: m.Proceed };
+});
+export const Refresh = lazy(async () => {
+  const m = await import('./icons/Refresh');
+  return { default: m.Refresh };
+});
+export const Globe = lazy(async () => {
+  const m = await import('./icons/Globe');
+  return { default: m.Globe };
+});
+export const Compass = lazy(async () => {
+  const m = await import('./icons/Compass');
+  return { default: m.Compass };
+});
+export const Location = lazy(async () => {
+  const m = await import('./icons/Location');
+  return { default: m.Location };
+});
+export const Pin = lazy(async () => {
+  const m = await import('./icons/Pin');
+  return { default: m.Pin };
+});
+export const Time = lazy(async () => {
+  const m = await import('./icons/Time');
+  return { default: m.Time };
+});
+export const Dashboard = lazy(async () => {
+  const m = await import('./icons/Dashboard');
+  return { default: m.Dashboard };
+});
+export const Timer = lazy(async () => {
+  const m = await import('./icons/Timer');
+  return { default: m.Timer };
+});
+export const Home = lazy(async () => {
+  const m = await import('./icons/Home');
+  return { default: m.Home };
+});
+export const Admin = lazy(async () => {
+  const m = await import('./icons/Admin');
+  return { default: m.Admin };
+});
+export const Direction = lazy(async () => {
+  const m = await import('./icons/Direction');
+  return { default: m.Direction };
+});
+export const User = lazy(async () => {
+  const m = await import('./icons/User');
+  return { default: m.User };
+});
+export const Useralt = lazy(async () => {
+  const m = await import('./icons/Useralt');
+  return { default: m.Useralt };
+});
+export const Useradd = lazy(async () => {
+  const m = await import('./icons/Useradd');
+  return { default: m.Useradd };
+});
+export const Users = lazy(async () => {
+  const m = await import('./icons/Users');
+  return { default: m.Users };
+});
+export const Profile = lazy(async () => {
+  const m = await import('./icons/Profile');
+  return { default: m.Profile };
+});
+export const Facehappy = lazy(async () => {
+  const m = await import('./icons/Facehappy');
+  return { default: m.Facehappy };
+});
+export const Faceneutral = lazy(async () => {
+  const m = await import('./icons/Faceneutral');
+  return { default: m.Faceneutral };
+});
+export const Facesad = lazy(async () => {
+  const m = await import('./icons/Facesad');
+  return { default: m.Facesad };
+});
+export const Accessibility = lazy(async () => {
+  const m = await import('./icons/Accessibility');
+  return { default: m.Accessibility };
+});
+export const AccessibilityAlt = lazy(async () => {
+  const m = await import('./icons/AccessibilityAlt');
+  return { default: m.AccessibilityAlt };
 });
