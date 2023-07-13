@@ -293,11 +293,11 @@ export const Arrowrightalt = lazy(async () => {
   return { default: m.Arrowrightalt };
 });
 export const Arrowdownalt = lazy(async () => {
-  const m = await import('./icons/Arrowdownalt ');
+  const m = await import('./icons/Arrowdownalt');
   return { default: m.Arrowdownalt };
 });
 export const Arrowupalt = lazy(async () => {
-  const m = await import('./icons/Arrowupalt ');
+  const m = await import('./icons/Arrowupalt');
   return { default: m.Arrowupalt };
 });
 export const Arrowright = lazy(async () => {
