@@ -1,5 +1,5 @@
 import { IconGallery, IconItem } from '@storybook/blocks';
-import * as AllIcons from '.';
+import { list } from './list';
 
 <style>
   {`
@@ -18,10 +18,19 @@ An Icon is a piece of visual element, but we must ensure its accessibility while
 
 <div className="spacer" />
 
-<IconGallery>
-  {Object.entries(AllIcons).map(([name, Icon]) => (
-    <IconItem key={name} name={name}>
-      <Icon />
-    </IconItem>
-  ))}
-</IconGallery>
+{list.map((group) => (
+
+<div key={group.name}>
+
+<h2 style={{ marginTop: 32, marginBottom: 24 }}>{group.name}</h2>
+
+  <IconGallery>
+    {group.icons.map((item) => (
+      <IconItem key={item.name} name={item.name}>
+        {item.icon}
+      </IconItem>
+    ))}
+  </IconGallery>
+</div>
+
+))}
