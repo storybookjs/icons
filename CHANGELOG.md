@@ -1,3 +1,15 @@
+# v1.0.2 (Thu Jul 13 2023)
+
+#### 🐛 Bug Fix
+
+- V2 [#2](https://github.com/chromaui/icons/pull/2) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.0.1 (Wed May 24 2023)
 
 #### 🐛 Bug Fix
