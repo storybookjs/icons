@@ -1,8 +1,10 @@
 {
+  "include": ["src"],
   "compilerOptions": {
     "esModuleInterop": true,
     "jsx": "react",
-    "module": "ESNext",
+    "module": "CommonJS",
+    "allowJs": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
     "strict": true,
