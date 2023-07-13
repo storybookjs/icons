@@ -46,6 +46,10 @@ export const createIndex = ({
   indexFileName: string;
 }) => {
   let indexContent = '';
+
+  const imports = `import { lazy } from 'react';`;
+  indexContent += imports + os.EOL + os.EOL;
+
   data.forEach((component) => {
     // Convert name to pascal case
     const componentName = toPascalCase(component.name);
@@ -57,7 +61,11 @@ export const createIndex = ({
     );
 
     // Export statement
-    const componentExport = `export { ${componentName} } from './${relativePathToComponent}';`;
+    // const componentExport = `export { ${componentName} } from './${relativePathToComponent}';`;
+    const componentExport = `export const ${componentName} = lazy(async () => {
+  const m = await import('./${relativePathToComponent}');
+  return { default: m.${componentName} };
+});`;
 
     indexContent += componentExport + os.EOL;
   });

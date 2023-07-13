@@ -22,6 +22,7 @@
     "chromatic": "npx chromatic --project-token=chpt_1004e0537cb3050",
     "icons": "ts-node ./src/generate.ts"
   },
+  "sideEffect": false,
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "exports": {
