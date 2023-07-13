@@ -8,13 +8,18 @@ import { processFile } from 'figma-transformer';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import * as Figma from 'figma-js';
 import svgrConfig from '../svgr.config';
-import { createIndex, downloadSVGsData, story, toPascalCase } from './utils';
+import { createIndex } from './utils/createIndex';
+import { toPascalCase } from './utils/toPascalCase';
+import { createGroups } from './utils/createGroups';
+import { downloadSVGsData } from './utils/downloadSVGsData';
+import { createList } from './utils/createList';
+import { story } from './templates/story';
 
 const svgr = require('@svgr/core').default;
 
 const ICONS_DIRECTORY_PATH = path.resolve(__dirname, './icons');
 const INDEX_DIRECTORY_PATH = path.resolve(__dirname, './');
-const EXPORTS_DIRECTORY_PATH = path.resolve(__dirname, './exports');
+const GROUPS_DIRECTORY_PATH = path.resolve(__dirname, './groups');
 
 // Load environment variables
 dotenv.config();
@@ -111,18 +116,15 @@ export const getGroups = async (figmaFileId: string) => {
       })
     );
 
-    // console.log(downloadedSVGsData);
-    // console.log(groupsWithComponents);
-
     // 8. Generate group files
     groupsWithComponents.forEach((group: { name: string; components: any }) => {
       const groupName = toPascalCase(group.name);
       const data = downloadedSVGsData.filter((svg) => {
         return group.components.includes(svg.id);
       });
-      createIndex({
+      createGroups({
         componentsDirectoryPath: ICONS_DIRECTORY_PATH,
-        indexDirectoryPath: EXPORTS_DIRECTORY_PATH,
+        groupsDirectoryPath: GROUPS_DIRECTORY_PATH,
         data,
         indexFileName: `${groupName}.tsx`,
       });
@@ -130,11 +132,14 @@ export const getGroups = async (figmaFileId: string) => {
 
     // 9. Generate index.ts
     console.log(chalk.yellowBright('-> Generating index file'));
-    createIndex({
-      componentsDirectoryPath: ICONS_DIRECTORY_PATH,
+    createIndex({ downloadedSVGsData, groupsWithComponents });
+
+    // 10. Generate list.ts
+    console.log(chalk.yellowBright('-> Generating list file'));
+    createList({
+      groupsWithComponents,
+      downloadedSVGsData,
       indexDirectoryPath: INDEX_DIRECTORY_PATH,
-      data: downloadedSVGsData,
-      indexFileName: 'index.ts',
     });
 
     console.log(chalk.greenBright('-> All done! ✅'));

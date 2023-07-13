@@ -1,870 +1,870 @@
 import { lazy } from 'react';
 
 export const Photo = lazy(async () => {
-  const m = await import('./icons/Photo');
+  const m = await import('./groups/Images');
   return { default: m.Photo };
 });
 export const Component = lazy(async () => {
-  const m = await import('./icons/Component');
+  const m = await import('./groups/Images');
   return { default: m.Component };
 });
 export const Grid = lazy(async () => {
-  const m = await import('./icons/Grid');
+  const m = await import('./groups/Images');
   return { default: m.Grid };
 });
 export const Outline = lazy(async () => {
-  const m = await import('./icons/Outline');
+  const m = await import('./groups/Images');
   return { default: m.Outline };
 });
 export const PhotoDrag = lazy(async () => {
-  const m = await import('./icons/PhotoDrag');
+  const m = await import('./groups/Images');
   return { default: m.PhotoDrag };
 });
 export const Gridalt = lazy(async () => {
-  const m = await import('./icons/Gridalt');
+  const m = await import('./groups/Images');
   return { default: m.Gridalt };
 });
 export const Search = lazy(async () => {
-  const m = await import('./icons/Search');
+  const m = await import('./groups/Images');
   return { default: m.Search };
 });
 export const Zoom = lazy(async () => {
-  const m = await import('./icons/Zoom');
+  const m = await import('./groups/Images');
   return { default: m.Zoom };
 });
 export const Zoomout = lazy(async () => {
-  const m = await import('./icons/Zoomout');
+  const m = await import('./groups/Images');
   return { default: m.Zoomout };
 });
 export const Zoomreset = lazy(async () => {
-  const m = await import('./icons/Zoomreset');
+  const m = await import('./groups/Images');
   return { default: m.Zoomreset };
 });
 export const Eye = lazy(async () => {
-  const m = await import('./icons/Eye');
+  const m = await import('./groups/Images');
   return { default: m.Eye };
 });
 export const Eyeclose = lazy(async () => {
-  const m = await import('./icons/Eyeclose');
+  const m = await import('./groups/Images');
   return { default: m.Eyeclose };
 });
 export const Lightning = lazy(async () => {
-  const m = await import('./icons/Lightning');
+  const m = await import('./groups/Images');
   return { default: m.Lightning };
 });
 export const Lightningoff = lazy(async () => {
-  const m = await import('./icons/Lightningoff');
+  const m = await import('./groups/Images');
   return { default: m.Lightningoff };
 });
 export const Contrast = lazy(async () => {
-  const m = await import('./icons/Contrast');
+  const m = await import('./groups/Images');
   return { default: m.Contrast };
 });
 export const Switchalt = lazy(async () => {
-  const m = await import('./icons/Switchalt');
+  const m = await import('./groups/Images');
   return { default: m.Switchalt };
 });
 export const Mirror = lazy(async () => {
-  const m = await import('./icons/Mirror');
+  const m = await import('./groups/Images');
   return { default: m.Mirror };
 });
 export const Grow = lazy(async () => {
-  const m = await import('./icons/Grow');
+  const m = await import('./groups/Images');
   return { default: m.Grow };
 });
 export const Paintbrush = lazy(async () => {
-  const m = await import('./icons/Paintbrush');
+  const m = await import('./groups/Images');
   return { default: m.Paintbrush };
 });
 export const Ruler = lazy(async () => {
-  const m = await import('./icons/Ruler');
+  const m = await import('./groups/Images');
   return { default: m.Ruler };
 });
 export const Stop = lazy(async () => {
-  const m = await import('./icons/Stop');
+  const m = await import('./groups/Images');
   return { default: m.Stop };
 });
 export const Camera = lazy(async () => {
-  const m = await import('./icons/Camera');
+  const m = await import('./groups/Images');
   return { default: m.Camera };
 });
 export const Video = lazy(async () => {
-  const m = await import('./icons/Video');
+  const m = await import('./groups/Images');
   return { default: m.Video };
 });
 export const Speaker = lazy(async () => {
-  const m = await import('./icons/Speaker');
+  const m = await import('./groups/Images');
   return { default: m.Speaker };
 });
 export const Play = lazy(async () => {
-  const m = await import('./icons/Play');
+  const m = await import('./groups/Images');
   return { default: m.Play };
 });
 export const Playback = lazy(async () => {
-  const m = await import('./icons/Playback');
+  const m = await import('./groups/Images');
   return { default: m.Playback };
 });
 export const Playnext = lazy(async () => {
-  const m = await import('./icons/Playnext');
+  const m = await import('./groups/Images');
   return { default: m.Playnext };
 });
 export const Rewind = lazy(async () => {
-  const m = await import('./icons/Rewind');
+  const m = await import('./groups/Images');
   return { default: m.Rewind };
 });
 export const Fastforward = lazy(async () => {
-  const m = await import('./icons/Fastforward');
+  const m = await import('./groups/Images');
   return { default: m.Fastforward };
 });
 export const Stopalt = lazy(async () => {
-  const m = await import('./icons/Stopalt');
+  const m = await import('./groups/Images');
   return { default: m.Stopalt };
 });
 export const Sidebyside = lazy(async () => {
-  const m = await import('./icons/Sidebyside');
+  const m = await import('./groups/Images');
   return { default: m.Sidebyside };
 });
 export const Stacked = lazy(async () => {
-  const m = await import('./icons/Stacked');
+  const m = await import('./groups/Images');
   return { default: m.Stacked };
 });
 export const Sun = lazy(async () => {
-  const m = await import('./icons/Sun');
+  const m = await import('./groups/Images');
   return { default: m.Sun };
 });
 export const Moon = lazy(async () => {
-  const m = await import('./icons/Moon');
+  const m = await import('./groups/Images');
   return { default: m.Moon };
 });
 export const Book = lazy(async () => {
-  const m = await import('./icons/Book');
+  const m = await import('./groups/Documents');
   return { default: m.Book };
 });
 export const Document = lazy(async () => {
-  const m = await import('./icons/Document');
+  const m = await import('./groups/Documents');
   return { default: m.Document };
 });
 export const Copy = lazy(async () => {
-  const m = await import('./icons/Copy');
+  const m = await import('./groups/Documents');
   return { default: m.Copy };
 });
 export const Category = lazy(async () => {
-  const m = await import('./icons/Category');
+  const m = await import('./groups/Documents');
   return { default: m.Category };
 });
 export const Folder = lazy(async () => {
-  const m = await import('./icons/Folder');
+  const m = await import('./groups/Documents');
   return { default: m.Folder };
 });
 export const Print = lazy(async () => {
-  const m = await import('./icons/Print');
+  const m = await import('./groups/Documents');
   return { default: m.Print };
 });
 export const Graphline = lazy(async () => {
-  const m = await import('./icons/Graphline');
+  const m = await import('./groups/Documents');
   return { default: m.Graphline };
 });
 export const Calendar = lazy(async () => {
-  const m = await import('./icons/Calendar');
+  const m = await import('./groups/Documents');
   return { default: m.Calendar };
 });
 export const Graphbar = lazy(async () => {
-  const m = await import('./icons/Graphbar');
+  const m = await import('./groups/Documents');
   return { default: m.Graphbar };
 });
 export const Menu = lazy(async () => {
-  const m = await import('./icons/Menu');
+  const m = await import('./groups/Documents');
   return { default: m.Menu };
 });
 export const Menureverse = lazy(async () => {
-  const m = await import('./icons/Menureverse');
+  const m = await import('./groups/Documents');
   return { default: m.Menureverse };
 });
 export const Filter = lazy(async () => {
-  const m = await import('./icons/Filter');
+  const m = await import('./groups/Documents');
   return { default: m.Filter };
 });
 export const Docchart = lazy(async () => {
-  const m = await import('./icons/Docchart');
+  const m = await import('./groups/Documents');
   return { default: m.Docchart };
 });
 export const Doclist = lazy(async () => {
-  const m = await import('./icons/Doclist');
+  const m = await import('./groups/Documents');
   return { default: m.Doclist };
 });
 export const Markup = lazy(async () => {
-  const m = await import('./icons/Markup');
+  const m = await import('./groups/Editing');
   return { default: m.Markup };
 });
 export const Bold = lazy(async () => {
-  const m = await import('./icons/Bold');
+  const m = await import('./groups/Editing');
   return { default: m.Bold };
 });
 export const Italic = lazy(async () => {
-  const m = await import('./icons/Italic');
+  const m = await import('./groups/Editing');
   return { default: m.Italic };
 });
 export const Paperclip = lazy(async () => {
-  const m = await import('./icons/Paperclip');
+  const m = await import('./groups/Editing');
   return { default: m.Paperclip };
 });
 export const Listordered = lazy(async () => {
-  const m = await import('./icons/Listordered');
+  const m = await import('./groups/Editing');
   return { default: m.Listordered };
 });
 export const Listunordered = lazy(async () => {
-  const m = await import('./icons/Listunordered');
+  const m = await import('./groups/Editing');
   return { default: m.Listunordered };
 });
 export const Paragraph = lazy(async () => {
-  const m = await import('./icons/Paragraph');
+  const m = await import('./groups/Editing');
   return { default: m.Paragraph };
 });
 export const Markdown = lazy(async () => {
-  const m = await import('./icons/Markdown');
+  const m = await import('./groups/Editing');
   return { default: m.Markdown };
 });
 export const Repo = lazy(async () => {
-  const m = await import('./icons/Repo');
+  const m = await import('./groups/Git');
   return { default: m.Repo };
 });
 export const Commit = lazy(async () => {
-  const m = await import('./icons/Commit');
+  const m = await import('./groups/Git');
   return { default: m.Commit };
 });
 export const Branch = lazy(async () => {
-  const m = await import('./icons/Branch');
+  const m = await import('./groups/Git');
   return { default: m.Branch };
 });
 export const Pullrequest = lazy(async () => {
-  const m = await import('./icons/Pullrequest');
+  const m = await import('./groups/Git');
   return { default: m.Pullrequest };
 });
 export const Merge = lazy(async () => {
-  const m = await import('./icons/Merge');
+  const m = await import('./groups/Git');
   return { default: m.Merge };
 });
 export const Apple = lazy(async () => {
-  const m = await import('./icons/Apple');
+  const m = await import('./groups/OS');
   return { default: m.Apple };
 });
 export const Linux = lazy(async () => {
-  const m = await import('./icons/Linux');
+  const m = await import('./groups/OS');
   return { default: m.Linux };
 });
 export const Ubuntu = lazy(async () => {
-  const m = await import('./icons/Ubuntu');
+  const m = await import('./groups/OS');
   return { default: m.Ubuntu };
 });
 export const Windows = lazy(async () => {
-  const m = await import('./icons/Windows');
+  const m = await import('./groups/OS');
   return { default: m.Windows };
 });
 export const Chrome = lazy(async () => {
-  const m = await import('./icons/Chrome');
+  const m = await import('./groups/OS');
   return { default: m.Chrome };
 });
 export const Storybook = lazy(async () => {
-  const m = await import('./icons/Storybook');
+  const m = await import('./groups/Logos');
   return { default: m.Storybook };
 });
 export const Azuredevops = lazy(async () => {
-  const m = await import('./icons/Azuredevops');
+  const m = await import('./groups/Logos');
   return { default: m.Azuredevops };
 });
 export const Bitbucket = lazy(async () => {
-  const m = await import('./icons/Bitbucket');
+  const m = await import('./groups/Logos');
   return { default: m.Bitbucket };
 });
 export const Chromatic = lazy(async () => {
-  const m = await import('./icons/Chromatic');
+  const m = await import('./groups/Logos');
   return { default: m.Chromatic };
 });
 export const ComponentDriven = lazy(async () => {
-  const m = await import('./icons/ComponentDriven');
+  const m = await import('./groups/Logos');
   return { default: m.ComponentDriven };
 });
 export const Discord = lazy(async () => {
-  const m = await import('./icons/Discord');
+  const m = await import('./groups/Logos');
   return { default: m.Discord };
 });
 export const Facebook = lazy(async () => {
-  const m = await import('./icons/Facebook');
+  const m = await import('./groups/Logos');
   return { default: m.Facebook };
 });
 export const Figma = lazy(async () => {
-  const m = await import('./icons/Figma');
+  const m = await import('./groups/Logos');
   return { default: m.Figma };
 });
 export const Gdrive = lazy(async () => {
-  const m = await import('./icons/Gdrive');
+  const m = await import('./groups/Logos');
   return { default: m.Gdrive };
 });
 export const Github = lazy(async () => {
-  const m = await import('./icons/Github');
+  const m = await import('./groups/Logos');
   return { default: m.Github };
 });
 export const Gitlab = lazy(async () => {
-  const m = await import('./icons/Gitlab');
+  const m = await import('./groups/Logos');
   return { default: m.Gitlab };
 });
 export const Google = lazy(async () => {
-  const m = await import('./icons/Google');
+  const m = await import('./groups/Logos');
   return { default: m.Google };
 });
 export const Graphql = lazy(async () => {
-  const m = await import('./icons/Graphql');
+  const m = await import('./groups/Logos');
   return { default: m.Graphql };
 });
 export const Medium = lazy(async () => {
-  const m = await import('./icons/Medium');
+  const m = await import('./groups/Logos');
   return { default: m.Medium };
 });
 export const Redux = lazy(async () => {
-  const m = await import('./icons/Redux');
+  const m = await import('./groups/Logos');
   return { default: m.Redux };
 });
 export const Twitter = lazy(async () => {
-  const m = await import('./icons/Twitter');
+  const m = await import('./groups/Logos');
   return { default: m.Twitter };
 });
 export const Youtube = lazy(async () => {
-  const m = await import('./icons/Youtube');
+  const m = await import('./groups/Logos');
   return { default: m.Youtube };
 });
 export const VSCode = lazy(async () => {
-  const m = await import('./icons/VSCode');
+  const m = await import('./groups/Logos');
   return { default: m.VSCode };
 });
 export const Linkedin = lazy(async () => {
-  const m = await import('./icons/Linkedin');
+  const m = await import('./groups/Logos');
   return { default: m.Linkedin };
 });
 export const Browser = lazy(async () => {
-  const m = await import('./icons/Browser');
+  const m = await import('./groups/Devices');
   return { default: m.Browser };
 });
 export const Tablet = lazy(async () => {
-  const m = await import('./icons/Tablet');
+  const m = await import('./groups/Devices');
   return { default: m.Tablet };
 });
 export const Mobile = lazy(async () => {
-  const m = await import('./icons/Mobile');
+  const m = await import('./groups/Devices');
   return { default: m.Mobile };
 });
 export const Watch = lazy(async () => {
-  const m = await import('./icons/Watch');
+  const m = await import('./groups/Devices');
   return { default: m.Watch };
 });
 export const Sidebar = lazy(async () => {
-  const m = await import('./icons/Sidebar');
+  const m = await import('./groups/Devices');
   return { default: m.Sidebar };
 });
 export const SidebarAlt = lazy(async () => {
-  const m = await import('./icons/SidebarAlt');
+  const m = await import('./groups/Devices');
   return { default: m.SidebarAlt };
 });
 export const Sidebaralttoggle = lazy(async () => {
-  const m = await import('./icons/Sidebaralttoggle');
+  const m = await import('./groups/Devices');
   return { default: m.Sidebaralttoggle };
 });
 export const Sidebartoggle = lazy(async () => {
-  const m = await import('./icons/Sidebartoggle');
+  const m = await import('./groups/Devices');
   return { default: m.Sidebartoggle };
 });
 export const Bottombar = lazy(async () => {
-  const m = await import('./icons/Bottombar');
+  const m = await import('./groups/Devices');
   return { default: m.Bottombar };
 });
 export const Bottombartoggle = lazy(async () => {
-  const m = await import('./icons/Bottombartoggle');
+  const m = await import('./groups/Devices');
   return { default: m.Bottombartoggle };
 });
 export const Cpu = lazy(async () => {
-  const m = await import('./icons/Cpu');
+  const m = await import('./groups/Devices');
   return { default: m.Cpu };
 });
 export const Database = lazy(async () => {
-  const m = await import('./icons/Database');
+  const m = await import('./groups/Devices');
   return { default: m.Database };
 });
 export const Memory = lazy(async () => {
-  const m = await import('./icons/Memory');
+  const m = await import('./groups/Devices');
   return { default: m.Memory };
 });
 export const Structure = lazy(async () => {
-  const m = await import('./icons/Structure');
+  const m = await import('./groups/Devices');
   return { default: m.Structure };
 });
 export const Box = lazy(async () => {
-  const m = await import('./icons/Box');
+  const m = await import('./groups/Devices');
   return { default: m.Box };
 });
 export const Power = lazy(async () => {
-  const m = await import('./icons/Power');
+  const m = await import('./groups/Devices');
   return { default: m.Power };
 });
 export const Edit = lazy(async () => {
-  const m = await import('./icons/Edit');
+  const m = await import('./groups/CRUD');
   return { default: m.Edit };
 });
 export const Cog = lazy(async () => {
-  const m = await import('./icons/Cog');
+  const m = await import('./groups/CRUD');
   return { default: m.Cog };
 });
 export const Nut = lazy(async () => {
-  const m = await import('./icons/Nut');
+  const m = await import('./groups/CRUD');
   return { default: m.Nut };
 });
 export const Wrench = lazy(async () => {
-  const m = await import('./icons/Wrench');
+  const m = await import('./groups/CRUD');
   return { default: m.Wrench };
 });
 export const Ellipsis = lazy(async () => {
-  const m = await import('./icons/Ellipsis');
+  const m = await import('./groups/CRUD');
   return { default: m.Ellipsis };
 });
 export const Wand = lazy(async () => {
-  const m = await import('./icons/Wand');
+  const m = await import('./groups/CRUD');
   return { default: m.Wand };
 });
 export const Check = lazy(async () => {
-  const m = await import('./icons/Check');
+  const m = await import('./groups/CRUD');
   return { default: m.Check };
 });
 export const Form = lazy(async () => {
-  const m = await import('./icons/Form');
+  const m = await import('./groups/CRUD');
   return { default: m.Form };
 });
 export const Batchdeny = lazy(async () => {
-  const m = await import('./icons/Batchdeny');
+  const m = await import('./groups/CRUD');
   return { default: m.Batchdeny };
 });
 export const Batchaccept = lazy(async () => {
-  const m = await import('./icons/Batchaccept');
+  const m = await import('./groups/CRUD');
   return { default: m.Batchaccept };
 });
 export const Controls = lazy(async () => {
-  const m = await import('./icons/Controls');
+  const m = await import('./groups/CRUD');
   return { default: m.Controls };
 });
 export const Plus = lazy(async () => {
-  const m = await import('./icons/Plus');
+  const m = await import('./groups/CRUD');
   return { default: m.Plus };
 });
 export const CloseAlt = lazy(async () => {
-  const m = await import('./icons/CloseAlt');
+  const m = await import('./groups/CRUD');
   return { default: m.CloseAlt };
 });
 export const Cross = lazy(async () => {
-  const m = await import('./icons/Cross');
+  const m = await import('./groups/CRUD');
   return { default: m.Cross };
 });
 export const Trash = lazy(async () => {
-  const m = await import('./icons/Trash');
+  const m = await import('./groups/CRUD');
   return { default: m.Trash };
 });
 export const Pinalt = lazy(async () => {
-  const m = await import('./icons/Pinalt');
+  const m = await import('./groups/CRUD');
   return { default: m.Pinalt };
 });
 export const Unpin = lazy(async () => {
-  const m = await import('./icons/Unpin');
+  const m = await import('./groups/CRUD');
   return { default: m.Unpin };
 });
 export const Add = lazy(async () => {
-  const m = await import('./icons/Add');
+  const m = await import('./groups/CRUD');
   return { default: m.Add };
 });
 export const Subtract = lazy(async () => {
-  const m = await import('./icons/Subtract');
+  const m = await import('./groups/CRUD');
   return { default: m.Subtract };
 });
 export const Close = lazy(async () => {
-  const m = await import('./icons/Close');
+  const m = await import('./groups/CRUD');
   return { default: m.Close };
 });
 export const Delete = lazy(async () => {
-  const m = await import('./icons/Delete');
+  const m = await import('./groups/CRUD');
   return { default: m.Delete };
 });
 export const Passed = lazy(async () => {
-  const m = await import('./icons/Passed');
+  const m = await import('./groups/CRUD');
   return { default: m.Passed };
 });
 export const Changed = lazy(async () => {
-  const m = await import('./icons/Changed');
+  const m = await import('./groups/CRUD');
   return { default: m.Changed };
 });
 export const Failed = lazy(async () => {
-  const m = await import('./icons/Failed');
+  const m = await import('./groups/CRUD');
   return { default: m.Failed };
 });
 export const Clear = lazy(async () => {
-  const m = await import('./icons/Clear');
+  const m = await import('./groups/CRUD');
   return { default: m.Clear };
 });
 export const Comment = lazy(async () => {
-  const m = await import('./icons/Comment');
+  const m = await import('./groups/CRUD');
   return { default: m.Comment };
 });
 export const Commentadd = lazy(async () => {
-  const m = await import('./icons/Commentadd');
+  const m = await import('./groups/CRUD');
   return { default: m.Commentadd };
 });
 export const Requestchange = lazy(async () => {
-  const m = await import('./icons/Requestchange');
+  const m = await import('./groups/CRUD');
   return { default: m.Requestchange };
 });
 export const Comments = lazy(async () => {
-  const m = await import('./icons/Comments');
+  const m = await import('./groups/CRUD');
   return { default: m.Comments };
 });
 export const Chat = lazy(async () => {
-  const m = await import('./icons/Chat');
+  const m = await import('./groups/CRUD');
   return { default: m.Chat };
 });
 export const Lock = lazy(async () => {
-  const m = await import('./icons/Lock');
+  const m = await import('./groups/CRUD');
   return { default: m.Lock };
 });
 export const Unlock = lazy(async () => {
-  const m = await import('./icons/Unlock');
+  const m = await import('./groups/CRUD');
   return { default: m.Unlock };
 });
 export const Key = lazy(async () => {
-  const m = await import('./icons/Key');
+  const m = await import('./groups/CRUD');
   return { default: m.Key };
 });
 export const Outbox = lazy(async () => {
-  const m = await import('./icons/Outbox');
+  const m = await import('./groups/CRUD');
   return { default: m.Outbox };
 });
 export const Credit = lazy(async () => {
-  const m = await import('./icons/Credit');
+  const m = await import('./groups/CRUD');
   return { default: m.Credit };
 });
 export const Button = lazy(async () => {
-  const m = await import('./icons/Button');
+  const m = await import('./groups/CRUD');
   return { default: m.Button };
 });
 export const Type = lazy(async () => {
-  const m = await import('./icons/Type');
+  const m = await import('./groups/CRUD');
   return { default: m.Type };
 });
 export const Pointerdefault = lazy(async () => {
-  const m = await import('./icons/Pointerdefault');
+  const m = await import('./groups/CRUD');
   return { default: m.Pointerdefault };
 });
 export const Pointerhand = lazy(async () => {
-  const m = await import('./icons/Pointerhand');
+  const m = await import('./groups/CRUD');
   return { default: m.Pointerhand };
 });
 export const Command = lazy(async () => {
-  const m = await import('./icons/Command');
+  const m = await import('./groups/CRUD');
   return { default: m.Command };
 });
 export const Info = lazy(async () => {
-  const m = await import('./icons/Info');
+  const m = await import('./groups/Communicate');
   return { default: m.Info };
 });
 export const Question = lazy(async () => {
-  const m = await import('./icons/Question');
+  const m = await import('./groups/Communicate');
   return { default: m.Question };
 });
 export const Support = lazy(async () => {
-  const m = await import('./icons/Support');
+  const m = await import('./groups/Communicate');
   return { default: m.Support };
 });
 export const Alert = lazy(async () => {
-  const m = await import('./icons/Alert');
+  const m = await import('./groups/Communicate');
   return { default: m.Alert };
 });
 export const Alertalt = lazy(async () => {
-  const m = await import('./icons/Alertalt');
+  const m = await import('./groups/Communicate');
   return { default: m.Alertalt };
 });
 export const Email = lazy(async () => {
-  const m = await import('./icons/Email');
+  const m = await import('./groups/Communicate');
   return { default: m.Email };
 });
 export const Phone = lazy(async () => {
-  const m = await import('./icons/Phone');
+  const m = await import('./groups/Communicate');
   return { default: m.Phone };
 });
 export const Link = lazy(async () => {
-  const m = await import('./icons/Link');
+  const m = await import('./groups/Communicate');
   return { default: m.Link };
 });
 export const Linkbroken = lazy(async () => {
-  const m = await import('./icons/Linkbroken');
+  const m = await import('./groups/Communicate');
   return { default: m.Linkbroken };
 });
 export const Bell = lazy(async () => {
-  const m = await import('./icons/Bell');
+  const m = await import('./groups/Communicate');
   return { default: m.Bell };
 });
 export const Rss = lazy(async () => {
-  const m = await import('./icons/Rss');
+  const m = await import('./groups/Communicate');
   return { default: m.Rss };
 });
 export const Sharealt = lazy(async () => {
-  const m = await import('./icons/Sharealt');
+  const m = await import('./groups/Communicate');
   return { default: m.Sharealt };
 });
 export const Share = lazy(async () => {
-  const m = await import('./icons/Share');
+  const m = await import('./groups/Communicate');
   return { default: m.Share };
 });
 export const Jumpto = lazy(async () => {
-  const m = await import('./icons/Jumpto');
+  const m = await import('./groups/Communicate');
   return { default: m.Jumpto };
 });
 export const Circlehollow = lazy(async () => {
-  const m = await import('./icons/Circlehollow');
+  const m = await import('./groups/Communicate');
   return { default: m.Circlehollow };
 });
 export const Circle = lazy(async () => {
-  const m = await import('./icons/Circle');
+  const m = await import('./groups/Communicate');
   return { default: m.Circle };
 });
 export const Bookmarkhollow = lazy(async () => {
-  const m = await import('./icons/Bookmarkhollow');
+  const m = await import('./groups/Communicate');
   return { default: m.Bookmarkhollow };
 });
 export const Bookmark = lazy(async () => {
-  const m = await import('./icons/Bookmark');
+  const m = await import('./groups/Communicate');
   return { default: m.Bookmark };
 });
 export const Diamond = lazy(async () => {
-  const m = await import('./icons/Diamond');
+  const m = await import('./groups/Communicate');
   return { default: m.Diamond };
 });
 export const Hearthollow = lazy(async () => {
-  const m = await import('./icons/Hearthollow');
+  const m = await import('./groups/Communicate');
   return { default: m.Hearthollow };
 });
 export const Heart = lazy(async () => {
-  const m = await import('./icons/Heart');
+  const m = await import('./groups/Communicate');
   return { default: m.Heart };
 });
 export const Starhollow = lazy(async () => {
-  const m = await import('./icons/Starhollow');
+  const m = await import('./groups/Communicate');
   return { default: m.Starhollow };
 });
 export const Star = lazy(async () => {
-  const m = await import('./icons/Star');
+  const m = await import('./groups/Communicate');
   return { default: m.Star };
 });
 export const Certificate = lazy(async () => {
-  const m = await import('./icons/Certificate');
+  const m = await import('./groups/Communicate');
   return { default: m.Certificate };
 });
 export const Verified = lazy(async () => {
-  const m = await import('./icons/Verified');
+  const m = await import('./groups/Communicate');
   return { default: m.Verified };
 });
 export const Thumbsup = lazy(async () => {
-  const m = await import('./icons/Thumbsup');
+  const m = await import('./groups/Communicate');
   return { default: m.Thumbsup };
 });
 export const Shield = lazy(async () => {
-  const m = await import('./icons/Shield');
+  const m = await import('./groups/Communicate');
   return { default: m.Shield };
 });
 export const Basket = lazy(async () => {
-  const m = await import('./icons/Basket');
+  const m = await import('./groups/Communicate');
   return { default: m.Basket };
 });
 export const Beaker = lazy(async () => {
-  const m = await import('./icons/Beaker');
+  const m = await import('./groups/Communicate');
   return { default: m.Beaker };
 });
 export const Hourglass = lazy(async () => {
-  const m = await import('./icons/Hourglass');
+  const m = await import('./groups/Communicate');
   return { default: m.Hourglass };
 });
 export const Flag = lazy(async () => {
-  const m = await import('./icons/Flag');
+  const m = await import('./groups/Communicate');
   return { default: m.Flag };
 });
 export const Cloudhollow = lazy(async () => {
-  const m = await import('./icons/Cloudhollow');
+  const m = await import('./groups/Communicate');
   return { default: m.Cloudhollow };
 });
 export const Cloud = lazy(async () => {
-  const m = await import('./icons/Cloud');
+  const m = await import('./groups/Communicate');
   return { default: m.Cloud };
 });
 export const Sticker = lazy(async () => {
-  const m = await import('./icons/Sticker');
+  const m = await import('./groups/Communicate');
   return { default: m.Sticker };
 });
 export const Arrowup = lazy(async () => {
-  const m = await import('./icons/Arrowup');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowup };
 });
 export const Arrowdown = lazy(async () => {
-  const m = await import('./icons/Arrowdown');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowdown };
 });
 export const Arrowleft = lazy(async () => {
-  const m = await import('./icons/Arrowleft');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowleft };
 });
 export const Arrowright = lazy(async () => {
-  const m = await import('./icons/Arrowright');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowright };
 });
 export const Arrowupalt = lazy(async () => {
-  const m = await import('./icons/Arrowupalt');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowupalt };
 });
 export const Arrowdownalt = lazy(async () => {
-  const m = await import('./icons/Arrowdownalt');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowdownalt };
 });
 export const Arrowleftalt = lazy(async () => {
-  const m = await import('./icons/Arrowleftalt');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowleftalt };
 });
 export const Arrowrightalt = lazy(async () => {
-  const m = await import('./icons/Arrowrightalt');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Arrowrightalt };
 });
 export const ExpandAlt = lazy(async () => {
-  const m = await import('./icons/ExpandAlt');
+  const m = await import('./groups/Wayfinding');
   return { default: m.ExpandAlt };
 });
 export const Collapse = lazy(async () => {
-  const m = await import('./icons/Collapse');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Collapse };
 });
 export const Expand = lazy(async () => {
-  const m = await import('./icons/Expand');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Expand };
 });
 export const Unfold = lazy(async () => {
-  const m = await import('./icons/Unfold');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Unfold };
 });
 export const Transfer = lazy(async () => {
-  const m = await import('./icons/Transfer');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Transfer };
 });
 export const Redirect = lazy(async () => {
-  const m = await import('./icons/Redirect');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Redirect };
 });
 export const Undo = lazy(async () => {
-  const m = await import('./icons/Undo');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Undo };
 });
 export const Reply = lazy(async () => {
-  const m = await import('./icons/Reply');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Reply };
 });
 export const Sync = lazy(async () => {
-  const m = await import('./icons/Sync');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Sync };
 });
 export const Upload = lazy(async () => {
-  const m = await import('./icons/Upload');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Upload };
 });
 export const Download = lazy(async () => {
-  const m = await import('./icons/Download');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Download };
 });
 export const Back = lazy(async () => {
-  const m = await import('./icons/Back');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Back };
 });
 export const Proceed = lazy(async () => {
-  const m = await import('./icons/Proceed');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Proceed };
 });
 export const Refresh = lazy(async () => {
-  const m = await import('./icons/Refresh');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Refresh };
 });
 export const Globe = lazy(async () => {
-  const m = await import('./icons/Globe');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Globe };
 });
 export const Compass = lazy(async () => {
-  const m = await import('./icons/Compass');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Compass };
 });
 export const Location = lazy(async () => {
-  const m = await import('./icons/Location');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Location };
 });
 export const Pin = lazy(async () => {
-  const m = await import('./icons/Pin');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Pin };
 });
 export const Time = lazy(async () => {
-  const m = await import('./icons/Time');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Time };
 });
 export const Dashboard = lazy(async () => {
-  const m = await import('./icons/Dashboard');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Dashboard };
 });
 export const Timer = lazy(async () => {
-  const m = await import('./icons/Timer');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Timer };
 });
 export const Home = lazy(async () => {
-  const m = await import('./icons/Home');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Home };
 });
 export const Admin = lazy(async () => {
-  const m = await import('./icons/Admin');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Admin };
 });
 export const Direction = lazy(async () => {
-  const m = await import('./icons/Direction');
+  const m = await import('./groups/Wayfinding');
   return { default: m.Direction };
 });
 export const User = lazy(async () => {
-  const m = await import('./icons/User');
+  const m = await import('./groups/People');
   return { default: m.User };
 });
 export const Useralt = lazy(async () => {
-  const m = await import('./icons/Useralt');
+  const m = await import('./groups/People');
   return { default: m.Useralt };
 });
 export const Useradd = lazy(async () => {
-  const m = await import('./icons/Useradd');
+  const m = await import('./groups/People');
   return { default: m.Useradd };
 });
 export const Users = lazy(async () => {
-  const m = await import('./icons/Users');
+  const m = await import('./groups/People');
   return { default: m.Users };
 });
 export const Profile = lazy(async () => {
-  const m = await import('./icons/Profile');
+  const m = await import('./groups/People');
   return { default: m.Profile };
 });
 export const Facehappy = lazy(async () => {
-  const m = await import('./icons/Facehappy');
+  const m = await import('./groups/People');
   return { default: m.Facehappy };
 });
 export const Faceneutral = lazy(async () => {
-  const m = await import('./icons/Faceneutral');
+  const m = await import('./groups/People');
   return { default: m.Faceneutral };
 });
 export const Facesad = lazy(async () => {
-  const m = await import('./icons/Facesad');
+  const m = await import('./groups/People');
   return { default: m.Facesad };
 });
 export const Accessibility = lazy(async () => {
-  const m = await import('./icons/Accessibility');
+  const m = await import('./groups/People');
   return { default: m.Accessibility };
 });
 export const AccessibilityAlt = lazy(async () => {
-  const m = await import('./icons/AccessibilityAlt');
+  const m = await import('./groups/People');
   return { default: m.AccessibilityAlt };
 });
