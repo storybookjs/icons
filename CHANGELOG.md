@@ -1,3 +1,16 @@
+# v1.0.3 (Fri Jul 14 2023)
+
+#### 🐛 Bug Fix
+
+- Add Cover [#4](https://github.com/chromaui/icons/pull/4) ([@cdedreuille](https://github.com/cdedreuille))
+- Improved export + create lists [#3](https://github.com/chromaui/icons/pull/3) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.0.2 (Thu Jul 13 2023)
 
 #### 🐛 Bug Fix
