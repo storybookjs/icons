@@ -1,3 +1,15 @@
+# v1.0.4 (Fri Jul 14 2023)
+
+#### ⚠️ Pushed to `main`
+
+- Move MDX file ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.0.3 (Fri Jul 14 2023)
 
 #### 🐛 Bug Fix
