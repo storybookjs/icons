@@ -7,7 +7,7 @@ This library contains the icons used in Storybook and Chromatic apps and marketi
 ## Install
 
 ```console
-yarn add @storybookjs/icons
+yarn add @storybook/icons
 ```
 
 ## To Do

@@ -1,5 +1,5 @@
 {
-  "name": "@storybookjs/icons",
+  "name": "@storybook/icons",
   "version": "1.0.4",
   "description": "Icon library from the Storybook team",
   "author": {
@@ -83,9 +83,9 @@
     "react-dom": ">=17"
   },
   "bugs": {
-    "url": "https://github.com/storybookjs/icons/issues"
+    "url": "https://github.com/storybook/icons/issues"
   },
-  "homepage": "https://github.com/storybookjs/icons#readme",
+  "homepage": "https://github.com/storybook/icons#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
