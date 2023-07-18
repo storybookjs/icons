@@ -1,6 +1,6 @@
 {
   "name": "@storybook/icons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Icon library from the Storybook team",
   "author": {
     "name": "cdedreuille"
