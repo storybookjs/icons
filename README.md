@@ -2,19 +2,18 @@
 
 <img src="public/cover.jpg" />
 
-This library contains the icons used in Chromatic and Storybook.
+This library contains the icons used in Storybook and Chromatic apps and marketing sites.
 
 ## Install
 
 ```console
-yarn add @chromaui/tetra
+yarn add @storybook/icons
 ```
 
 ## To Do
 
 - [x] Export every single icons instead of a single component
-- [ ] Add stories for each components
-- [ ] Import coloured icons
+- [x] Add stories for each components
 
 ## Generating new icons from Figma
 

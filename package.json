@@ -1,7 +1,7 @@
 {
-  "name": "@chromaui/icons",
-  "version": "1.0.4",
-  "description": "Icon library for Chromatic apps and marketing site.",
+  "name": "@storybook/icons",
+  "version": "0.0.1",
+  "description": "Icon library from the Storybook team",
   "author": {
     "name": "cdedreuille"
   },
@@ -19,7 +19,7 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "release": "yarn build && auto shipit",
-    "chromatic": "npx chromatic --project-token=chpt_1004e0537cb3050",
+    "chromatic": "npx chromatic --project-token=chpt_d0c5927e55681dd",
     "icons": "ts-node ./src/generate.ts"
   },
   "sideEffect": false,
@@ -83,9 +83,9 @@
     "react-dom": ">=17"
   },
   "bugs": {
-    "url": "https://github.com/chromaui/icons/issues"
+    "url": "https://github.com/storybook/icons/issues"
   },
-  "homepage": "https://github.com/chromaui/icons#readme",
+  "homepage": "https://github.com/storybook/icons#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
