@@ -1,3 +1,15 @@
+# v1.0.5 (Tue Jul 18 2023)
+
+#### 🐛 Bug Fix
+
+- Move to storybook [#5](https://github.com/storybookjs/icons/pull/5) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.0.4 (Fri Jul 14 2023)
 
 #### ⚠️ Pushed to `main`
