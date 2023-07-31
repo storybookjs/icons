@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Arrowrightalt = (allProps: IconProps) => {
+export const ArrowSolidDown = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -16,7 +16,9 @@ export const Arrowrightalt = (allProps: IconProps) => {
           {...props}
         >
           <path
-            d="M8.646 2.146a.5.5 0 01.708 0l4.5 4.5a.5.5 0 010 .708l-4.5 4.5a.5.5 0 01-.708-.708L12.293 7.5H.5a.5.5 0 010-1h11.793L8.646 2.854a.5.5 0 010-.708z"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M7.228 10.41a.335.335 0 01-.456 0L1.095 5.023c-.203-.193-.06-.523.228-.523h11.354c.287 0 .431.33.228.523L7.228 10.41z"
             fill="currentColor"
           />
         </svg>
@@ -26,4 +28,4 @@ export const Arrowrightalt = (allProps: IconProps) => {
   );
 };
 
-export default Arrowrightalt;
+export default ArrowSolidDown;

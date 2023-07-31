@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Arrowup } from './Arrowup';
+import { ArrowUp } from './ArrowUp';
 
-const meta: Meta<typeof Arrowup> = {
-  component: Arrowup,
+const meta: Meta<typeof ArrowUp> = {
+  component: ArrowUp,
 };
 
 export default meta;
-type Story = StoryObj<typeof Arrowup>;
+type Story = StoryObj<typeof ArrowUp>;
 
 export const Default: Story = { args: { size: 100 } };

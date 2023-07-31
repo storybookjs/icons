@@ -1,231 +1,15 @@
 import React from 'react';
-import {
-  Photo,
-  Component,
-  Grid,
-  Outline,
-  PhotoDrag,
-  Gridalt,
-  Search,
-  Zoom,
-  Zoomout,
-  Zoomreset,
-  Eye,
-  Eyeclose,
-  Lightning,
-  Lightningoff,
-  Contrast,
-  Switchalt,
-  Mirror,
-  Grow,
-  Paintbrush,
-  Ruler,
-  Stop,
-  Camera,
-  Video,
-  Speaker,
-  Play,
-  Playback,
-  Playnext,
-  Rewind,
-  Fastforward,
-  Stopalt,
-  Sidebyside,
-  Stacked,
-  Sun,
-  Moon,
-} from './groups/Images';
-import {
-  Book,
-  Document,
-  Copy,
-  Category,
-  Folder,
-  Print,
-  Graphline,
-  Calendar,
-  Graphbar,
-  Menu,
-  Menureverse,
-  Filter,
-  Docchart,
-  Doclist,
-} from './groups/Documents';
-import {
-  Markup,
-  Bold,
-  Italic,
-  Paperclip,
-  Listordered,
-  Listunordered,
-  Paragraph,
-  Markdown,
-} from './groups/Editing';
-import { Repo, Commit, Branch, Pullrequest, Merge } from './groups/Git';
-import { Apple, Linux, Ubuntu, Windows, Chrome } from './groups/OS';
-import {
-  Storybook,
-  Azuredevops,
-  Bitbucket,
-  Chromatic,
-  ComponentDriven,
-  Discord,
-  Facebook,
-  Figma,
-  Gdrive,
-  Github,
-  Gitlab,
-  Google,
-  Graphql,
-  Medium,
-  Redux,
-  Twitter,
-  Youtube,
-  VSCode,
-  Linkedin,
-} from './groups/Logos';
-import {
-  Browser,
-  Tablet,
-  Mobile,
-  Watch,
-  Sidebar,
-  SidebarAlt,
-  Sidebaralttoggle,
-  Sidebartoggle,
-  Bottombar,
-  Bottombartoggle,
-  Cpu,
-  Database,
-  Memory,
-  Structure,
-  Box,
-  Power,
-} from './groups/Devices';
-import {
-  Edit,
-  Cog,
-  Nut,
-  Wrench,
-  Ellipsis,
-  Wand,
-  Check,
-  Form,
-  Batchdeny,
-  Batchaccept,
-  Controls,
-  Plus,
-  CloseAlt,
-  Cross,
-  Trash,
-  Pinalt,
-  Unpin,
-  Add,
-  Subtract,
-  Close,
-  Delete,
-  Passed,
-  Changed,
-  Failed,
-  Clear,
-  Comment,
-  Commentadd,
-  Requestchange,
-  Comments,
-  Chat,
-  Lock,
-  Unlock,
-  Key,
-  Outbox,
-  Credit,
-  Button,
-  Type,
-  Pointerdefault,
-  Pointerhand,
-  Command,
-} from './groups/CRUD';
-import {
-  Info,
-  Question,
-  Support,
-  Alert,
-  Alertalt,
-  Email,
-  Phone,
-  Link,
-  Linkbroken,
-  Bell,
-  Rss,
-  Sharealt,
-  Share,
-  Jumpto,
-  Circlehollow,
-  Circle,
-  Bookmarkhollow,
-  Bookmark,
-  Diamond,
-  Hearthollow,
-  Heart,
-  Starhollow,
-  Star,
-  Certificate,
-  Verified,
-  Thumbsup,
-  Shield,
-  Basket,
-  Beaker,
-  Hourglass,
-  Flag,
-  Cloudhollow,
-  Cloud,
-  Sticker,
-} from './groups/Communicate';
-import {
-  Arrowup,
-  Arrowdown,
-  Arrowleft,
-  Arrowright,
-  Arrowupalt,
-  Arrowdownalt,
-  Arrowleftalt,
-  Arrowrightalt,
-  ExpandAlt,
-  Collapse,
-  Expand,
-  Unfold,
-  Transfer,
-  Redirect,
-  Undo,
-  Reply,
-  Sync,
-  Upload,
-  Download,
-  Back,
-  Proceed,
-  Refresh,
-  Globe,
-  Compass,
-  Location,
-  Pin,
-  Time,
-  Dashboard,
-  Timer,
-  Home,
-  Admin,
-  Direction,
-} from './groups/Wayfinding';
-import {
-  User,
-  Useralt,
-  Useradd,
-  Users,
-  Profile,
-  Facehappy,
-  Faceneutral,
-  Facesad,
-  Accessibility,
-  AccessibilityAlt,
-} from './groups/People';
+import { Photo, Component, Grid, Outline, PhotoDrag, Gridalt, Search, Zoom, Zoomout, Zoomreset, Eye, Eyeclose, Lightning, Lightningoff, Contrast, Switchalt, Mirror, Grow, Paintbrush, Ruler, Stop, Camera, Video, Speaker, Play, Playback, Playnext, Rewind, Fastforward, Stopalt, Sidebyside, Stacked, Sun, Moon, } from './groups/Images';
+import { Book, Document, Copy, Category, Folder, Print, Graphline, Calendar, Graphbar, Menu, Menureverse, Filter, Docchart, Doclist, } from './groups/Documents';
+import { Markup, Bold, Italic, Paperclip, Listordered, Listunordered, Paragraph, Markdown, } from './groups/Editing';
+import { Repo, Commit, Branch, Pullrequest, Merge, } from './groups/Git';
+import { Apple, Linux, Ubuntu, Windows, Chrome, } from './groups/OS';
+import { Storybook, Azuredevops, Bitbucket, Chromatic, ComponentDriven, Discord, Facebook, Figma, Gdrive, Github, Gitlab, Google, Graphql, Medium, Redux, Twitter, Youtube, VSCode, Linkedin, } from './groups/Logos';
+import { Browser, Tablet, Mobile, Watch, Sidebar, SidebarAlt, Sidebaralttoggle, Sidebartoggle, Bottombar, Bottombartoggle, Cpu, Database, Memory, Structure, Box, Power, } from './groups/Devices';
+import { Edit, Cog, Nut, Wrench, Ellipsis, Wand, Check, Form, Batchdeny, Batchaccept, Controls, Plus, CloseAlt, Cross, Trash, Pinalt, Unpin, Add, Subtract, Close, Delete, Passed, Changed, Failed, Clear, Comment, Commentadd, Requestchange, Comments, Chat, Lock, Unlock, Key, Outbox, Credit, Button, Type, Pointerdefault, Pointerhand, Command, } from './groups/CRUD';
+import { Info, Question, Support, Alert, Alertalt, Email, Phone, Link, Linkbroken, Bell, Rss, Sharealt, Share, Jumpto, Circlehollow, Circle, Bookmarkhollow, Bookmark, Diamond, Hearthollow, Heart, Starhollow, Star, Certificate, Verified, Thumbsup, Shield, Basket, Beaker, Hourglass, Flag, Cloudhollow, Cloud, Sticker, } from './groups/Communicate';
+import { ChevronUp, ChevronDown, ChevronLeft, ChevronRight, ArrowUp, ArrowDown, ArrowLeft, ArrowRight, ArrowSolidUp, ArrowSolidDown, ArrowSolidLeft, ArrowSolidRight, ExpandAlt, Collapse, Expand, Unfold, Transfer, Redirect, Undo, Reply, Sync, Upload, Download, Back, Proceed, Refresh, Globe, Compass, Location, Pin, Time, Dashboard, Timer, Home, Admin, Direction, } from './groups/Wayfinding';
+import { User, Useralt, Useradd, Users, Profile, Facehappy, Faceneutral, Facesad, Accessibility, AccessibilityAlt, } from './groups/People';
 
 export const list = [
   {
@@ -233,922 +17,938 @@ export const list = [
     icons: [
       {
         name: 'Photo',
-        icon: <Photo />,
+        icon: <Photo />
       },
       {
         name: 'Component',
-        icon: <Component />,
+        icon: <Component />
       },
       {
         name: 'Grid',
-        icon: <Grid />,
+        icon: <Grid />
       },
       {
         name: 'Outline',
-        icon: <Outline />,
+        icon: <Outline />
       },
       {
         name: 'PhotoDrag',
-        icon: <PhotoDrag />,
+        icon: <PhotoDrag />
       },
       {
         name: 'Gridalt',
-        icon: <Gridalt />,
+        icon: <Gridalt />
       },
       {
         name: 'Search',
-        icon: <Search />,
+        icon: <Search />
       },
       {
         name: 'Zoom',
-        icon: <Zoom />,
+        icon: <Zoom />
       },
       {
         name: 'Zoomout',
-        icon: <Zoomout />,
+        icon: <Zoomout />
       },
       {
         name: 'Zoomreset',
-        icon: <Zoomreset />,
+        icon: <Zoomreset />
       },
       {
         name: 'Eye',
-        icon: <Eye />,
+        icon: <Eye />
       },
       {
         name: 'Eyeclose',
-        icon: <Eyeclose />,
+        icon: <Eyeclose />
       },
       {
         name: 'Lightning',
-        icon: <Lightning />,
+        icon: <Lightning />
       },
       {
         name: 'Lightningoff',
-        icon: <Lightningoff />,
+        icon: <Lightningoff />
       },
       {
         name: 'Contrast',
-        icon: <Contrast />,
+        icon: <Contrast />
       },
       {
         name: 'Switchalt',
-        icon: <Switchalt />,
+        icon: <Switchalt />
       },
       {
         name: 'Mirror',
-        icon: <Mirror />,
+        icon: <Mirror />
       },
       {
         name: 'Grow',
-        icon: <Grow />,
+        icon: <Grow />
       },
       {
         name: 'Paintbrush',
-        icon: <Paintbrush />,
+        icon: <Paintbrush />
       },
       {
         name: 'Ruler',
-        icon: <Ruler />,
+        icon: <Ruler />
       },
       {
         name: 'Stop',
-        icon: <Stop />,
+        icon: <Stop />
       },
       {
         name: 'Camera',
-        icon: <Camera />,
+        icon: <Camera />
       },
       {
         name: 'Video',
-        icon: <Video />,
+        icon: <Video />
       },
       {
         name: 'Speaker',
-        icon: <Speaker />,
+        icon: <Speaker />
       },
       {
         name: 'Play',
-        icon: <Play />,
+        icon: <Play />
       },
       {
         name: 'Playback',
-        icon: <Playback />,
+        icon: <Playback />
       },
       {
         name: 'Playnext',
-        icon: <Playnext />,
+        icon: <Playnext />
       },
       {
         name: 'Rewind',
-        icon: <Rewind />,
+        icon: <Rewind />
       },
       {
         name: 'Fastforward',
-        icon: <Fastforward />,
+        icon: <Fastforward />
       },
       {
         name: 'Stopalt',
-        icon: <Stopalt />,
+        icon: <Stopalt />
       },
       {
         name: 'Sidebyside',
-        icon: <Sidebyside />,
+        icon: <Sidebyside />
       },
       {
         name: 'Stacked',
-        icon: <Stacked />,
+        icon: <Stacked />
       },
       {
         name: 'Sun',
-        icon: <Sun />,
+        icon: <Sun />
       },
       {
         name: 'Moon',
-        icon: <Moon />,
+        icon: <Moon />
       },
-    ],
+    ]
   },
   {
     name: 'Documents',
     icons: [
       {
         name: 'Book',
-        icon: <Book />,
+        icon: <Book />
       },
       {
         name: 'Document',
-        icon: <Document />,
+        icon: <Document />
       },
       {
         name: 'Copy',
-        icon: <Copy />,
+        icon: <Copy />
       },
       {
         name: 'Category',
-        icon: <Category />,
+        icon: <Category />
       },
       {
         name: 'Folder',
-        icon: <Folder />,
+        icon: <Folder />
       },
       {
         name: 'Print',
-        icon: <Print />,
+        icon: <Print />
       },
       {
         name: 'Graphline',
-        icon: <Graphline />,
+        icon: <Graphline />
       },
       {
         name: 'Calendar',
-        icon: <Calendar />,
+        icon: <Calendar />
       },
       {
         name: 'Graphbar',
-        icon: <Graphbar />,
+        icon: <Graphbar />
       },
       {
         name: 'Menu',
-        icon: <Menu />,
+        icon: <Menu />
       },
       {
         name: 'Menureverse',
-        icon: <Menureverse />,
+        icon: <Menureverse />
       },
       {
         name: 'Filter',
-        icon: <Filter />,
+        icon: <Filter />
       },
       {
         name: 'Docchart',
-        icon: <Docchart />,
+        icon: <Docchart />
       },
       {
         name: 'Doclist',
-        icon: <Doclist />,
+        icon: <Doclist />
       },
-    ],
+    ]
   },
   {
     name: 'Editing',
     icons: [
       {
         name: 'Markup',
-        icon: <Markup />,
+        icon: <Markup />
       },
       {
         name: 'Bold',
-        icon: <Bold />,
+        icon: <Bold />
       },
       {
         name: 'Italic',
-        icon: <Italic />,
+        icon: <Italic />
       },
       {
         name: 'Paperclip',
-        icon: <Paperclip />,
+        icon: <Paperclip />
       },
       {
         name: 'Listordered',
-        icon: <Listordered />,
+        icon: <Listordered />
       },
       {
         name: 'Listunordered',
-        icon: <Listunordered />,
+        icon: <Listunordered />
       },
       {
         name: 'Paragraph',
-        icon: <Paragraph />,
+        icon: <Paragraph />
       },
       {
         name: 'Markdown',
-        icon: <Markdown />,
+        icon: <Markdown />
       },
-    ],
+    ]
   },
   {
     name: 'Git',
     icons: [
       {
         name: 'Repo',
-        icon: <Repo />,
+        icon: <Repo />
       },
       {
         name: 'Commit',
-        icon: <Commit />,
+        icon: <Commit />
       },
       {
         name: 'Branch',
-        icon: <Branch />,
+        icon: <Branch />
       },
       {
         name: 'Pullrequest',
-        icon: <Pullrequest />,
+        icon: <Pullrequest />
       },
       {
         name: 'Merge',
-        icon: <Merge />,
+        icon: <Merge />
       },
-    ],
+    ]
   },
   {
     name: 'OS',
     icons: [
       {
         name: 'Apple',
-        icon: <Apple />,
+        icon: <Apple />
       },
       {
         name: 'Linux',
-        icon: <Linux />,
+        icon: <Linux />
       },
       {
         name: 'Ubuntu',
-        icon: <Ubuntu />,
+        icon: <Ubuntu />
       },
       {
         name: 'Windows',
-        icon: <Windows />,
+        icon: <Windows />
       },
       {
         name: 'Chrome',
-        icon: <Chrome />,
+        icon: <Chrome />
       },
-    ],
+    ]
   },
   {
     name: 'Logos',
     icons: [
       {
         name: 'Storybook',
-        icon: <Storybook />,
+        icon: <Storybook />
       },
       {
         name: 'Azuredevops',
-        icon: <Azuredevops />,
+        icon: <Azuredevops />
       },
       {
         name: 'Bitbucket',
-        icon: <Bitbucket />,
+        icon: <Bitbucket />
       },
       {
         name: 'Chromatic',
-        icon: <Chromatic />,
+        icon: <Chromatic />
       },
       {
         name: 'ComponentDriven',
-        icon: <ComponentDriven />,
+        icon: <ComponentDriven />
       },
       {
         name: 'Discord',
-        icon: <Discord />,
+        icon: <Discord />
       },
       {
         name: 'Facebook',
-        icon: <Facebook />,
+        icon: <Facebook />
       },
       {
         name: 'Figma',
-        icon: <Figma />,
+        icon: <Figma />
       },
       {
         name: 'Gdrive',
-        icon: <Gdrive />,
+        icon: <Gdrive />
       },
       {
         name: 'Github',
-        icon: <Github />,
+        icon: <Github />
       },
       {
         name: 'Gitlab',
-        icon: <Gitlab />,
+        icon: <Gitlab />
       },
       {
         name: 'Google',
-        icon: <Google />,
+        icon: <Google />
       },
       {
         name: 'Graphql',
-        icon: <Graphql />,
+        icon: <Graphql />
       },
       {
         name: 'Medium',
-        icon: <Medium />,
+        icon: <Medium />
       },
       {
         name: 'Redux',
-        icon: <Redux />,
+        icon: <Redux />
       },
       {
         name: 'Twitter',
-        icon: <Twitter />,
+        icon: <Twitter />
       },
       {
         name: 'Youtube',
-        icon: <Youtube />,
+        icon: <Youtube />
       },
       {
         name: 'VSCode',
-        icon: <VSCode />,
+        icon: <VSCode />
       },
       {
         name: 'Linkedin',
-        icon: <Linkedin />,
+        icon: <Linkedin />
       },
-    ],
+    ]
   },
   {
     name: 'Devices',
     icons: [
       {
         name: 'Browser',
-        icon: <Browser />,
+        icon: <Browser />
       },
       {
         name: 'Tablet',
-        icon: <Tablet />,
+        icon: <Tablet />
       },
       {
         name: 'Mobile',
-        icon: <Mobile />,
+        icon: <Mobile />
       },
       {
         name: 'Watch',
-        icon: <Watch />,
+        icon: <Watch />
       },
       {
         name: 'Sidebar',
-        icon: <Sidebar />,
+        icon: <Sidebar />
       },
       {
         name: 'SidebarAlt',
-        icon: <SidebarAlt />,
+        icon: <SidebarAlt />
       },
       {
         name: 'Sidebaralttoggle',
-        icon: <Sidebaralttoggle />,
+        icon: <Sidebaralttoggle />
       },
       {
         name: 'Sidebartoggle',
-        icon: <Sidebartoggle />,
+        icon: <Sidebartoggle />
       },
       {
         name: 'Bottombar',
-        icon: <Bottombar />,
+        icon: <Bottombar />
       },
       {
         name: 'Bottombartoggle',
-        icon: <Bottombartoggle />,
+        icon: <Bottombartoggle />
       },
       {
         name: 'Cpu',
-        icon: <Cpu />,
+        icon: <Cpu />
       },
       {
         name: 'Database',
-        icon: <Database />,
+        icon: <Database />
       },
       {
         name: 'Memory',
-        icon: <Memory />,
+        icon: <Memory />
       },
       {
         name: 'Structure',
-        icon: <Structure />,
+        icon: <Structure />
       },
       {
         name: 'Box',
-        icon: <Box />,
+        icon: <Box />
       },
       {
         name: 'Power',
-        icon: <Power />,
+        icon: <Power />
       },
-    ],
+    ]
   },
   {
     name: 'CRUD',
     icons: [
       {
         name: 'Edit',
-        icon: <Edit />,
+        icon: <Edit />
       },
       {
         name: 'Cog',
-        icon: <Cog />,
+        icon: <Cog />
       },
       {
         name: 'Nut',
-        icon: <Nut />,
+        icon: <Nut />
       },
       {
         name: 'Wrench',
-        icon: <Wrench />,
+        icon: <Wrench />
       },
       {
         name: 'Ellipsis',
-        icon: <Ellipsis />,
+        icon: <Ellipsis />
       },
       {
         name: 'Wand',
-        icon: <Wand />,
+        icon: <Wand />
       },
       {
         name: 'Check',
-        icon: <Check />,
+        icon: <Check />
       },
       {
         name: 'Form',
-        icon: <Form />,
+        icon: <Form />
       },
       {
         name: 'Batchdeny',
-        icon: <Batchdeny />,
+        icon: <Batchdeny />
       },
       {
         name: 'Batchaccept',
-        icon: <Batchaccept />,
+        icon: <Batchaccept />
       },
       {
         name: 'Controls',
-        icon: <Controls />,
+        icon: <Controls />
       },
       {
         name: 'Plus',
-        icon: <Plus />,
+        icon: <Plus />
       },
       {
         name: 'CloseAlt',
-        icon: <CloseAlt />,
+        icon: <CloseAlt />
       },
       {
         name: 'Cross',
-        icon: <Cross />,
+        icon: <Cross />
       },
       {
         name: 'Trash',
-        icon: <Trash />,
+        icon: <Trash />
       },
       {
         name: 'Pinalt',
-        icon: <Pinalt />,
+        icon: <Pinalt />
       },
       {
         name: 'Unpin',
-        icon: <Unpin />,
+        icon: <Unpin />
       },
       {
         name: 'Add',
-        icon: <Add />,
+        icon: <Add />
       },
       {
         name: 'Subtract',
-        icon: <Subtract />,
+        icon: <Subtract />
       },
       {
         name: 'Close',
-        icon: <Close />,
+        icon: <Close />
       },
       {
         name: 'Delete',
-        icon: <Delete />,
+        icon: <Delete />
       },
       {
         name: 'Passed',
-        icon: <Passed />,
+        icon: <Passed />
       },
       {
         name: 'Changed',
-        icon: <Changed />,
+        icon: <Changed />
       },
       {
         name: 'Failed',
-        icon: <Failed />,
+        icon: <Failed />
       },
       {
         name: 'Clear',
-        icon: <Clear />,
+        icon: <Clear />
       },
       {
         name: 'Comment',
-        icon: <Comment />,
+        icon: <Comment />
       },
       {
         name: 'Commentadd',
-        icon: <Commentadd />,
+        icon: <Commentadd />
       },
       {
         name: 'Requestchange',
-        icon: <Requestchange />,
+        icon: <Requestchange />
       },
       {
         name: 'Comments',
-        icon: <Comments />,
+        icon: <Comments />
       },
       {
         name: 'Chat',
-        icon: <Chat />,
+        icon: <Chat />
       },
       {
         name: 'Lock',
-        icon: <Lock />,
+        icon: <Lock />
       },
       {
         name: 'Unlock',
-        icon: <Unlock />,
+        icon: <Unlock />
       },
       {
         name: 'Key',
-        icon: <Key />,
+        icon: <Key />
       },
       {
         name: 'Outbox',
-        icon: <Outbox />,
+        icon: <Outbox />
       },
       {
         name: 'Credit',
-        icon: <Credit />,
+        icon: <Credit />
       },
       {
         name: 'Button',
-        icon: <Button />,
+        icon: <Button />
       },
       {
         name: 'Type',
-        icon: <Type />,
+        icon: <Type />
       },
       {
         name: 'Pointerdefault',
-        icon: <Pointerdefault />,
+        icon: <Pointerdefault />
       },
       {
         name: 'Pointerhand',
-        icon: <Pointerhand />,
+        icon: <Pointerhand />
       },
       {
         name: 'Command',
-        icon: <Command />,
+        icon: <Command />
       },
-    ],
+    ]
   },
   {
     name: 'Communicate',
     icons: [
       {
         name: 'Info',
-        icon: <Info />,
+        icon: <Info />
       },
       {
         name: 'Question',
-        icon: <Question />,
+        icon: <Question />
       },
       {
         name: 'Support',
-        icon: <Support />,
+        icon: <Support />
       },
       {
         name: 'Alert',
-        icon: <Alert />,
+        icon: <Alert />
       },
       {
         name: 'Alertalt',
-        icon: <Alertalt />,
+        icon: <Alertalt />
       },
       {
         name: 'Email',
-        icon: <Email />,
+        icon: <Email />
       },
       {
         name: 'Phone',
-        icon: <Phone />,
+        icon: <Phone />
       },
       {
         name: 'Link',
-        icon: <Link />,
+        icon: <Link />
       },
       {
         name: 'Linkbroken',
-        icon: <Linkbroken />,
+        icon: <Linkbroken />
       },
       {
         name: 'Bell',
-        icon: <Bell />,
+        icon: <Bell />
       },
       {
         name: 'Rss',
-        icon: <Rss />,
+        icon: <Rss />
       },
       {
         name: 'Sharealt',
-        icon: <Sharealt />,
+        icon: <Sharealt />
       },
       {
         name: 'Share',
-        icon: <Share />,
+        icon: <Share />
       },
       {
         name: 'Jumpto',
-        icon: <Jumpto />,
+        icon: <Jumpto />
       },
       {
         name: 'Circlehollow',
-        icon: <Circlehollow />,
+        icon: <Circlehollow />
       },
       {
         name: 'Circle',
-        icon: <Circle />,
+        icon: <Circle />
       },
       {
         name: 'Bookmarkhollow',
-        icon: <Bookmarkhollow />,
+        icon: <Bookmarkhollow />
       },
       {
         name: 'Bookmark',
-        icon: <Bookmark />,
+        icon: <Bookmark />
       },
       {
         name: 'Diamond',
-        icon: <Diamond />,
+        icon: <Diamond />
       },
       {
         name: 'Hearthollow',
-        icon: <Hearthollow />,
+        icon: <Hearthollow />
       },
       {
         name: 'Heart',
-        icon: <Heart />,
+        icon: <Heart />
       },
       {
         name: 'Starhollow',
-        icon: <Starhollow />,
+        icon: <Starhollow />
       },
       {
         name: 'Star',
-        icon: <Star />,
+        icon: <Star />
       },
       {
         name: 'Certificate',
-        icon: <Certificate />,
+        icon: <Certificate />
       },
       {
         name: 'Verified',
-        icon: <Verified />,
+        icon: <Verified />
       },
       {
         name: 'Thumbsup',
-        icon: <Thumbsup />,
+        icon: <Thumbsup />
       },
       {
         name: 'Shield',
-        icon: <Shield />,
+        icon: <Shield />
       },
       {
         name: 'Basket',
-        icon: <Basket />,
+        icon: <Basket />
       },
       {
         name: 'Beaker',
-        icon: <Beaker />,
+        icon: <Beaker />
       },
       {
         name: 'Hourglass',
-        icon: <Hourglass />,
+        icon: <Hourglass />
       },
       {
         name: 'Flag',
-        icon: <Flag />,
+        icon: <Flag />
       },
       {
         name: 'Cloudhollow',
-        icon: <Cloudhollow />,
+        icon: <Cloudhollow />
       },
       {
         name: 'Cloud',
-        icon: <Cloud />,
+        icon: <Cloud />
       },
       {
         name: 'Sticker',
-        icon: <Sticker />,
+        icon: <Sticker />
       },
-    ],
+    ]
   },
   {
     name: 'Wayfinding',
     icons: [
       {
-        name: 'Arrowup',
-        icon: <Arrowup />,
+        name: 'ChevronUp',
+        icon: <ChevronUp />
       },
       {
-        name: 'Arrowdown',
-        icon: <Arrowdown />,
+        name: 'ChevronDown',
+        icon: <ChevronDown />
       },
       {
-        name: 'Arrowleft',
-        icon: <Arrowleft />,
+        name: 'ChevronLeft',
+        icon: <ChevronLeft />
       },
       {
-        name: 'Arrowright',
-        icon: <Arrowright />,
+        name: 'ChevronRight',
+        icon: <ChevronRight />
       },
       {
-        name: 'Arrowupalt',
-        icon: <Arrowupalt />,
+        name: 'ArrowUp',
+        icon: <ArrowUp />
       },
       {
-        name: 'Arrowdownalt',
-        icon: <Arrowdownalt />,
+        name: 'ArrowDown',
+        icon: <ArrowDown />
       },
       {
-        name: 'Arrowleftalt',
-        icon: <Arrowleftalt />,
+        name: 'ArrowLeft',
+        icon: <ArrowLeft />
       },
       {
-        name: 'Arrowrightalt',
-        icon: <Arrowrightalt />,
+        name: 'ArrowRight',
+        icon: <ArrowRight />
+      },
+      {
+        name: 'ArrowSolidUp',
+        icon: <ArrowSolidUp />
+      },
+      {
+        name: 'ArrowSolidDown',
+        icon: <ArrowSolidDown />
+      },
+      {
+        name: 'ArrowSolidLeft',
+        icon: <ArrowSolidLeft />
+      },
+      {
+        name: 'ArrowSolidRight',
+        icon: <ArrowSolidRight />
       },
       {
         name: 'ExpandAlt',
-        icon: <ExpandAlt />,
+        icon: <ExpandAlt />
       },
       {
         name: 'Collapse',
-        icon: <Collapse />,
+        icon: <Collapse />
       },
       {
         name: 'Expand',
-        icon: <Expand />,
+        icon: <Expand />
       },
       {
         name: 'Unfold',
-        icon: <Unfold />,
+        icon: <Unfold />
       },
       {
         name: 'Transfer',
-        icon: <Transfer />,
+        icon: <Transfer />
       },
       {
         name: 'Redirect',
-        icon: <Redirect />,
+        icon: <Redirect />
       },
       {
         name: 'Undo',
-        icon: <Undo />,
+        icon: <Undo />
       },
       {
         name: 'Reply',
-        icon: <Reply />,
+        icon: <Reply />
       },
       {
         name: 'Sync',
-        icon: <Sync />,
+        icon: <Sync />
       },
       {
         name: 'Upload',
-        icon: <Upload />,
+        icon: <Upload />
       },
       {
         name: 'Download',
-        icon: <Download />,
+        icon: <Download />
       },
       {
         name: 'Back',
-        icon: <Back />,
+        icon: <Back />
       },
       {
         name: 'Proceed',
-        icon: <Proceed />,
+        icon: <Proceed />
       },
       {
         name: 'Refresh',
-        icon: <Refresh />,
+        icon: <Refresh />
       },
       {
         name: 'Globe',
-        icon: <Globe />,
+        icon: <Globe />
       },
       {
         name: 'Compass',
-        icon: <Compass />,
+        icon: <Compass />
       },
       {
         name: 'Location',
-        icon: <Location />,
+        icon: <Location />
       },
       {
         name: 'Pin',
-        icon: <Pin />,
+        icon: <Pin />
       },
       {
         name: 'Time',
-        icon: <Time />,
+        icon: <Time />
       },
       {
         name: 'Dashboard',
-        icon: <Dashboard />,
+        icon: <Dashboard />
       },
       {
         name: 'Timer',
-        icon: <Timer />,
+        icon: <Timer />
       },
       {
         name: 'Home',
-        icon: <Home />,
+        icon: <Home />
       },
       {
         name: 'Admin',
-        icon: <Admin />,
+        icon: <Admin />
       },
       {
         name: 'Direction',
-        icon: <Direction />,
+        icon: <Direction />
       },
-    ],
+    ]
   },
   {
     name: 'People',
     icons: [
       {
         name: 'User',
-        icon: <User />,
+        icon: <User />
       },
       {
         name: 'Useralt',
-        icon: <Useralt />,
+        icon: <Useralt />
       },
       {
         name: 'Useradd',
-        icon: <Useradd />,
+        icon: <Useradd />
       },
       {
         name: 'Users',
-        icon: <Users />,
+        icon: <Users />
       },
       {
         name: 'Profile',
-        icon: <Profile />,
+        icon: <Profile />
       },
       {
         name: 'Facehappy',
-        icon: <Facehappy />,
+        icon: <Facehappy />
       },
       {
         name: 'Faceneutral',
-        icon: <Faceneutral />,
+        icon: <Faceneutral />
       },
       {
         name: 'Facesad',
-        icon: <Facesad />,
+        icon: <Facesad />
       },
       {
         name: 'Accessibility',
-        icon: <Accessibility />,
+        icon: <Accessibility />
       },
       {
         name: 'AccessibilityAlt',
-        icon: <AccessibilityAlt />,
+        icon: <AccessibilityAlt />
       },
-    ],
+    ]
   },
 ];

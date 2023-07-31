@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Arrowup = (allProps: IconProps) => {
+export const ArrowUp = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -16,7 +16,7 @@ export const Arrowup = (allProps: IconProps) => {
           {...props}
         >
           <path
-            d="M7.354 2.896l5.5 5.5a.5.5 0 01-.708.708L7 3.957 1.854 9.104a.5.5 0 11-.708-.708l5.5-5.5a.5.5 0 01.708 0z"
+            d="M11.854 4.646l-4.5-4.5a.5.5 0 00-.708 0l-4.5 4.5a.5.5 0 10.708.708L6.5 1.707V13.5a.5.5 0 001 0V1.707l3.646 3.647a.5.5 0 00.708-.708z"
             fill="currentColor"
           />
         </svg>
@@ -26,4 +26,4 @@ export const Arrowup = (allProps: IconProps) => {
   );
 };
 
-export default Arrowup;
+export default ArrowUp;

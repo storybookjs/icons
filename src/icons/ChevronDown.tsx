@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Arrowdown = (allProps: IconProps) => {
+export const ChevronDown = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -16,7 +16,7 @@ export const Arrowdown = (allProps: IconProps) => {
           {...props}
         >
           <path
-            d="M1.146 5.604l5.5 5.5a.5.5 0 00.708 0l5.5-5.5a.5.5 0 00-.708-.708L7 10.043 1.854 4.896a.5.5 0 10-.708.708z"
+            d="M1.146 4.604l5.5 5.5a.5.5 0 00.708 0l5.5-5.5a.5.5 0 00-.708-.708L7 9.043 1.854 3.896a.5.5 0 10-.708.708z"
             fill="currentColor"
           />
         </svg>
@@ -26,4 +26,4 @@ export const Arrowdown = (allProps: IconProps) => {
   );
 };
 
-export default Arrowdown;
+export default ChevronDown;

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Arrowdownalt = (allProps: IconProps) => {
+export const ArrowDown = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Arrowdownalt = (allProps: IconProps) => {
   );
 };
 
-export default Arrowdownalt;
+export default ArrowDown;

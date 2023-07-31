@@ -700,37 +700,53 @@ export const Sticker = lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Sticker };
 });
-export const Arrowup = lazy(async () => {
+export const ChevronUp = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowup };
+  return { default: m.ChevronUp };
 });
-export const Arrowdown = lazy(async () => {
+export const ChevronDown = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowdown };
+  return { default: m.ChevronDown };
 });
-export const Arrowleft = lazy(async () => {
+export const ChevronLeft = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowleft };
+  return { default: m.ChevronLeft };
 });
-export const Arrowright = lazy(async () => {
+export const ChevronRight = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowright };
+  return { default: m.ChevronRight };
 });
-export const Arrowupalt = lazy(async () => {
+export const ArrowUp = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowupalt };
+  return { default: m.ArrowUp };
 });
-export const Arrowdownalt = lazy(async () => {
+export const ArrowDown = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowdownalt };
+  return { default: m.ArrowDown };
 });
-export const Arrowleftalt = lazy(async () => {
+export const ArrowLeft = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowleftalt };
+  return { default: m.ArrowLeft };
 });
-export const Arrowrightalt = lazy(async () => {
+export const ArrowRight = lazy(async () => {
   const m = await import('./groups/Wayfinding');
-  return { default: m.Arrowrightalt };
+  return { default: m.ArrowRight };
+});
+export const ArrowSolidUp = lazy(async () => {
+  const m = await import('./groups/Wayfinding');
+  return { default: m.ArrowSolidUp };
+});
+export const ArrowSolidDown = lazy(async () => {
+  const m = await import('./groups/Wayfinding');
+  return { default: m.ArrowSolidDown };
+});
+export const ArrowSolidLeft = lazy(async () => {
+  const m = await import('./groups/Wayfinding');
+  return { default: m.ArrowSolidLeft };
+});
+export const ArrowSolidRight = lazy(async () => {
+  const m = await import('./groups/Wayfinding');
+  return { default: m.ArrowSolidRight };
 });
 export const ExpandAlt = lazy(async () => {
   const m = await import('./groups/Wayfinding');
