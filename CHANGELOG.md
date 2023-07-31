@@ -1,3 +1,15 @@
+# v1.0.8 (Mon Jul 31 2023)
+
+#### 🐛 Bug Fix
+
+- Update tsup.config.ts [#10](https://github.com/storybookjs/icons/pull/10) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.0.7 (Mon Jul 31 2023)
 
 #### 🐛 Bug Fix
