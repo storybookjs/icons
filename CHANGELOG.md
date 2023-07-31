@@ -1,3 +1,15 @@
+# v1.0.7 (Mon Jul 31 2023)
+
+#### 🐛 Bug Fix
+
+- Add suspense with fallback [#9](https://github.com/storybookjs/icons/pull/9) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.0.6 (Mon Jul 31 2023)
 
 #### 🐛 Bug Fix
