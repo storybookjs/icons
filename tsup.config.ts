@@ -8,7 +8,7 @@ export default defineConfig([
     minify: false,
     clean: true,
     dts: true,
-    format: ['esm'],
+    format: ['esm', 'cjs'],
     external: ['react'],
   },
 ]);
