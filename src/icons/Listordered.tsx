@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Listordered = (allProps: IconProps) => {
+export const ListOrdered = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Listordered = (allProps: IconProps) => {
   );
 };
 
-export default Listordered;
+export default ListOrdered;

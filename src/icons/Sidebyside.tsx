@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Sidebyside = (allProps: IconProps) => {
+export const SideBySide = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Sidebyside = (allProps: IconProps) => {
   );
 };
 
-export default Sidebyside;
+export default SideBySide;

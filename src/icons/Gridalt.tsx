@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Gridalt = (allProps: IconProps) => {
+export const GridAlt = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Gridalt = (allProps: IconProps) => {
   );
 };
 
-export default Gridalt;
+export default GridAlt;

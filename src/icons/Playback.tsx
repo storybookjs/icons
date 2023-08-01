@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Playback = (allProps: IconProps) => {
+export const PlayBack = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Playback = (allProps: IconProps) => {
   );
 };
 
-export default Playback;
+export default PlayBack;

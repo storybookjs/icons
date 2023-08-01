@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Facesad } from './Facesad';
+import { FaceSad } from './FaceSad';
 
-const meta: Meta<typeof Facesad> = {
-  component: Facesad,
+const meta: Meta<typeof FaceSad> = {
+  component: FaceSad,
 };
 
 export default meta;
-type Story = StoryObj<typeof Facesad>;
+type Story = StoryObj<typeof FaceSad>;
 
 export const Default: Story = { args: { size: 100 } };

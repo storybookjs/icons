@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Menureverse = (allProps: IconProps) => {
+export const MenuReverse = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Menureverse = (allProps: IconProps) => {
   );
 };
 
-export default Menureverse;
+export default MenuReverse;

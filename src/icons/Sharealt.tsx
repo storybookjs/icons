@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Sharealt = (allProps: IconProps) => {
+export const ShareAlt = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -30,4 +30,4 @@ export const Sharealt = (allProps: IconProps) => {
   );
 };
 
-export default Sharealt;
+export default ShareAlt;

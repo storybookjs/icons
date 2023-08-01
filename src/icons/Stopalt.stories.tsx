@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Stopalt } from './Stopalt';
+import { StopAlt } from './StopAlt';
 
-const meta: Meta<typeof Stopalt> = {
-  component: Stopalt,
+const meta: Meta<typeof StopAlt> = {
+  component: StopAlt,
 };
 
 export default meta;
-type Story = StoryObj<typeof Stopalt>;
+type Story = StoryObj<typeof StopAlt>;
 
 export const Default: Story = { args: { size: 100 } };

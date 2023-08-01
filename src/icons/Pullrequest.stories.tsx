@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Pullrequest } from './Pullrequest';
+import { PullRequest } from './PullRequest';
 
-const meta: Meta<typeof Pullrequest> = {
-  component: Pullrequest,
+const meta: Meta<typeof PullRequest> = {
+  component: PullRequest,
 };
 
 export default meta;
-type Story = StoryObj<typeof Pullrequest>;
+type Story = StoryObj<typeof PullRequest>;
 
 export const Default: Story = { args: { size: 100 } };

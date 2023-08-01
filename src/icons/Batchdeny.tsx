@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Batchdeny = (allProps: IconProps) => {
+export const BatchDeny = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Batchdeny = (allProps: IconProps) => {
   );
 };
 
-export default Batchdeny;
+export default BatchDeny;

@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Pointerhand } from './Pointerhand';
+import { PointerHand } from './PointerHand';
 
-const meta: Meta<typeof Pointerhand> = {
-  component: Pointerhand,
+const meta: Meta<typeof PointerHand> = {
+  component: PointerHand,
 };
 
 export default meta;
-type Story = StoryObj<typeof Pointerhand>;
+type Story = StoryObj<typeof PointerHand>;
 
 export const Default: Story = { args: { size: 100 } };

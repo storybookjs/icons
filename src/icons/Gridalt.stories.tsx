@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Gridalt } from './Gridalt';
+import { GridAlt } from './GridAlt';
 
-const meta: Meta<typeof Gridalt> = {
-  component: Gridalt,
+const meta: Meta<typeof GridAlt> = {
+  component: GridAlt,
 };
 
 export default meta;
-type Story = StoryObj<typeof Gridalt>;
+type Story = StoryObj<typeof GridAlt>;
 
 export const Default: Story = { args: { size: 100 } };

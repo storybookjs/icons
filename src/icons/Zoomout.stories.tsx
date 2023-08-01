@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Zoomout } from './Zoomout';
+import { ZoomOut } from './ZoomOut';
 
-const meta: Meta<typeof Zoomout> = {
-  component: Zoomout,
+const meta: Meta<typeof ZoomOut> = {
+  component: ZoomOut,
 };
 
 export default meta;
-type Story = StoryObj<typeof Zoomout>;
+type Story = StoryObj<typeof ZoomOut>;
 
 export const Default: Story = { args: { size: 100 } };

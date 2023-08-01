@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Thumbsup } from './Thumbsup';
+import { ThumbsUp } from './ThumbsUp';
 
-const meta: Meta<typeof Thumbsup> = {
-  component: Thumbsup,
+const meta: Meta<typeof ThumbsUp> = {
+  component: ThumbsUp,
 };
 
 export default meta;
-type Story = StoryObj<typeof Thumbsup>;
+type Story = StoryObj<typeof ThumbsUp>;
 
 export const Default: Story = { args: { size: 100 } };

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Rss = (allProps: IconProps) => {
+export const RSS = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -36,4 +36,4 @@ export const Rss = (allProps: IconProps) => {
   );
 };
 
-export default Rss;
+export default RSS;

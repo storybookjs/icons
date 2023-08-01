@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Graphline = (allProps: IconProps) => {
+export const GraphLine = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -32,4 +32,4 @@ export const Graphline = (allProps: IconProps) => {
   );
 };
 
-export default Graphline;
+export default GraphLine;

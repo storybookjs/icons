@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Paperclip = (allProps: IconProps) => {
+export const PaperClip = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Paperclip = (allProps: IconProps) => {
   );
 };
 
-export default Paperclip;
+export default PaperClip;

@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Sidebaralttoggle } from './Sidebaralttoggle';
+import { SidebarAltToggle } from './SidebarAltToggle';
 
-const meta: Meta<typeof Sidebaralttoggle> = {
-  component: Sidebaralttoggle,
+const meta: Meta<typeof SidebarAltToggle> = {
+  component: SidebarAltToggle,
 };
 
 export default meta;
-type Story = StoryObj<typeof Sidebaralttoggle>;
+type Story = StoryObj<typeof SidebarAltToggle>;
 
 export const Default: Story = { args: { size: 100 } };

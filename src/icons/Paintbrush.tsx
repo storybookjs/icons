@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Paintbrush = (allProps: IconProps) => {
+export const PaintBrush = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Paintbrush = (allProps: IconProps) => {
   );
 };
 
-export default Paintbrush;
+export default PaintBrush;

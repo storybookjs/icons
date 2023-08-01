@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Doclist = (allProps: IconProps) => {
+export const CocList = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -32,4 +32,4 @@ export const Doclist = (allProps: IconProps) => {
   );
 };
 
-export default Doclist;
+export default CocList;

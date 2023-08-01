@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Bookmarkhollow } from './Bookmarkhollow';
+import { BookmarkHollow } from './BookmarkHollow';
 
-const meta: Meta<typeof Bookmarkhollow> = {
-  component: Bookmarkhollow,
+const meta: Meta<typeof BookmarkHollow> = {
+  component: BookmarkHollow,
 };
 
 export default meta;
-type Story = StoryObj<typeof Bookmarkhollow>;
+type Story = StoryObj<typeof BookmarkHollow>;
 
 export const Default: Story = { args: { size: 100 } };

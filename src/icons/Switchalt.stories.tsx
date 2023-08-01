@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Switchalt } from './Switchalt';
+import { SwitchAlt } from './SwitchAlt';
 
-const meta: Meta<typeof Switchalt> = {
-  component: Switchalt,
+const meta: Meta<typeof SwitchAlt> = {
+  component: SwitchAlt,
 };
 
 export default meta;
-type Story = StoryObj<typeof Switchalt>;
+type Story = StoryObj<typeof SwitchAlt>;
 
 export const Default: Story = { args: { size: 100 } };

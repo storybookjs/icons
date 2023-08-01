@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Sidebaralttoggle = (allProps: IconProps) => {
+export const SidebarAltToggle = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -32,4 +32,4 @@ export const Sidebaralttoggle = (allProps: IconProps) => {
   );
 };
 
-export default Sidebaralttoggle;
+export default SidebarAltToggle;

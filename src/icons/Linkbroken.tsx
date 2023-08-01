@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Linkbroken = (allProps: IconProps) => {
+export const LinkBroken = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Linkbroken = (allProps: IconProps) => {
   );
 };
 
-export default Linkbroken;
+export default LinkBroken;

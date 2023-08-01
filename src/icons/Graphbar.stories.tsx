@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Graphbar } from './Graphbar';
+import { GraphBar } from './GraphBar';
 
-const meta: Meta<typeof Graphbar> = {
-  component: Graphbar,
+const meta: Meta<typeof GraphBar> = {
+  component: GraphBar,
 };
 
 export default meta;
-type Story = StoryObj<typeof Graphbar>;
+type Story = StoryObj<typeof GraphBar>;
 
 export const Default: Story = { args: { size: 100 } };

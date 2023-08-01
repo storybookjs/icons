@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Paintbrush } from './Paintbrush';
+import { PaintBrush } from './PaintBrush';
 
-const meta: Meta<typeof Paintbrush> = {
-  component: Paintbrush,
+const meta: Meta<typeof PaintBrush> = {
+  component: PaintBrush,
 };
 
 export default meta;
-type Story = StoryObj<typeof Paintbrush>;
+type Story = StoryObj<typeof PaintBrush>;
 
 export const Default: Story = { args: { size: 100 } };

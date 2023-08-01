@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Menureverse } from './Menureverse';
+import { MenuReverse } from './MenuReverse';
 
-const meta: Meta<typeof Menureverse> = {
-  component: Menureverse,
+const meta: Meta<typeof MenuReverse> = {
+  component: MenuReverse,
 };
 
 export default meta;
-type Story = StoryObj<typeof Menureverse>;
+type Story = StoryObj<typeof MenuReverse>;
 
 export const Default: Story = { args: { size: 100 } };

@@ -1,10 +1,10 @@
 export { User } from './../icons/User';
-export { Useralt } from './../icons/Useralt';
-export { Useradd } from './../icons/Useradd';
+export { UserAlt } from './../icons/UserAlt';
+export { UserAdd } from './../icons/UserAdd';
 export { Users } from './../icons/Users';
 export { Profile } from './../icons/Profile';
-export { Facehappy } from './../icons/Facehappy';
-export { Faceneutral } from './../icons/Faceneutral';
-export { Facesad } from './../icons/Facesad';
+export { FaceHappy } from './../icons/FaceHappy';
+export { FaceNeutral } from './../icons/FaceNeutral';
+export { FaceSad } from './../icons/FaceSad';
 export { Accessibility } from './../icons/Accessibility';
 export { AccessibilityAlt } from './../icons/AccessibilityAlt';

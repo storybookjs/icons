@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Cloudhollow } from './Cloudhollow';
+import { CloudHollow } from './CloudHollow';
 
-const meta: Meta<typeof Cloudhollow> = {
-  component: Cloudhollow,
+const meta: Meta<typeof CloudHollow> = {
+  component: CloudHollow,
 };
 
 export default meta;
-type Story = StoryObj<typeof Cloudhollow>;
+type Story = StoryObj<typeof CloudHollow>;
 
 export const Default: Story = { args: { size: 100 } };

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Commentadd = (allProps: IconProps) => {
+export const CommentAdd = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -32,4 +32,4 @@ export const Commentadd = (allProps: IconProps) => {
   );
 };
 
-export default Commentadd;
+export default CommentAdd;

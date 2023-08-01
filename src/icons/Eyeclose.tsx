@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Eyeclose = (allProps: IconProps) => {
+export const EyeClose = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -30,4 +30,4 @@ export const Eyeclose = (allProps: IconProps) => {
   );
 };
 
-export default Eyeclose;
+export default EyeClose;

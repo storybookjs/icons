@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Facehappy = (allProps: IconProps) => {
+export const FaceHappy = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -32,4 +32,4 @@ export const Facehappy = (allProps: IconProps) => {
   );
 };
 
-export default Facehappy;
+export default FaceHappy;

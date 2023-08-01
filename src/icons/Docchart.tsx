@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Docchart = (allProps: IconProps) => {
+export const DocChart = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Docchart = (allProps: IconProps) => {
   );
 };
 
-export default Docchart;
+export default DocChart;

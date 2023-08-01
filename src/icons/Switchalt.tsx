@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Switchalt = (allProps: IconProps) => {
+export const SwitchAlt = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Switchalt = (allProps: IconProps) => {
   );
 };
 
-export default Switchalt;
+export default SwitchAlt;

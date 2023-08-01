@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Docchart } from './Docchart';
+import { DocChart } from './DocChart';
 
-const meta: Meta<typeof Docchart> = {
-  component: Docchart,
+const meta: Meta<typeof DocChart> = {
+  component: DocChart,
 };
 
 export default meta;
-type Story = StoryObj<typeof Docchart>;
+type Story = StoryObj<typeof DocChart>;
 
 export const Default: Story = { args: { size: 100 } };

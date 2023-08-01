@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Circlehollow } from './Circlehollow';
+import { CircleHollow } from './CircleHollow';
 
-const meta: Meta<typeof Circlehollow> = {
-  component: Circlehollow,
+const meta: Meta<typeof CircleHollow> = {
+  component: CircleHollow,
 };
 
 export default meta;
-type Story = StoryObj<typeof Circlehollow>;
+type Story = StoryObj<typeof CircleHollow>;
 
 export const Default: Story = { args: { size: 100 } };

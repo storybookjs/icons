@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Circlehollow = (allProps: IconProps) => {
+export const CircleHollow = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Circlehollow = (allProps: IconProps) => {
   );
 };
 
-export default Circlehollow;
+export default CircleHollow;

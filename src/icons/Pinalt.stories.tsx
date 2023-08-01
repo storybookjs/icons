@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Pinalt } from './Pinalt';
+import { PinAlt } from './PinAlt';
 
-const meta: Meta<typeof Pinalt> = {
-  component: Pinalt,
+const meta: Meta<typeof PinAlt> = {
+  component: PinAlt,
 };
 
 export default meta;
-type Story = StoryObj<typeof Pinalt>;
+type Story = StoryObj<typeof PinAlt>;
 
 export const Default: Story = { args: { size: 100 } };

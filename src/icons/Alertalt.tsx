@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Alertalt = (allProps: IconProps) => {
+export const AlertAlt = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Alertalt = (allProps: IconProps) => {
   );
 };
 
-export default Alertalt;
+export default AlertAlt;

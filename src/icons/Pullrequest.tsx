@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Pullrequest = (allProps: IconProps) => {
+export const PullRequest = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Pullrequest = (allProps: IconProps) => {
   );
 };
 
-export default Pullrequest;
+export default PullRequest;

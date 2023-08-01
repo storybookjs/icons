@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Paperclip } from './Paperclip';
+import { PaperClip } from './PaperClip';
 
-const meta: Meta<typeof Paperclip> = {
-  component: Paperclip,
+const meta: Meta<typeof PaperClip> = {
+  component: PaperClip,
 };
 
 export default meta;
-type Story = StoryObj<typeof Paperclip>;
+type Story = StoryObj<typeof PaperClip>;
 
 export const Default: Story = { args: { size: 100 } };

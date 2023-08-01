@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Gdrive = (allProps: IconProps) => {
+export const GDrive = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Gdrive = (allProps: IconProps) => {
   );
 };
 
-export default Gdrive;
+export default GDrive;

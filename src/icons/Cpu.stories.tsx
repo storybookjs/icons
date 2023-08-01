@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Cpu } from './Cpu';
+import { CPU } from './CPU';
 
-const meta: Meta<typeof Cpu> = {
-  component: Cpu,
+const meta: Meta<typeof CPU> = {
+  component: CPU,
 };
 
 export default meta;
-type Story = StoryObj<typeof Cpu>;
+type Story = StoryObj<typeof CPU>;
 
 export const Default: Story = { args: { size: 100 } };

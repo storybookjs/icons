@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Azuredevops = (allProps: IconProps) => {
+export const AzureDevOps = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -33,4 +33,4 @@ export const Azuredevops = (allProps: IconProps) => {
   );
 };
 
-export default Azuredevops;
+export default AzureDevOps;

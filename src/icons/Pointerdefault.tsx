@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Pointerdefault = (allProps: IconProps) => {
+export const PointerDefault = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Pointerdefault = (allProps: IconProps) => {
   );
 };
 
-export default Pointerdefault;
+export default PointerDefault;

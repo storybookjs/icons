@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Useradd } from './Useradd';
+import { UserAdd } from './UserAdd';
 
-const meta: Meta<typeof Useradd> = {
-  component: Useradd,
+const meta: Meta<typeof UserAdd> = {
+  component: UserAdd,
 };
 
 export default meta;
-type Story = StoryObj<typeof Useradd>;
+type Story = StoryObj<typeof UserAdd>;
 
 export const Default: Story = { args: { size: 100 } };

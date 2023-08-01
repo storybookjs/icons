@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Linkbroken } from './Linkbroken';
+import { LinkBroken } from './LinkBroken';
 
-const meta: Meta<typeof Linkbroken> = {
-  component: Linkbroken,
+const meta: Meta<typeof LinkBroken> = {
+  component: LinkBroken,
 };
 
 export default meta;
-type Story = StoryObj<typeof Linkbroken>;
+type Story = StoryObj<typeof LinkBroken>;
 
 export const Default: Story = { args: { size: 100 } };

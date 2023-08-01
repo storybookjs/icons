@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Faceneutral } from './Faceneutral';
+import { FaceNeutral } from './FaceNeutral';
 
-const meta: Meta<typeof Faceneutral> = {
-  component: Faceneutral,
+const meta: Meta<typeof FaceNeutral> = {
+  component: FaceNeutral,
 };
 
 export default meta;
-type Story = StoryObj<typeof Faceneutral>;
+type Story = StoryObj<typeof FaceNeutral>;
 
 export const Default: Story = { args: { size: 100 } };

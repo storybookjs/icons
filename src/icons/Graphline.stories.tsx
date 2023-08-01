@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Graphline } from './Graphline';
+import { GraphLine } from './GraphLine';
 
-const meta: Meta<typeof Graphline> = {
-  component: Graphline,
+const meta: Meta<typeof GraphLine> = {
+  component: GraphLine,
 };
 
 export default meta;
-type Story = StoryObj<typeof Graphline>;
+type Story = StoryObj<typeof GraphLine>;
 
 export const Default: Story = { args: { size: 100 } };

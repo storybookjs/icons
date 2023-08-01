@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Zoomout = (allProps: IconProps) => {
+export const ZoomOut = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -29,4 +29,4 @@ export const Zoomout = (allProps: IconProps) => {
   );
 };
 
-export default Zoomout;
+export default ZoomOut;

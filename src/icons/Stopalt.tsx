@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Stopalt = (allProps: IconProps) => {
+export const StopAlt = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -26,4 +26,4 @@ export const Stopalt = (allProps: IconProps) => {
   );
 };
 
-export default Stopalt;
+export default StopAlt;

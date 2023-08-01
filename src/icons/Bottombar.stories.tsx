@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { Bottombar } from './Bottombar';
+import { BottomBar } from './BottomBar';
 
-const meta: Meta<typeof Bottombar> = {
-  component: Bottombar,
+const meta: Meta<typeof BottomBar> = {
+  component: BottomBar,
 };
 
 export default meta;
-type Story = StoryObj<typeof Bottombar>;
+type Story = StoryObj<typeof BottomBar>;
 
 export const Default: Story = { args: { size: 100 } };

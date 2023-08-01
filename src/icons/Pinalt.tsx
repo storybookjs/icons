@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Pinalt = (allProps: IconProps) => {
+export const PinAlt = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -35,4 +35,4 @@ export const Pinalt = (allProps: IconProps) => {
   );
 };
 
-export default Pinalt;
+export default PinAlt;

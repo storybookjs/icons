@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IconProps } from '../types';
 import { IconWrapper } from '../IconWrapper';
 
-export const Pointerhand = (allProps: IconProps) => {
+export const PointerHand = (allProps: IconProps) => {
   const { svgProps: props, ...restProps } = allProps;
   return (
     <IconWrapper
@@ -28,4 +28,4 @@ export const Pointerhand = (allProps: IconProps) => {
   );
 };
 
-export default Pointerhand;
+export default PointerHand;
