@@ -21,9 +21,9 @@ export const PhotoDrag = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.PhotoDrag };
 }));
-export const Gridalt = withSuspense(lazy(async () => {
+export const GridAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Gridalt };
+  return { default: m.GridAlt };
 }));
 export const Search = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
@@ -33,37 +33,37 @@ export const Zoom = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Zoom };
 }));
-export const Zoomout = withSuspense(lazy(async () => {
+export const ZoomOut = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Zoomout };
+  return { default: m.ZoomOut };
 }));
-export const Zoomreset = withSuspense(lazy(async () => {
+export const ZoomReset = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Zoomreset };
+  return { default: m.ZoomReset };
 }));
 export const Eye = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Eye };
 }));
-export const Eyeclose = withSuspense(lazy(async () => {
+export const EyeClose = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Eyeclose };
+  return { default: m.EyeClose };
 }));
 export const Lightning = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Lightning };
 }));
-export const Lightningoff = withSuspense(lazy(async () => {
+export const LightningOff = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Lightningoff };
+  return { default: m.LightningOff };
 }));
 export const Contrast = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Contrast };
 }));
-export const Switchalt = withSuspense(lazy(async () => {
+export const SwitchAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Switchalt };
+  return { default: m.SwitchAlt };
 }));
 export const Mirror = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
@@ -73,9 +73,9 @@ export const Grow = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Grow };
 }));
-export const Paintbrush = withSuspense(lazy(async () => {
+export const PaintBrush = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Paintbrush };
+  return { default: m.PaintBrush };
 }));
 export const Ruler = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
@@ -101,29 +101,29 @@ export const Play = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Play };
 }));
-export const Playback = withSuspense(lazy(async () => {
+export const PlayBack = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Playback };
+  return { default: m.PlayBack };
 }));
-export const Playnext = withSuspense(lazy(async () => {
+export const PlayNext = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Playnext };
+  return { default: m.PlayNext };
 }));
 export const Rewind = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
   return { default: m.Rewind };
 }));
-export const Fastforward = withSuspense(lazy(async () => {
+export const FastForward = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Fastforward };
+  return { default: m.FastForward };
 }));
-export const Stopalt = withSuspense(lazy(async () => {
+export const StopAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Stopalt };
+  return { default: m.StopAlt };
 }));
-export const Sidebyside = withSuspense(lazy(async () => {
+export const SideBySide = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
-  return { default: m.Sidebyside };
+  return { default: m.SideBySide };
 }));
 export const Stacked = withSuspense(lazy(async () => {
   const m = await import('./groups/Images');
@@ -161,37 +161,37 @@ export const Print = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
   return { default: m.Print };
 }));
-export const Graphline = withSuspense(lazy(async () => {
+export const GraphLine = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
-  return { default: m.Graphline };
+  return { default: m.GraphLine };
 }));
 export const Calendar = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
   return { default: m.Calendar };
 }));
-export const Graphbar = withSuspense(lazy(async () => {
+export const GraphBar = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
-  return { default: m.Graphbar };
+  return { default: m.GraphBar };
 }));
 export const Menu = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
   return { default: m.Menu };
 }));
-export const Menureverse = withSuspense(lazy(async () => {
+export const MenuReverse = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
-  return { default: m.Menureverse };
+  return { default: m.MenuReverse };
 }));
 export const Filter = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
   return { default: m.Filter };
 }));
-export const Docchart = withSuspense(lazy(async () => {
+export const DocChart = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
-  return { default: m.Docchart };
+  return { default: m.DocChart };
 }));
-export const Doclist = withSuspense(lazy(async () => {
+export const DocList = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
-  return { default: m.Doclist };
+  return { default: m.DocList };
 }));
 export const Markup = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');
@@ -205,17 +205,17 @@ export const Italic = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');
   return { default: m.Italic };
 }));
-export const Paperclip = withSuspense(lazy(async () => {
+export const PaperClip = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');
-  return { default: m.Paperclip };
+  return { default: m.PaperClip };
 }));
-export const Listordered = withSuspense(lazy(async () => {
+export const ListOrdered = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');
-  return { default: m.Listordered };
+  return { default: m.ListOrdered };
 }));
-export const Listunordered = withSuspense(lazy(async () => {
+export const ListUnordered = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');
-  return { default: m.Listunordered };
+  return { default: m.ListUnordered };
 }));
 export const Paragraph = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');
@@ -237,9 +237,9 @@ export const Branch = withSuspense(lazy(async () => {
   const m = await import('./groups/Git');
   return { default: m.Branch };
 }));
-export const Pullrequest = withSuspense(lazy(async () => {
+export const PullRequest = withSuspense(lazy(async () => {
   const m = await import('./groups/Git');
-  return { default: m.Pullrequest };
+  return { default: m.PullRequest };
 }));
 export const Merge = withSuspense(lazy(async () => {
   const m = await import('./groups/Git');
@@ -269,9 +269,9 @@ export const Storybook = withSuspense(lazy(async () => {
   const m = await import('./groups/Logos');
   return { default: m.Storybook };
 }));
-export const Azuredevops = withSuspense(lazy(async () => {
+export const AzureDevOps = withSuspense(lazy(async () => {
   const m = await import('./groups/Logos');
-  return { default: m.Azuredevops };
+  return { default: m.AzureDevOps };
 }));
 export const Bitbucket = withSuspense(lazy(async () => {
   const m = await import('./groups/Logos');
@@ -297,9 +297,9 @@ export const Figma = withSuspense(lazy(async () => {
   const m = await import('./groups/Logos');
   return { default: m.Figma };
 }));
-export const Gdrive = withSuspense(lazy(async () => {
+export const GDrive = withSuspense(lazy(async () => {
   const m = await import('./groups/Logos');
-  return { default: m.Gdrive };
+  return { default: m.GDrive };
 }));
 export const Github = withSuspense(lazy(async () => {
   const m = await import('./groups/Logos');
@@ -365,25 +365,25 @@ export const SidebarAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
   return { default: m.SidebarAlt };
 }));
-export const Sidebaralttoggle = withSuspense(lazy(async () => {
+export const SidebarAltToggle = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
-  return { default: m.Sidebaralttoggle };
+  return { default: m.SidebarAltToggle };
 }));
-export const Sidebartoggle = withSuspense(lazy(async () => {
+export const SidebarToggle = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
-  return { default: m.Sidebartoggle };
+  return { default: m.SidebarToggle };
 }));
-export const Bottombar = withSuspense(lazy(async () => {
+export const BottomBar = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
-  return { default: m.Bottombar };
+  return { default: m.BottomBar };
 }));
-export const Bottombartoggle = withSuspense(lazy(async () => {
+export const BottomBarToggle = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
-  return { default: m.Bottombartoggle };
+  return { default: m.BottomBarToggle };
 }));
-export const Cpu = withSuspense(lazy(async () => {
+export const CPU = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
-  return { default: m.Cpu };
+  return { default: m.CPU };
 }));
 export const Database = withSuspense(lazy(async () => {
   const m = await import('./groups/Devices');
@@ -437,13 +437,13 @@ export const Form = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
   return { default: m.Form };
 }));
-export const Batchdeny = withSuspense(lazy(async () => {
+export const BatchDeny = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Batchdeny };
+  return { default: m.BatchDeny };
 }));
-export const Batchaccept = withSuspense(lazy(async () => {
+export const BatchAccept = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Batchaccept };
+  return { default: m.BatchAccept };
 }));
 export const Controls = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
@@ -465,9 +465,9 @@ export const Trash = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
   return { default: m.Trash };
 }));
-export const Pinalt = withSuspense(lazy(async () => {
+export const PinAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Pinalt };
+  return { default: m.PinAlt };
 }));
 export const Unpin = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
@@ -509,13 +509,13 @@ export const Comment = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
   return { default: m.Comment };
 }));
-export const Commentadd = withSuspense(lazy(async () => {
+export const CommentAdd = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Commentadd };
+  return { default: m.CommentAdd };
 }));
-export const Requestchange = withSuspense(lazy(async () => {
+export const RequestChange = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Requestchange };
+  return { default: m.RequestChange };
 }));
 export const Comments = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
@@ -553,13 +553,13 @@ export const Type = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
   return { default: m.Type };
 }));
-export const Pointerdefault = withSuspense(lazy(async () => {
+export const PointerDefault = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Pointerdefault };
+  return { default: m.PointerDefault };
 }));
-export const Pointerhand = withSuspense(lazy(async () => {
+export const PointerHand = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
-  return { default: m.Pointerhand };
+  return { default: m.PointerHand };
 }));
 export const Command = withSuspense(lazy(async () => {
   const m = await import('./groups/CRUD');
@@ -581,9 +581,9 @@ export const Alert = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Alert };
 }));
-export const Alertalt = withSuspense(lazy(async () => {
+export const AlertAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Alertalt };
+  return { default: m.AlertAlt };
 }));
 export const Email = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
@@ -597,41 +597,41 @@ export const Link = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Link };
 }));
-export const Linkbroken = withSuspense(lazy(async () => {
+export const LinkBroken = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Linkbroken };
+  return { default: m.LinkBroken };
 }));
 export const Bell = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Bell };
 }));
-export const Rss = withSuspense(lazy(async () => {
+export const RSS = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Rss };
+  return { default: m.RSS };
 }));
-export const Sharealt = withSuspense(lazy(async () => {
+export const ShareAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Sharealt };
+  return { default: m.ShareAlt };
 }));
 export const Share = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Share };
 }));
-export const Jumpto = withSuspense(lazy(async () => {
+export const JumpTo = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Jumpto };
+  return { default: m.JumpTo };
 }));
-export const Circlehollow = withSuspense(lazy(async () => {
+export const CircleHollow = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Circlehollow };
+  return { default: m.CircleHollow };
 }));
 export const Circle = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Circle };
 }));
-export const Bookmarkhollow = withSuspense(lazy(async () => {
+export const BookmarkHollow = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Bookmarkhollow };
+  return { default: m.BookmarkHollow };
 }));
 export const Bookmark = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
@@ -641,17 +641,17 @@ export const Diamond = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Diamond };
 }));
-export const Hearthollow = withSuspense(lazy(async () => {
+export const HeartHollow = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Hearthollow };
+  return { default: m.HeartHollow };
 }));
 export const Heart = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Heart };
 }));
-export const Starhollow = withSuspense(lazy(async () => {
+export const StarHollow = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Starhollow };
+  return { default: m.StarHollow };
 }));
 export const Star = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
@@ -665,9 +665,9 @@ export const Verified = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Verified };
 }));
-export const Thumbsup = withSuspense(lazy(async () => {
+export const ThumbsUp = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Thumbsup };
+  return { default: m.ThumbsUp };
 }));
 export const Shield = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
@@ -689,9 +689,9 @@ export const Flag = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
   return { default: m.Flag };
 }));
-export const Cloudhollow = withSuspense(lazy(async () => {
+export const CloudHollow = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
-  return { default: m.Cloudhollow };
+  return { default: m.CloudHollow };
 }));
 export const Cloud = withSuspense(lazy(async () => {
   const m = await import('./groups/Communicate');
@@ -849,13 +849,13 @@ export const User = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
   return { default: m.User };
 }));
-export const Useralt = withSuspense(lazy(async () => {
+export const UserAlt = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
-  return { default: m.Useralt };
+  return { default: m.UserAlt };
 }));
-export const Useradd = withSuspense(lazy(async () => {
+export const UserAdd = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
-  return { default: m.Useradd };
+  return { default: m.UserAdd };
 }));
 export const Users = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
@@ -865,17 +865,17 @@ export const Profile = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
   return { default: m.Profile };
 }));
-export const Facehappy = withSuspense(lazy(async () => {
+export const FaceHappy = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
-  return { default: m.Facehappy };
+  return { default: m.FaceHappy };
 }));
-export const Faceneutral = withSuspense(lazy(async () => {
+export const FaceNeutral = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
-  return { default: m.Faceneutral };
+  return { default: m.FaceNeutral };
 }));
-export const Facesad = withSuspense(lazy(async () => {
+export const FaceSad = withSuspense(lazy(async () => {
   const m = await import('./groups/People');
-  return { default: m.Facesad };
+  return { default: m.FaceSad };
 }));
 export const Accessibility = withSuspense(lazy(async () => {
   const m = await import('./groups/People');

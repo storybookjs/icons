@@ -1,12 +1,12 @@
 export { Storybook } from './../icons/Storybook';
-export { Azuredevops } from './../icons/Azuredevops';
+export { AzureDevOps } from './../icons/AzureDevOps';
 export { Bitbucket } from './../icons/Bitbucket';
 export { Chromatic } from './../icons/Chromatic';
 export { ComponentDriven } from './../icons/ComponentDriven';
 export { Discord } from './../icons/Discord';
 export { Facebook } from './../icons/Facebook';
 export { Figma } from './../icons/Figma';
-export { Gdrive } from './../icons/Gdrive';
+export { GDrive } from './../icons/GDrive';
 export { Github } from './../icons/Github';
 export { Gitlab } from './../icons/Gitlab';
 export { Google } from './../icons/Google';

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Photo, Component, Grid, Outline, PhotoDrag, Gridalt, Search, Zoom, Zoomout, Zoomreset, Eye, Eyeclose, Lightning, Lightningoff, Contrast, Switchalt, Mirror, Grow, Paintbrush, Ruler, Stop, Camera, Video, Speaker, Play, Playback, Playnext, Rewind, Fastforward, Stopalt, Sidebyside, Stacked, Sun, Moon, } from './groups/Images';
-import { Book, Document, Copy, Category, Folder, Print, Graphline, Calendar, Graphbar, Menu, Menureverse, Filter, Docchart, Doclist, } from './groups/Documents';
-import { Markup, Bold, Italic, Paperclip, Listordered, Listunordered, Paragraph, Markdown, } from './groups/Editing';
-import { Repo, Commit, Branch, Pullrequest, Merge, } from './groups/Git';
+import { Photo, Component, Grid, Outline, PhotoDrag, GridAlt, Search, Zoom, ZoomOut, ZoomReset, Eye, EyeClose, Lightning, LightningOff, Contrast, SwitchAlt, Mirror, Grow, PaintBrush, Ruler, Stop, Camera, Video, Speaker, Play, PlayBack, PlayNext, Rewind, FastForward, StopAlt, SideBySide, Stacked, Sun, Moon, } from './groups/Images';
+import { Book, Document, Copy, Category, Folder, Print, GraphLine, Calendar, GraphBar, Menu, MenuReverse, Filter, DocChart, DocList, } from './groups/Documents';
+import { Markup, Bold, Italic, PaperClip, ListOrdered, ListUnordered, Paragraph, Markdown, } from './groups/Editing';
+import { Repo, Commit, Branch, PullRequest, Merge, } from './groups/Git';
 import { Apple, Linux, Ubuntu, Windows, Chrome, } from './groups/OS';
-import { Storybook, Azuredevops, Bitbucket, Chromatic, ComponentDriven, Discord, Facebook, Figma, Gdrive, Github, Gitlab, Google, Graphql, Medium, Redux, Twitter, Youtube, VSCode, Linkedin, } from './groups/Logos';
-import { Browser, Tablet, Mobile, Watch, Sidebar, SidebarAlt, Sidebaralttoggle, Sidebartoggle, Bottombar, Bottombartoggle, Cpu, Database, Memory, Structure, Box, Power, } from './groups/Devices';
-import { Edit, Cog, Nut, Wrench, Ellipsis, Wand, Check, Form, Batchdeny, Batchaccept, Controls, Plus, CloseAlt, Cross, Trash, Pinalt, Unpin, Add, Subtract, Close, Delete, Passed, Changed, Failed, Clear, Comment, Commentadd, Requestchange, Comments, Chat, Lock, Unlock, Key, Outbox, Credit, Button, Type, Pointerdefault, Pointerhand, Command, } from './groups/CRUD';
-import { Info, Question, Support, Alert, Alertalt, Email, Phone, Link, Linkbroken, Bell, Rss, Sharealt, Share, Jumpto, Circlehollow, Circle, Bookmarkhollow, Bookmark, Diamond, Hearthollow, Heart, Starhollow, Star, Certificate, Verified, Thumbsup, Shield, Basket, Beaker, Hourglass, Flag, Cloudhollow, Cloud, Sticker, } from './groups/Communicate';
+import { Storybook, AzureDevOps, Bitbucket, Chromatic, ComponentDriven, Discord, Facebook, Figma, GDrive, Github, Gitlab, Google, Graphql, Medium, Redux, Twitter, Youtube, VSCode, Linkedin, } from './groups/Logos';
+import { Browser, Tablet, Mobile, Watch, Sidebar, SidebarAlt, SidebarAltToggle, SidebarToggle, BottomBar, BottomBarToggle, CPU, Database, Memory, Structure, Box, Power, } from './groups/Devices';
+import { Edit, Cog, Nut, Wrench, Ellipsis, Wand, Check, Form, BatchDeny, BatchAccept, Controls, Plus, CloseAlt, Cross, Trash, PinAlt, Unpin, Add, Subtract, Close, Delete, Passed, Changed, Failed, Clear, Comment, CommentAdd, RequestChange, Comments, Chat, Lock, Unlock, Key, Outbox, Credit, Button, Type, PointerDefault, PointerHand, Command, } from './groups/CRUD';
+import { Info, Question, Support, Alert, AlertAlt, Email, Phone, Link, LinkBroken, Bell, RSS, ShareAlt, Share, JumpTo, CircleHollow, Circle, BookmarkHollow, Bookmark, Diamond, HeartHollow, Heart, StarHollow, Star, Certificate, Verified, ThumbsUp, Shield, Basket, Beaker, Hourglass, Flag, CloudHollow, Cloud, Sticker, } from './groups/Communicate';
 import { ChevronUp, ChevronDown, ChevronLeft, ChevronRight, ArrowUp, ArrowDown, ArrowLeft, ArrowRight, ArrowSolidUp, ArrowSolidDown, ArrowSolidLeft, ArrowSolidRight, ExpandAlt, Collapse, Expand, Unfold, Transfer, Redirect, Undo, Reply, Sync, Upload, Download, Back, Proceed, Refresh, Globe, Compass, Location, Pin, Time, Dashboard, Timer, Home, Admin, Direction, } from './groups/Wayfinding';
-import { User, Useralt, Useradd, Users, Profile, Facehappy, Faceneutral, Facesad, Accessibility, AccessibilityAlt, } from './groups/People';
+import { User, UserAlt, UserAdd, Users, Profile, FaceHappy, FaceNeutral, FaceSad, Accessibility, AccessibilityAlt, } from './groups/People';
 
 export const list = [
   {
@@ -36,8 +36,8 @@ export const list = [
         icon: <PhotoDrag />
       },
       {
-        name: 'Gridalt',
-        icon: <Gridalt />
+        name: 'GridAlt',
+        icon: <GridAlt />
       },
       {
         name: 'Search',
@@ -48,36 +48,36 @@ export const list = [
         icon: <Zoom />
       },
       {
-        name: 'Zoomout',
-        icon: <Zoomout />
+        name: 'ZoomOut',
+        icon: <ZoomOut />
       },
       {
-        name: 'Zoomreset',
-        icon: <Zoomreset />
+        name: 'ZoomReset',
+        icon: <ZoomReset />
       },
       {
         name: 'Eye',
         icon: <Eye />
       },
       {
-        name: 'Eyeclose',
-        icon: <Eyeclose />
+        name: 'EyeClose',
+        icon: <EyeClose />
       },
       {
         name: 'Lightning',
         icon: <Lightning />
       },
       {
-        name: 'Lightningoff',
-        icon: <Lightningoff />
+        name: 'LightningOff',
+        icon: <LightningOff />
       },
       {
         name: 'Contrast',
         icon: <Contrast />
       },
       {
-        name: 'Switchalt',
-        icon: <Switchalt />
+        name: 'SwitchAlt',
+        icon: <SwitchAlt />
       },
       {
         name: 'Mirror',
@@ -88,8 +88,8 @@ export const list = [
         icon: <Grow />
       },
       {
-        name: 'Paintbrush',
-        icon: <Paintbrush />
+        name: 'PaintBrush',
+        icon: <PaintBrush />
       },
       {
         name: 'Ruler',
@@ -116,28 +116,28 @@ export const list = [
         icon: <Play />
       },
       {
-        name: 'Playback',
-        icon: <Playback />
+        name: 'PlayBack',
+        icon: <PlayBack />
       },
       {
-        name: 'Playnext',
-        icon: <Playnext />
+        name: 'PlayNext',
+        icon: <PlayNext />
       },
       {
         name: 'Rewind',
         icon: <Rewind />
       },
       {
-        name: 'Fastforward',
-        icon: <Fastforward />
+        name: 'FastForward',
+        icon: <FastForward />
       },
       {
-        name: 'Stopalt',
-        icon: <Stopalt />
+        name: 'StopAlt',
+        icon: <StopAlt />
       },
       {
-        name: 'Sidebyside',
-        icon: <Sidebyside />
+        name: 'SideBySide',
+        icon: <SideBySide />
       },
       {
         name: 'Stacked',
@@ -181,36 +181,36 @@ export const list = [
         icon: <Print />
       },
       {
-        name: 'Graphline',
-        icon: <Graphline />
+        name: 'GraphLine',
+        icon: <GraphLine />
       },
       {
         name: 'Calendar',
         icon: <Calendar />
       },
       {
-        name: 'Graphbar',
-        icon: <Graphbar />
+        name: 'GraphBar',
+        icon: <GraphBar />
       },
       {
         name: 'Menu',
         icon: <Menu />
       },
       {
-        name: 'Menureverse',
-        icon: <Menureverse />
+        name: 'MenuReverse',
+        icon: <MenuReverse />
       },
       {
         name: 'Filter',
         icon: <Filter />
       },
       {
-        name: 'Docchart',
-        icon: <Docchart />
+        name: 'DocChart',
+        icon: <DocChart />
       },
       {
-        name: 'Doclist',
-        icon: <Doclist />
+        name: 'DocList',
+        icon: <DocList />
       },
     ]
   },
@@ -230,16 +230,16 @@ export const list = [
         icon: <Italic />
       },
       {
-        name: 'Paperclip',
-        icon: <Paperclip />
+        name: 'PaperClip',
+        icon: <PaperClip />
       },
       {
-        name: 'Listordered',
-        icon: <Listordered />
+        name: 'ListOrdered',
+        icon: <ListOrdered />
       },
       {
-        name: 'Listunordered',
-        icon: <Listunordered />
+        name: 'ListUnordered',
+        icon: <ListUnordered />
       },
       {
         name: 'Paragraph',
@@ -267,8 +267,8 @@ export const list = [
         icon: <Branch />
       },
       {
-        name: 'Pullrequest',
-        icon: <Pullrequest />
+        name: 'PullRequest',
+        icon: <PullRequest />
       },
       {
         name: 'Merge',
@@ -309,8 +309,8 @@ export const list = [
         icon: <Storybook />
       },
       {
-        name: 'Azuredevops',
-        icon: <Azuredevops />
+        name: 'AzureDevOps',
+        icon: <AzureDevOps />
       },
       {
         name: 'Bitbucket',
@@ -337,8 +337,8 @@ export const list = [
         icon: <Figma />
       },
       {
-        name: 'Gdrive',
-        icon: <Gdrive />
+        name: 'GDrive',
+        icon: <GDrive />
       },
       {
         name: 'Github',
@@ -410,24 +410,24 @@ export const list = [
         icon: <SidebarAlt />
       },
       {
-        name: 'Sidebaralttoggle',
-        icon: <Sidebaralttoggle />
+        name: 'SidebarAltToggle',
+        icon: <SidebarAltToggle />
       },
       {
-        name: 'Sidebartoggle',
-        icon: <Sidebartoggle />
+        name: 'SidebarToggle',
+        icon: <SidebarToggle />
       },
       {
-        name: 'Bottombar',
-        icon: <Bottombar />
+        name: 'BottomBar',
+        icon: <BottomBar />
       },
       {
-        name: 'Bottombartoggle',
-        icon: <Bottombartoggle />
+        name: 'BottomBarToggle',
+        icon: <BottomBarToggle />
       },
       {
-        name: 'Cpu',
-        icon: <Cpu />
+        name: 'CPU',
+        icon: <CPU />
       },
       {
         name: 'Database',
@@ -487,12 +487,12 @@ export const list = [
         icon: <Form />
       },
       {
-        name: 'Batchdeny',
-        icon: <Batchdeny />
+        name: 'BatchDeny',
+        icon: <BatchDeny />
       },
       {
-        name: 'Batchaccept',
-        icon: <Batchaccept />
+        name: 'BatchAccept',
+        icon: <BatchAccept />
       },
       {
         name: 'Controls',
@@ -515,8 +515,8 @@ export const list = [
         icon: <Trash />
       },
       {
-        name: 'Pinalt',
-        icon: <Pinalt />
+        name: 'PinAlt',
+        icon: <PinAlt />
       },
       {
         name: 'Unpin',
@@ -559,12 +559,12 @@ export const list = [
         icon: <Comment />
       },
       {
-        name: 'Commentadd',
-        icon: <Commentadd />
+        name: 'CommentAdd',
+        icon: <CommentAdd />
       },
       {
-        name: 'Requestchange',
-        icon: <Requestchange />
+        name: 'RequestChange',
+        icon: <RequestChange />
       },
       {
         name: 'Comments',
@@ -603,12 +603,12 @@ export const list = [
         icon: <Type />
       },
       {
-        name: 'Pointerdefault',
-        icon: <Pointerdefault />
+        name: 'PointerDefault',
+        icon: <PointerDefault />
       },
       {
-        name: 'Pointerhand',
-        icon: <Pointerhand />
+        name: 'PointerHand',
+        icon: <PointerHand />
       },
       {
         name: 'Command',
@@ -636,8 +636,8 @@ export const list = [
         icon: <Alert />
       },
       {
-        name: 'Alertalt',
-        icon: <Alertalt />
+        name: 'AlertAlt',
+        icon: <AlertAlt />
       },
       {
         name: 'Email',
@@ -652,40 +652,40 @@ export const list = [
         icon: <Link />
       },
       {
-        name: 'Linkbroken',
-        icon: <Linkbroken />
+        name: 'LinkBroken',
+        icon: <LinkBroken />
       },
       {
         name: 'Bell',
         icon: <Bell />
       },
       {
-        name: 'Rss',
-        icon: <Rss />
+        name: 'RSS',
+        icon: <RSS />
       },
       {
-        name: 'Sharealt',
-        icon: <Sharealt />
+        name: 'ShareAlt',
+        icon: <ShareAlt />
       },
       {
         name: 'Share',
         icon: <Share />
       },
       {
-        name: 'Jumpto',
-        icon: <Jumpto />
+        name: 'JumpTo',
+        icon: <JumpTo />
       },
       {
-        name: 'Circlehollow',
-        icon: <Circlehollow />
+        name: 'CircleHollow',
+        icon: <CircleHollow />
       },
       {
         name: 'Circle',
         icon: <Circle />
       },
       {
-        name: 'Bookmarkhollow',
-        icon: <Bookmarkhollow />
+        name: 'BookmarkHollow',
+        icon: <BookmarkHollow />
       },
       {
         name: 'Bookmark',
@@ -696,16 +696,16 @@ export const list = [
         icon: <Diamond />
       },
       {
-        name: 'Hearthollow',
-        icon: <Hearthollow />
+        name: 'HeartHollow',
+        icon: <HeartHollow />
       },
       {
         name: 'Heart',
         icon: <Heart />
       },
       {
-        name: 'Starhollow',
-        icon: <Starhollow />
+        name: 'StarHollow',
+        icon: <StarHollow />
       },
       {
         name: 'Star',
@@ -720,8 +720,8 @@ export const list = [
         icon: <Verified />
       },
       {
-        name: 'Thumbsup',
-        icon: <Thumbsup />
+        name: 'ThumbsUp',
+        icon: <ThumbsUp />
       },
       {
         name: 'Shield',
@@ -744,8 +744,8 @@ export const list = [
         icon: <Flag />
       },
       {
-        name: 'Cloudhollow',
-        icon: <Cloudhollow />
+        name: 'CloudHollow',
+        icon: <CloudHollow />
       },
       {
         name: 'Cloud',
@@ -914,12 +914,12 @@ export const list = [
         icon: <User />
       },
       {
-        name: 'Useralt',
-        icon: <Useralt />
+        name: 'UserAlt',
+        icon: <UserAlt />
       },
       {
-        name: 'Useradd',
-        icon: <Useradd />
+        name: 'UserAdd',
+        icon: <UserAdd />
       },
       {
         name: 'Users',
@@ -930,16 +930,16 @@ export const list = [
         icon: <Profile />
       },
       {
-        name: 'Facehappy',
-        icon: <Facehappy />
+        name: 'FaceHappy',
+        icon: <FaceHappy />
       },
       {
-        name: 'Faceneutral',
-        icon: <Faceneutral />
+        name: 'FaceNeutral',
+        icon: <FaceNeutral />
       },
       {
-        name: 'Facesad',
-        icon: <Facesad />
+        name: 'FaceSad',
+        icon: <FaceSad />
       },
       {
         name: 'Accessibility',
