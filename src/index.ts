@@ -189,9 +189,9 @@ export const DocChart = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
   return { default: m.DocChart };
 }));
-export const CocList = withSuspense(lazy(async () => {
+export const DocList = withSuspense(lazy(async () => {
   const m = await import('./groups/Documents');
-  return { default: m.CocList };
+  return { default: m.DocList };
 }));
 export const Markup = withSuspense(lazy(async () => {
   const m = await import('./groups/Editing');

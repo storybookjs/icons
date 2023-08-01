@@ -1,6 +1,6 @@
 import React from 'react';
 import { Photo, Component, Grid, Outline, PhotoDrag, GridAlt, Search, Zoom, ZoomOut, ZoomReset, Eye, EyeClose, Lightning, LightningOff, Contrast, SwitchAlt, Mirror, Grow, PaintBrush, Ruler, Stop, Camera, Video, Speaker, Play, PlayBack, PlayNext, Rewind, FastForward, StopAlt, SideBySide, Stacked, Sun, Moon, } from './groups/Images';
-import { Book, Document, Copy, Category, Folder, Print, GraphLine, Calendar, GraphBar, Menu, MenuReverse, Filter, DocChart, CocList, } from './groups/Documents';
+import { Book, Document, Copy, Category, Folder, Print, GraphLine, Calendar, GraphBar, Menu, MenuReverse, Filter, DocChart, DocList, } from './groups/Documents';
 import { Markup, Bold, Italic, PaperClip, ListOrdered, ListUnordered, Paragraph, Markdown, } from './groups/Editing';
 import { Repo, Commit, Branch, PullRequest, Merge, } from './groups/Git';
 import { Apple, Linux, Ubuntu, Windows, Chrome, } from './groups/OS';
@@ -209,8 +209,8 @@ export const list = [
         icon: <DocChart />
       },
       {
-        name: 'CocList',
-        icon: <CocList />
+        name: 'DocList',
+        icon: <DocList />
       },
     ]
   },

@@ -1,12 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { CocList } from './CocList';
+import { DocList } from './DocList';
 
-const meta: Meta<typeof CocList> = {
-  component: CocList,
+const meta: Meta<typeof DocList> = {
+  component: DocList,
 };
 
 export default meta;
-type Story = StoryObj<typeof CocList>;
+type Story = StoryObj<typeof DocList>;
 
 export const Default: Story = { args: { size: 100 } };

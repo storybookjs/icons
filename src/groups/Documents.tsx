@@ -11,4 +11,4 @@ export { Menu } from './../icons/Menu';
 export { MenuReverse } from './../icons/MenuReverse';
 export { Filter } from './../icons/Filter';
 export { DocChart } from './../icons/DocChart';
-export { CocList } from './../icons/CocList';
+export { DocList } from './../icons/DocList';
