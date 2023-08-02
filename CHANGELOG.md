@@ -1,3 +1,15 @@
+# v1.1.1 (Wed Aug 02 2023)
+
+#### 🐛 Bug Fix
+
+- Fix icon sizes error [#12](https://github.com/storybookjs/icons/pull/12) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.1.0 (Tue Aug 01 2023)
 
 #### 🚀 Enhancement
