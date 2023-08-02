@@ -12,8 +12,7 @@ export const createList = ({
   downloadedSVGsData: any;
   indexDirectoryPath: string;
 }) => {
-  let imports = `import React from 'react';` + os.EOL;
-  let listContent = `export const list = [` + os.EOL;
+  let listContent = `export const iconList = [` + os.EOL;
   const groupWithComponentsNames = groupsWithComponents.map(
     (group: { name: any; components: any[] }) => ({
       name: group.name,
@@ -28,20 +27,6 @@ export const createList = ({
     })
   );
 
-  const namedImports = groupWithComponentsNames.map((group: any) => {
-    const groupName = toPascalCase(group.name);
-    let components = ``;
-    group.components.forEach(
-      (component: any) => (components += `${component}, `)
-    );
-
-    return `import { ${components}} from './groups/${groupName}';`;
-  });
-
-  imports += namedImports.join(os.EOL) + os.EOL + os.EOL;
-
-  console.log(namedImports);
-
   groupWithComponentsNames.forEach(
     (group: { name: any; components: any[] }) => {
       listContent += `  {
@@ -49,11 +34,7 @@ export const createList = ({
     icons: [
 `;
       group.components.forEach((component: any) => {
-        listContent +=
-          `      {
-        name: '${component}',
-        icon: <${component} />
-      },` + os.EOL;
+        listContent += `      '${component}',` + os.EOL;
       });
 
       listContent += `    ]
@@ -68,7 +49,7 @@ export const createList = ({
 
   // Write the content to file system
   fs.writeFileSync(
-    path.resolve(indexDirectoryPath, 'list.tsx'),
-    imports + listContent
+    path.resolve(indexDirectoryPath, 'iconList.tsx'),
+    listContent
   );
 };
