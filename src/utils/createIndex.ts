@@ -26,7 +26,9 @@ export const createIndex = ({
   });
 
   const imports = `import { lazy } from 'react';
-import { withSuspense } from './utils/withSuspense';`;
+import { withSuspense } from './utils/withSuspense';
+
+export { iconList } from './iconList';`;
   indexContent += imports + os.EOL + os.EOL;
 
   listWithGroup.forEach((component) => {
@@ -34,10 +36,13 @@ import { withSuspense } from './utils/withSuspense';`;
     const componentName = toPascalCase(component.name);
 
     // Export statement
-    const componentExport = `export const ${componentName} = withSuspense(lazy(async () => {
-  const m = await import('./groups/${component.groupName}');
-  return { default: m.${componentName} };
-}));`;
+    const componentExport = `export const ${componentName} = withSuspense(
+  lazy(async () => {
+    const m = await import('./groups/${component.groupName}');
+    return { default: m.${componentName} };
+  })
+);
+`;
 
     indexContent += componentExport + os.EOL;
   });
