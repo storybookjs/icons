@@ -339,6 +339,13 @@ export const DocList = withSuspense(
   })
 );
 
+export const Drag = withSuspense(
+  lazy(async () => {
+    const m = await import('./groups/Documents');
+    return { default: m.Drag };
+  })
+);
+
 export const Markup = withSuspense(
   lazy(async () => {
     const m = await import('./groups/Editing');
@@ -1549,3 +1556,4 @@ export const AccessibilityAlt = withSuspense(
     return { default: m.AccessibilityAlt };
   })
 );
+

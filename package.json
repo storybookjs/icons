@@ -53,6 +53,9 @@
     "@storybook/react": "^7.0.15",
     "@storybook/react-vite": "^7.0.15",
     "@storybook/testing-library": "^0.1.0",
+    "@svgr/core": "5.5.0",
+    "@svgr/plugin-prettier": "5.5.0",
+    "@svgr/plugin-svgo": "5.5.0",
     "@types/fs-extra": "11.0.1",
     "@types/node": "20.4.1",
     "@types/react": "18.2.14",
@@ -61,13 +64,18 @@
     "@typescript-eslint/parser": "5.55.0",
     "@vitejs/plugin-react": "3.1.0",
     "auto": "10.46.0",
+    "axios": "1.4.0",
+    "chalk": "4.1.2",
     "chromatic": "6.17.3",
     "concurrently": "8.0.1",
+    "dotenv": "16.3.1",
     "eslint": "8.36.0",
     "eslint-plugin-jest": "27.2.1",
     "eslint-plugin-storybook": "0.6.12",
+    "figma-api-exporter": "0.0.2",
     "figma-js": "1.16.0",
     "figma-transformer": "2.1.0",
+    "fs-extra": "11.1.1",
     "lint-staged": "13.2.0",
     "prettier": "2.8.4",
     "react": "18.2.0",
@@ -94,15 +102,5 @@
     "plugins": [
       "npm"
     ]
-  },
-  "dependencies": {
-    "@svgr/core": "5.5.0",
-    "@svgr/plugin-prettier": "5.5.0",
-    "@svgr/plugin-svgo": "5.5.0",
-    "axios": "1.4.0",
-    "chalk": "4.1.2",
-    "dotenv": "16.3.1",
-    "figma-api-exporter": "0.0.2",
-    "fs-extra": "11.1.1"
   }
 }
