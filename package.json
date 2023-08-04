@@ -87,8 +87,8 @@
     "vite": "4.2.1"
   },
   "peerDependencies": {
-    "react": ">=17",
-    "react-dom": ">=17"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "bugs": {
     "url": "https://github.com/storybook/icons/issues"
