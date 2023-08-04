@@ -12,3 +12,4 @@ export { MenuReverse } from './../icons/MenuReverse';
 export { Filter } from './../icons/Filter';
 export { DocChart } from './../icons/DocChart';
 export { DocList } from './../icons/DocList';
+export { Drag } from './../icons/Drag';
