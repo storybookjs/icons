@@ -1,3 +1,15 @@
+# v1.1.4 (Fri Aug 04 2023)
+
+#### 🐛 Bug Fix
+
+- Fix peer dependencies to make sure it work for React 16 [#16](https://github.com/storybookjs/icons/pull/16) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.1.3 (Fri Aug 04 2023)
 
 #### 🐛 Bug Fix
