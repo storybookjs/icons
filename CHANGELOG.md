@@ -1,3 +1,16 @@
+# v1.1.3 (Fri Aug 04 2023)
+
+#### 🐛 Bug Fix
+
+- Move all deps to dev deps [#14](https://github.com/storybookjs/icons/pull/14) ([@TrySound](https://github.com/TrySound) [@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 2
+
+- Bogdan Chadkin ([@TrySound](https://github.com/TrySound))
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.1.2 (Wed Aug 02 2023)
 
 #### 🐛 Bug Fix
