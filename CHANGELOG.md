@@ -1,3 +1,15 @@
+# v1.1.5 (Sun Aug 06 2023)
+
+#### 🐛 Bug Fix
+
+- Fix repo, bugs and homepage `package.json` fields [#17](https://github.com/storybookjs/icons/pull/17) ([@amitdahan](https://github.com/amitdahan))
+
+#### Authors: 1
+
+- Amit Dahan ([@amitdahan](https://github.com/amitdahan))
+
+---
+
 # v1.1.4 (Fri Aug 04 2023)
 
 #### 🐛 Bug Fix
