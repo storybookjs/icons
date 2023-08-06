@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chromaui/icons.git"
+    "url": "git+https://github.com/storybookjs/icons.git"
   },
   "scripts": {
     "dev": "concurrently  -n \"Build,SB\" \"yarn build --watch\" \"yarn storybook\" ",
@@ -91,9 +91,9 @@
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/storybook/icons/issues"
+    "url": "https://github.com/storybookjs/icons/issues"
   },
-  "homepage": "https://github.com/storybook/icons#readme",
+  "homepage": "https://github.com/storybookjs/icons#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
