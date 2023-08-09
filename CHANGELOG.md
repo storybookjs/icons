@@ -1,3 +1,15 @@
+# v1.1.6 (Wed Aug 09 2023)
+
+#### 🐛 Bug Fix
+
+- Fix export [#18](https://github.com/storybookjs/icons/pull/18) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.1.5 (Sun Aug 06 2023)
 
 #### 🐛 Bug Fix
