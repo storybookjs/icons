@@ -8,12 +8,12 @@ import { processFile } from 'figma-transformer';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import * as Figma from 'figma-js';
 import svgrConfig from '../svgr.config';
-import { createIndex } from './utils/createIndex';
 import { toPascalCase } from './utils/toPascalCase';
 import { createGroups } from './utils/createGroups';
 import { downloadSVGsData } from './utils/downloadSVGsData';
 import { createList } from './utils/createList';
 import { story } from './templates/story';
+import { createIcons } from './utils/createIcons';
 
 const svgr = require('@svgr/core').default;
 
@@ -130,9 +130,9 @@ export const getGroups = async (figmaFileId: string) => {
       });
     });
 
-    // 9. Generate index.ts
-    console.log(chalk.yellowBright('-> Generating index file'));
-    createIndex({ downloadedSVGsData, groupsWithComponents });
+    // 9. Generate icons.ts
+    console.log(chalk.yellowBright('-> Generating icons file'));
+    createIcons({ downloadedSVGsData, groupsWithComponents });
 
     // 10. Generate list.ts
     console.log(chalk.yellowBright('-> Generating list file'));

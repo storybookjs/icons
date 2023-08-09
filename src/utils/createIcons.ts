@@ -8,7 +8,7 @@ interface createIndexProps {
   groupsWithComponents: { name: string; components: any }[];
 }
 
-export const createIndex = ({
+export const createIcons = ({
   downloadedSVGsData,
   groupsWithComponents,
 }: createIndexProps) => {
@@ -26,9 +26,7 @@ export const createIndex = ({
   });
 
   const imports = `import { lazy } from 'react';
-import { withSuspense } from './utils/withSuspense';
-
-export { iconList } from './iconList';`;
+import { withSuspense } from './utils/withSuspense';`;
   indexContent += imports + os.EOL + os.EOL;
 
   listWithGroup.forEach((component) => {
@@ -48,5 +46,5 @@ export { iconList } from './iconList';`;
   });
 
   // Write the content to file system
-  fs.writeFileSync(path.resolve('./src', 'index.ts'), indexContent);
+  fs.writeFileSync(path.resolve('./src', 'icons.ts'), indexContent);
 };
