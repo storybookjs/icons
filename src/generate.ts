@@ -9,17 +9,15 @@ import { processFile } from 'figma-transformer';
 import * as Figma from 'figma-js';
 import svgrConfig from '../svgr.config';
 import { toPascalCase } from './utils/toPascalCase';
-import { createGroups } from './utils/createGroups';
 import { downloadSVGsData } from './utils/downloadSVGsData';
 import { createList } from './utils/createList';
 import { story } from './templates/story';
-import { createIcons } from './utils/createIcons';
+import { createIndex } from './utils/createIndex';
 
 const svgr = require('@svgr/core').default;
 
 const ICONS_DIRECTORY_PATH = path.resolve(__dirname, './icons');
 const INDEX_DIRECTORY_PATH = path.resolve(__dirname, './');
-const GROUPS_DIRECTORY_PATH = path.resolve(__dirname, './groups');
 
 // Load environment variables
 dotenv.config();
@@ -116,23 +114,9 @@ export const getGroups = async (figmaFileId: string) => {
       })
     );
 
-    // 8. Generate group files
-    groupsWithComponents.forEach((group: { name: string; components: any }) => {
-      const groupName = toPascalCase(group.name);
-      const data = downloadedSVGsData.filter((svg) => {
-        return group.components.includes(svg.id);
-      });
-      createGroups({
-        componentsDirectoryPath: ICONS_DIRECTORY_PATH,
-        groupsDirectoryPath: GROUPS_DIRECTORY_PATH,
-        data,
-        indexFileName: `${groupName}.tsx`,
-      });
-    });
-
-    // 9. Generate icons.ts
+    // 8. Generate icons.ts
     console.log(chalk.yellowBright('-> Generating icons file'));
-    createIcons({ downloadedSVGsData, groupsWithComponents });
+    createIndex({ downloadedSVGsData, groupsWithComponents });
 
     // 10. Generate list.ts
     console.log(chalk.yellowBright('-> Generating list file'));

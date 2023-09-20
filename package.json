@@ -20,7 +20,7 @@
     "build-storybook": "storybook build",
     "release": "yarn build && auto shipit",
     "chromatic": "npx chromatic --project-token=chpt_d0c5927e55681dd",
-    "icons": "ts-node ./src/generate.ts"
+    "generate-icons": "ts-node ./src/generate.ts"
   },
   "sideEffect": false,
   "types": "./dist/index.d.ts",

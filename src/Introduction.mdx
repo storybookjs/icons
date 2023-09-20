@@ -1,4 +1,4 @@
-import React, { lazy, createElement } from 'react';
+import React from 'react';
 import { IconGallery, IconItem } from '@storybook/blocks';
 import { iconList } from './iconList';
 import Cover from './cover.png';
@@ -28,17 +28,16 @@ An Icon is a piece of visual element, but we must ensure its accessibility while
 {iconList.map((group) => (
 
 <div key={group.name}>
-
-<h2 style={{ marginTop: 32, marginBottom: 24 }}>{group.name}</h2>
-
+  <h2 style={{ marginTop: 32, marginBottom: 24 }}>{group.name}</h2>
   <IconGallery>
     {group.icons.map((item) => {
-      const MyIcon = Icon[item]
+      const MyIcon = Icon[item];
       return (
-      <IconItem key={item} name={item}>
-        <MyIcon />
-      </IconItem>
-    )})}
+        <IconItem key={item} name={item}>
+          <MyIcon />
+        </IconItem>
+      );
+    })}
   </IconGallery>
 </div>
 
