@@ -12,7 +12,7 @@ import { toPascalCase } from './utils/toPascalCase';
 import { downloadSVGsData } from './utils/downloadSVGsData';
 import { createList } from './utils/createList';
 import { story } from './templates/story';
-import { createIcons } from './utils/createIcons';
+import { createIndex } from './utils/createIndex';
 
 const svgr = require('@svgr/core').default;
 
@@ -116,7 +116,7 @@ export const getGroups = async (figmaFileId: string) => {
 
     // 9. Generate icons.ts
     console.log(chalk.yellowBright('-> Generating icons file'));
-    createIcons({ downloadedSVGsData, groupsWithComponents });
+    createIndex({ downloadedSVGsData, groupsWithComponents });
 
     // 10. Generate list.ts
     console.log(chalk.yellowBright('-> Generating list file'));
