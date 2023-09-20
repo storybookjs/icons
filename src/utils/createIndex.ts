@@ -11,13 +11,7 @@ interface createIndexProps {
 export const createIndex = ({ downloadedSVGsData }: createIndexProps) => {
   let indexContent = '';
 
-  const iconTypes = downloadedSVGsData
-    .map((component) => `'${component.name}'`)
-    .join(' | ');
-
-  const imports = `export { iconList } from './iconList';
-
-export type IconProps = ${iconTypes};`;
+  const imports = `export { iconList } from './iconList';`;
   indexContent += imports + os.EOL + os.EOL;
 
   downloadedSVGsData.forEach((component) => {
