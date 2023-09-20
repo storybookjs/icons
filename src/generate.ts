@@ -114,7 +114,7 @@ export const getGroups = async (figmaFileId: string) => {
       })
     );
 
-    // 9. Generate icons.ts
+    // 8. Generate icons.ts
     console.log(chalk.yellowBright('-> Generating icons file'));
     createIndex({ downloadedSVGsData, groupsWithComponents });
 
