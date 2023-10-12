@@ -6,14 +6,14 @@ function componentTemplate(
   const code = `
     import * as React from 'react';
     import { IconProps } from '../types';
-    import { IconWrapper } from '../IconWrapper';
 
     %%NEWLINE%%
 
-    export const %%COMPONENT_NAME%% = (allProps: IconProps) => {
-      const { svgProps: props, ...restProps } = allProps;
-      return <IconWrapper icon={%%JSX%%} {...restProps} />
-    };
+    export const %%COMPONENT_NAME%%  = React.forwardRef<SVGSVGElement, IconProps>(
+      ({ color = 'currentColor', size = 14, ...props }, forwardedRef) => {
+        return %%JSX%%
+      }
+    );
 
     %%NEWLINE%%
     %%EXPORTS%%
@@ -30,7 +30,7 @@ function componentTemplate(
    * API Docs: https://babeljs.io/docs/en/babel-template#api
    */
   const typeScriptTpl = template(code, {
-    plugins: ['jsx', 'typescript'],
+    plugins: ['jsx', 'typescript', 'tsx'],
     preserveComments: true,
     syntacticPlaceholders: true,
   });
