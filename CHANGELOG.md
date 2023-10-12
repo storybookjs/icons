@@ -1,3 +1,15 @@
+# v1.2.0 (Thu Oct 12 2023)
+
+#### 🚀 Enhancement
+
+- Remove wrapper + add forwardRef [#20](https://github.com/storybookjs/icons/pull/20) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.1.7 (Wed Sep 20 2023)
 
 #### 🐛 Bug Fix
