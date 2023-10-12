@@ -4,12 +4,12 @@ module.exports = {
   typescript: true,
   icon: true,
   svgProps: {
-    width: 'inherit',
-    height: 'inherit',
+    width: '{size}',
+    height: '{size}',
+    ref: '{forwardedRef}',
   },
   replaceAttrValues: {
-    '#000': 'currentColor',
-    inherit: '100%',
+    '#000': '{color}',
   },
   plugins: [
     // Clean SVG files using SVGO
@@ -20,5 +20,8 @@ module.exports = {
     '@svgr/plugin-prettier',
   ],
   svgoConfig: {},
+  prettierConfig: {
+    parser: 'typescript',
+  },
   template: componentTemplate,
 };
