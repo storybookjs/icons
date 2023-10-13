@@ -2,7 +2,7 @@
 
 <img src="public/cover.jpg" />
 
-This library contains the icons used in Storybook and Chromatic apps and marketing sites.
+This library contains the icons used in Storybook and Chromatic apps and marketing sites. They are 14x14. To view the list of all available icons please go to https://main--64b56e737c0aeefed9d5e675.chromatic.com/
 
 ## Install
 
@@ -20,7 +20,7 @@ yarn add @storybook/icons
 This command will fetch all icons from Figma locally and create react components + stories automatically
 
 ```console
-yarn icons
+yarn generate-icons
 ```
 
 Inpired from [this article](https://blog.certa.dev/generating-react-icon-components-from-figma).
