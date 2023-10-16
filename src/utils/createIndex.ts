@@ -19,7 +19,7 @@ export const createIndex = ({ downloadedSVGsData }: createIndexProps) => {
     const componentName = toPascalCase(component.name);
 
     // Export statement
-    const componentExport = `export { ${componentName} } from './icons/${componentName}';`;
+    const componentExport = `export { default as ${componentName} } from './icons/${componentName}';`;
 
     indexContent += componentExport + os.EOL;
   });
