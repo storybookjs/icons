@@ -62,7 +62,7 @@ export const getGroups = async (figmaFileId: string) => {
       const svgCode = svg.data;
       const componentName = toPascalCase(svg.name);
       const componentFileName = `${componentName}.tsx`;
-      const storyFileName = `${componentName}.stories.tsx`;
+      const storyFileName = `${componentName}.stories.ts`;
 
       // Converts SVG code into React code using SVGR library
       const componentCode = svgr.sync(svgCode, svgrConfig, {
