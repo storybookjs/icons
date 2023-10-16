@@ -3,7 +3,7 @@ import { defineConfig } from 'tsup';
 export default defineConfig([
   {
     format: ['cjs', 'esm'],
-    entry: ['src/icons/*.tsx'],
+    entry: ['src/index.ts', 'src/icons/*.tsx'],
     treeshake: true,
     sourcemap: true,
     minify: false,
