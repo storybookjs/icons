@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React, { forwardRef } from 'react';
 import { IconProps } from '../types';
 
-export const Star = React.forwardRef<SVGSVGElement, IconProps>(
+export const Star = forwardRef<SVGSVGElement, IconProps>(
   ({ color = 'currentColor', size = 14, ...props }, forwardedRef) => {
     return (
       <svg

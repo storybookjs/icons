@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React, { forwardRef } from 'react';
 import { IconProps } from '../types';
 
-export const Compass = React.forwardRef<SVGSVGElement, IconProps>(
+export const Compass = forwardRef<SVGSVGElement, IconProps>(
   ({ color = 'currentColor', size = 14, ...props }, forwardedRef) => {
     return (
       <svg
