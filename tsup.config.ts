@@ -8,6 +8,5 @@ export default defineConfig([
     minify: false,
     clean: true,
     dts: true,
-    // external: ['react'],
   },
 ]);
