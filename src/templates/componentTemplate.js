@@ -4,12 +4,12 @@ function componentTemplate(
   { componentName, jsx, exports }
 ) {
   const code = `
-    import React, { forwardRef } from 'react';
+    import * as React from 'react';
     import { IconProps } from '../types';
 
     %%NEWLINE%%
 
-    export const %%COMPONENT_NAME%%  = forwardRef<SVGSVGElement, IconProps>(
+    export const %%COMPONENT_NAME%%  = /* @__PURE__ */ React.forwardRef<SVGSVGElement, IconProps>(
       ({ color = 'currentColor', size = 14, ...props }, forwardedRef) => {
         return %%JSX%%
       }
