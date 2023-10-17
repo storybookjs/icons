@@ -23,5 +23,3 @@ export const Tablet = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Tablet;

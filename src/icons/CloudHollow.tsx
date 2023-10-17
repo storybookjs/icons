@@ -23,5 +23,3 @@ export const CloudHollow = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default CloudHollow;

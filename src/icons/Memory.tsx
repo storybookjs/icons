@@ -27,5 +27,3 @@ export const Memory = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Memory;

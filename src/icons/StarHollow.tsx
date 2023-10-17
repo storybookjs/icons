@@ -23,5 +23,3 @@ export const StarHollow = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default StarHollow;

@@ -23,5 +23,3 @@ export const PaintBrush = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PaintBrush;

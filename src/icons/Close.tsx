@@ -27,5 +27,3 @@ export const Close = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Close;

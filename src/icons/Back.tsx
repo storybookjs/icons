@@ -27,5 +27,3 @@ export const Back = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Back;

@@ -27,5 +27,3 @@ export const Time = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Time;

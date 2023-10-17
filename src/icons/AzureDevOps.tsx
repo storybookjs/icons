@@ -28,5 +28,3 @@ export const AzureDevOps = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default AzureDevOps;

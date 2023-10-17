@@ -23,5 +23,3 @@ export const Support = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Support;

@@ -23,5 +23,3 @@ export const Linux = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Linux;

@@ -27,5 +27,3 @@ export const BottomBar = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default BottomBar;

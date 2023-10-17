@@ -25,5 +25,3 @@ export const Share = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Share;

@@ -23,5 +23,3 @@ export const Gitlab = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Gitlab;

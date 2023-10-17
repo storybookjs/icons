@@ -29,5 +29,3 @@ export const Compass = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Compass;

@@ -21,5 +21,3 @@ export const Transfer = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Transfer;

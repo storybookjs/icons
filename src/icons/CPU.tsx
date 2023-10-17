@@ -29,5 +29,3 @@ export const CPU = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default CPU;

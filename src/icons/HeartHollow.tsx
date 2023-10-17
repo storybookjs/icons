@@ -23,5 +23,3 @@ export const HeartHollow = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default HeartHollow;

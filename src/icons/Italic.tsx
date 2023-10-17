@@ -18,5 +18,3 @@ export const Italic = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Italic;

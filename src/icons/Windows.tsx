@@ -21,5 +21,3 @@ export const Windows = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Windows;

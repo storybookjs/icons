@@ -23,5 +23,3 @@ export const Mirror = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Mirror;

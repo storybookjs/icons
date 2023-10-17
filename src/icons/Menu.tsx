@@ -21,5 +21,3 @@ export const Menu = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Menu;

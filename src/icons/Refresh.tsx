@@ -21,5 +21,3 @@ export const Refresh = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Refresh;

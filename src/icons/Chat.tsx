@@ -23,5 +23,3 @@ export const Chat = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Chat;

@@ -21,5 +21,3 @@ export const Controls = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Controls;

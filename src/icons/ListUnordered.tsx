@@ -21,5 +21,3 @@ export const ListUnordered = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ListUnordered;

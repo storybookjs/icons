@@ -23,5 +23,3 @@ export const Github = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Github;

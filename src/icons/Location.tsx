@@ -23,5 +23,3 @@ export const Location = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Location;

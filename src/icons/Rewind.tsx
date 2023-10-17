@@ -21,5 +21,3 @@ export const Rewind = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Rewind;

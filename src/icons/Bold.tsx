@@ -23,5 +23,3 @@ export const Bold = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Bold;

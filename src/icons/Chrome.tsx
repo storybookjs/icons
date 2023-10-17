@@ -30,5 +30,3 @@ export const Chrome = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Chrome;

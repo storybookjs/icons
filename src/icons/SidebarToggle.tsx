@@ -27,5 +27,3 @@ export const SidebarToggle = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default SidebarToggle;

@@ -23,5 +23,3 @@ export const Browser = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Browser;

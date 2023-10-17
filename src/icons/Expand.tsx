@@ -21,5 +21,3 @@ export const Expand = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Expand;

@@ -27,5 +27,3 @@ export const Stop = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Stop;

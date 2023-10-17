@@ -24,5 +24,3 @@ export const Timer = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Timer;

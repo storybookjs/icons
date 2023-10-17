@@ -27,5 +27,3 @@ export const Upload = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Upload;

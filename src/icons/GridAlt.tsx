@@ -21,5 +21,3 @@ export const GridAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default GridAlt;

@@ -21,5 +21,3 @@ export const StopAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default StopAlt;

@@ -21,5 +21,3 @@ export const LinkBroken = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default LinkBroken;

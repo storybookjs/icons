@@ -23,5 +23,3 @@ export const Stacked = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Stacked;

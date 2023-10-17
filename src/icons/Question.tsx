@@ -27,5 +27,3 @@ export const Question = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Question;

@@ -24,5 +24,3 @@ export const Eye = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Eye;

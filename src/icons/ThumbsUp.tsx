@@ -23,5 +23,3 @@ export const ThumbsUp = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ThumbsUp;

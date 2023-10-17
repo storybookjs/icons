@@ -27,5 +27,3 @@ export const Repo = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Repo;

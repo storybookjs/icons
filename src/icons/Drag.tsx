@@ -21,5 +21,3 @@ export const Drag = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Drag;

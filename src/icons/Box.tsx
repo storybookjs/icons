@@ -23,5 +23,3 @@ export const Box = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Box;

@@ -21,5 +21,3 @@ export const Paragraph = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Paragraph;

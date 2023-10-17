@@ -23,5 +23,3 @@ export const Watch = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Watch;

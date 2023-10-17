@@ -23,5 +23,3 @@ export const Graphql = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Graphql;

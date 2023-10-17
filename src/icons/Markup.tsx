@@ -21,5 +21,3 @@ export const Markup = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Markup;

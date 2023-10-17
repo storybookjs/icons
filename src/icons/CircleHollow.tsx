@@ -23,5 +23,3 @@ export const CircleHollow = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default CircleHollow;

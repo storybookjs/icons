@@ -23,5 +23,3 @@ export const SideBySide = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default SideBySide;

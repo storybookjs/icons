@@ -23,5 +23,3 @@ export const Phone = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Phone;

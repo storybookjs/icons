@@ -23,5 +23,3 @@ export const PullRequest = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PullRequest;

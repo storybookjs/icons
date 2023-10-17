@@ -21,5 +21,3 @@ export const Google = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Google;

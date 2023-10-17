@@ -27,5 +27,3 @@ export const Lock = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Lock;

@@ -23,5 +23,3 @@ export const Chromatic = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Chromatic;

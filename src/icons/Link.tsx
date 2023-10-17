@@ -25,5 +25,3 @@ export const Link = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Link;

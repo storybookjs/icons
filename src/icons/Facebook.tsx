@@ -23,5 +23,3 @@ export const Facebook = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Facebook;

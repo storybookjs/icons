@@ -21,5 +21,3 @@ export const Reply = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Reply;

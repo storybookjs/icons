@@ -25,5 +25,3 @@ export const JumpTo = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default JumpTo;

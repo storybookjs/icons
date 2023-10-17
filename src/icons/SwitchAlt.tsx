@@ -23,5 +23,3 @@ export const SwitchAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default SwitchAlt;

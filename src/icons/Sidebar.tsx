@@ -27,5 +27,3 @@ export const Sidebar = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Sidebar;

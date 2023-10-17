@@ -23,5 +23,3 @@ export const Book = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Book;

@@ -27,5 +27,3 @@ export const Profile = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Profile;

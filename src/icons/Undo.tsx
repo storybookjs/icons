@@ -21,5 +21,3 @@ export const Undo = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Undo;

@@ -23,5 +23,3 @@ export const Bookmark = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Bookmark;

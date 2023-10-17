@@ -23,5 +23,3 @@ export const Database = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Database;

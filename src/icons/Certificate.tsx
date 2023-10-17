@@ -23,5 +23,3 @@ export const Certificate = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Certificate;

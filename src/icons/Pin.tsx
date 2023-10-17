@@ -29,5 +29,3 @@ export const Pin = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Pin;

@@ -21,5 +21,3 @@ export const CloseAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default CloseAlt;

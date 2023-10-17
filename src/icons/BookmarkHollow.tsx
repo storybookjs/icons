@@ -23,5 +23,3 @@ export const BookmarkHollow = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default BookmarkHollow;

@@ -21,5 +21,3 @@ export const ArrowDown = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ArrowDown;

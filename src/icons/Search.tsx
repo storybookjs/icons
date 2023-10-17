@@ -23,5 +23,3 @@ export const Search = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Search;

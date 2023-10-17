@@ -27,5 +27,3 @@ export const GraphLine = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default GraphLine;

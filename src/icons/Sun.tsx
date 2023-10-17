@@ -31,5 +31,3 @@ export const Sun = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Sun;

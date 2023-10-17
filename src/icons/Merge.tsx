@@ -23,5 +23,3 @@ export const Merge = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Merge;

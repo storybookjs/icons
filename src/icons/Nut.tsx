@@ -27,5 +27,3 @@ export const Nut = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Nut;

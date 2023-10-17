@@ -31,5 +31,3 @@ export const Grow = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Grow;

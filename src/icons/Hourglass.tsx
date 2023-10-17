@@ -24,5 +24,3 @@ export const Hourglass = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Hourglass;

@@ -21,5 +21,3 @@ export const Cloud = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Cloud;

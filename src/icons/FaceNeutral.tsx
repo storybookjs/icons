@@ -27,5 +27,3 @@ export const FaceNeutral = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default FaceNeutral;

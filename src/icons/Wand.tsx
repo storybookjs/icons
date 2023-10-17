@@ -27,5 +27,3 @@ export const Wand = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Wand;

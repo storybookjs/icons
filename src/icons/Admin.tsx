@@ -27,5 +27,3 @@ export const Admin = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Admin;

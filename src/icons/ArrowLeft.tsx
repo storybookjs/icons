@@ -21,5 +21,3 @@ export const ArrowLeft = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ArrowLeft;

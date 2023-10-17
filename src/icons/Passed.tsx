@@ -23,5 +23,3 @@ export const Passed = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Passed;

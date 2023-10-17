@@ -23,5 +23,3 @@ export const Contrast = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Contrast;

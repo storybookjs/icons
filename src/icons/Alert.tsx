@@ -27,5 +27,3 @@ export const Alert = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Alert;

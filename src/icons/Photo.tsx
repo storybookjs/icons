@@ -29,5 +29,3 @@ export const Photo = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Photo;

@@ -21,5 +21,3 @@ export const MenuReverse = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default MenuReverse;

@@ -30,5 +30,3 @@ export const Unlock = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Unlock;

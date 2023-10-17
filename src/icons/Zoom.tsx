@@ -27,5 +27,3 @@ export const Zoom = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Zoom;

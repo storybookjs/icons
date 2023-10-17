@@ -25,5 +25,3 @@ export const EyeClose = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default EyeClose;

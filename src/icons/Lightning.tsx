@@ -23,5 +23,3 @@ export const Lightning = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Lightning;

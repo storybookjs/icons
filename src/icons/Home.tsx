@@ -23,5 +23,3 @@ export const Home = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Home;

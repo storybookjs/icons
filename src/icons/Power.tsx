@@ -22,5 +22,3 @@ export const Power = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Power;

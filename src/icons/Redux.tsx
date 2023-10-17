@@ -23,5 +23,3 @@ export const Redux = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Redux;

@@ -27,5 +27,3 @@ export const FaceSad = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default FaceSad;

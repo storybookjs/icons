@@ -27,5 +27,3 @@ export const FaceHappy = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default FaceHappy;

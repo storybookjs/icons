@@ -27,5 +27,3 @@ export const BottomBarToggle = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default BottomBarToggle;

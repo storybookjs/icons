@@ -30,5 +30,3 @@ export const PinAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PinAlt;

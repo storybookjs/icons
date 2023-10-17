@@ -23,5 +23,3 @@ export const Bell = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Bell;

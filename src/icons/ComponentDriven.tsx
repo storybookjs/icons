@@ -21,5 +21,3 @@ export const ComponentDriven = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ComponentDriven;

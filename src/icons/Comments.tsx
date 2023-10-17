@@ -27,5 +27,3 @@ export const Comments = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Comments;

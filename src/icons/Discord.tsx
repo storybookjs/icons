@@ -21,5 +21,3 @@ export const Discord = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Discord;

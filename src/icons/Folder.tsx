@@ -23,5 +23,3 @@ export const Folder = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Folder;

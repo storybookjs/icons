@@ -21,5 +21,3 @@ export const Collapse = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Collapse;

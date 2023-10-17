@@ -23,5 +23,3 @@ export const Twitter = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Twitter;

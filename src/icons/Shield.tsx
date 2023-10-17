@@ -23,5 +23,3 @@ export const Shield = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Shield;

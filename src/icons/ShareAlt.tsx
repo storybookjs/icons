@@ -25,5 +25,3 @@ export const ShareAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ShareAlt;

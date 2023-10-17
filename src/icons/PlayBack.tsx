@@ -21,5 +21,3 @@ export const PlayBack = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PlayBack;

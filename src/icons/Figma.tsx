@@ -23,5 +23,3 @@ export const Figma = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Figma;

@@ -31,5 +31,3 @@ export const Speaker = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Speaker;

@@ -23,5 +23,3 @@ export const AlertAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default AlertAlt;

@@ -27,5 +27,3 @@ export const SidebarAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default SidebarAlt;

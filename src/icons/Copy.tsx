@@ -23,5 +23,3 @@ export const Copy = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Copy;

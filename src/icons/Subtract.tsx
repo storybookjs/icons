@@ -24,5 +24,3 @@ export const Subtract = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Subtract;

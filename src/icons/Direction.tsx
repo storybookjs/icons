@@ -29,5 +29,3 @@ export const Direction = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Direction;

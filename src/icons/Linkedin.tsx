@@ -23,5 +23,3 @@ export const Linkedin = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Linkedin;

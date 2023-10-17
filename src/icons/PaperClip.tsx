@@ -21,5 +21,3 @@ export const PaperClip = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PaperClip;

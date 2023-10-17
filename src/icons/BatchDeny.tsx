@@ -21,5 +21,3 @@ export const BatchDeny = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default BatchDeny;

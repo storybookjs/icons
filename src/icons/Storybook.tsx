@@ -23,5 +23,3 @@ export const Storybook = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Storybook;

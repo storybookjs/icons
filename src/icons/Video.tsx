@@ -24,5 +24,3 @@ export const Video = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Video;

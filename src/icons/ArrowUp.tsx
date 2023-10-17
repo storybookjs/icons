@@ -21,5 +21,3 @@ export const ArrowUp = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ArrowUp;

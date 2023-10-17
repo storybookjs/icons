@@ -27,5 +27,3 @@ export const Download = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Download;

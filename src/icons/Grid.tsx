@@ -23,5 +23,3 @@ export const Grid = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Grid;

@@ -27,5 +27,3 @@ export const Markdown = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Markdown;

@@ -27,5 +27,3 @@ export const Info = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Info;

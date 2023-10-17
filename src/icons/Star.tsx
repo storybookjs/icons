@@ -21,5 +21,3 @@ export const Star = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Star;

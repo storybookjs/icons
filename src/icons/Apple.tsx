@@ -21,5 +21,3 @@ export const Apple = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Apple;

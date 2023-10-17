@@ -23,5 +23,3 @@ export const Beaker = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Beaker;

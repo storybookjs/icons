@@ -24,5 +24,3 @@ export const ZoomOut = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ZoomOut;

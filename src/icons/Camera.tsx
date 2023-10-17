@@ -29,5 +29,3 @@ export const Camera = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Camera;

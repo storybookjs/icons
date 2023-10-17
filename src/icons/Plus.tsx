@@ -21,5 +21,3 @@ export const Plus = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Plus;

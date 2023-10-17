@@ -18,5 +18,3 @@ export const Circle = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Circle;

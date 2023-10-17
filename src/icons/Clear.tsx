@@ -23,5 +23,3 @@ export const Clear = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Clear;

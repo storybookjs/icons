@@ -23,5 +23,3 @@ export const VSCode = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default VSCode;

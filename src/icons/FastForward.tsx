@@ -21,5 +21,3 @@ export const FastForward = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default FastForward;

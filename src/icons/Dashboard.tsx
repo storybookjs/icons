@@ -27,5 +27,3 @@ export const Dashboard = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Dashboard;

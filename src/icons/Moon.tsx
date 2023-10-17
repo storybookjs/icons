@@ -34,5 +34,3 @@ export const Moon = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Moon;

@@ -23,5 +23,3 @@ export const Flag = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Flag;

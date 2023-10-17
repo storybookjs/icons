@@ -27,5 +27,3 @@ export const Cog = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Cog;

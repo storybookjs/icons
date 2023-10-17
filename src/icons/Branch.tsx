@@ -23,5 +23,3 @@ export const Branch = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Branch;

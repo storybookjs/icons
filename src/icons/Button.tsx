@@ -25,5 +25,3 @@ export const Button = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Button;

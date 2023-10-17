@@ -21,5 +21,3 @@ export const Redirect = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Redirect;

@@ -23,5 +23,3 @@ export const Youtube = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Youtube;

@@ -29,5 +29,3 @@ export const Unfold = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Unfold;

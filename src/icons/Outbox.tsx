@@ -25,5 +25,3 @@ export const Outbox = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Outbox;

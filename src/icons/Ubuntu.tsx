@@ -25,5 +25,3 @@ export const Ubuntu = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Ubuntu;

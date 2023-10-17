@@ -23,5 +23,3 @@ export const Wrench = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Wrench;

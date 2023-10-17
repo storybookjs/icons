@@ -33,5 +33,3 @@ export const PhotoDrag = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PhotoDrag;

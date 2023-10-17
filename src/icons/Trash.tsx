@@ -27,5 +27,3 @@ export const Trash = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Trash;

@@ -23,5 +23,3 @@ export const DocChart = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default DocChart;

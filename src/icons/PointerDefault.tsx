@@ -23,5 +23,3 @@ export const PointerDefault = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PointerDefault;

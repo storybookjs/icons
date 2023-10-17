@@ -27,5 +27,3 @@ export const Print = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Print;

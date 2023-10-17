@@ -28,5 +28,3 @@ export const Accessibility = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Accessibility;

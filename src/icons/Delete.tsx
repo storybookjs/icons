@@ -23,5 +23,3 @@ export const Delete = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Delete;

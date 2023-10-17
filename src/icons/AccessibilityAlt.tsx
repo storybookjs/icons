@@ -23,5 +23,3 @@ export const AccessibilityAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default AccessibilityAlt;

@@ -27,5 +27,3 @@ export const DocList = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default DocList;

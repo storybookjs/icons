@@ -27,5 +27,3 @@ export const Ruler = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Ruler;

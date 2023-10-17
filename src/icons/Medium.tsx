@@ -21,5 +21,3 @@ export const Medium = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Medium;

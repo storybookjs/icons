@@ -21,5 +21,3 @@ export const LightningOff = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default LightningOff;

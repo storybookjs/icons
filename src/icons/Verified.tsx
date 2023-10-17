@@ -23,5 +23,3 @@ export const Verified = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Verified;

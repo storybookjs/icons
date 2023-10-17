@@ -23,5 +23,3 @@ export const Command = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Command;

@@ -27,5 +27,3 @@ export const SidebarAltToggle = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default SidebarAltToggle;

@@ -27,5 +27,3 @@ export const Category = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Category;

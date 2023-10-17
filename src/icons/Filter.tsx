@@ -21,5 +21,3 @@ export const Filter = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Filter;

@@ -23,5 +23,3 @@ export const Structure = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Structure;

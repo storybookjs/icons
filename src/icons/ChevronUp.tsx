@@ -21,5 +21,3 @@ export const ChevronUp = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ChevronUp;

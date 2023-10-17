@@ -27,5 +27,3 @@ export const RequestChange = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default RequestChange;

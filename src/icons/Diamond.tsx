@@ -30,5 +30,3 @@ export const Diamond = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Diamond;

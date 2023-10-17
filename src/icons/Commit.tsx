@@ -23,5 +23,3 @@ export const Commit = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Commit;

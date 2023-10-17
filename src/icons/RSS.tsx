@@ -31,5 +31,3 @@ export const RSS = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default RSS;

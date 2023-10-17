@@ -23,5 +23,3 @@ export const Mobile = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Mobile;

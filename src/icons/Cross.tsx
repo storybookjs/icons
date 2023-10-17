@@ -21,5 +21,3 @@ export const Cross = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Cross;

@@ -21,5 +21,3 @@ export const UserAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default UserAlt;

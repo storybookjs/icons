@@ -23,5 +23,3 @@ export const Calendar = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Calendar;

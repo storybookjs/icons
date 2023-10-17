@@ -23,5 +23,3 @@ export const Email = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Email;

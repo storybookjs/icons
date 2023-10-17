@@ -25,5 +25,3 @@ export const Type = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Type;

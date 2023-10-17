@@ -23,5 +23,3 @@ export const PointerHand = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default PointerHand;

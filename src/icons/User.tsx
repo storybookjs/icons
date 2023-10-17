@@ -23,5 +23,3 @@ export const User = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default User;

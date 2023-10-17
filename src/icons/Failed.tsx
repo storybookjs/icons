@@ -23,5 +23,3 @@ export const Failed = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Failed;

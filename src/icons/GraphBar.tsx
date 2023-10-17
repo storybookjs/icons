@@ -21,5 +21,3 @@ export const GraphBar = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default GraphBar;

@@ -21,5 +21,3 @@ export const Sync = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Sync;

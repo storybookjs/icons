@@ -24,5 +24,3 @@ export const Key = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Key;

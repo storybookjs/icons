@@ -24,5 +24,3 @@ export const Credit = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Credit;

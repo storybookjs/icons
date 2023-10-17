@@ -21,5 +21,3 @@ export const GDrive = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default GDrive;

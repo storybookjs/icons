@@ -21,5 +21,3 @@ export const BatchAccept = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default BatchAccept;

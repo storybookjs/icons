@@ -23,5 +23,3 @@ export const Bitbucket = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Bitbucket;

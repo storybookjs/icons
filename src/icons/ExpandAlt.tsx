@@ -21,5 +21,3 @@ export const ExpandAlt = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ExpandAlt;

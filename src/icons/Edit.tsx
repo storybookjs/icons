@@ -23,5 +23,3 @@ export const Edit = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Edit;

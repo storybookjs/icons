@@ -21,5 +21,3 @@ export const ZoomReset = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default ZoomReset;

@@ -29,5 +29,3 @@ export const Sticker = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Sticker;

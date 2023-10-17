@@ -29,5 +29,3 @@ export const Basket = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Basket;

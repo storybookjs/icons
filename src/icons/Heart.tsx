@@ -21,5 +21,3 @@ export const Heart = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Heart;

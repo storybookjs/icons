@@ -23,5 +23,3 @@ export const Globe = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Globe;

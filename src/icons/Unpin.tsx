@@ -25,5 +25,3 @@ export const Unpin = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Unpin;

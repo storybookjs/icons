@@ -21,5 +21,3 @@ export const Ellipsis = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Ellipsis;

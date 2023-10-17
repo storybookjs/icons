@@ -25,5 +25,3 @@ export const Form = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Form;

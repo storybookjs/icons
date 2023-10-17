@@ -14,15 +14,11 @@ function componentTemplate(
         return %%JSX%%
       }
     );
-
-    %%NEWLINE%%
-    %%EXPORTS%%
   `;
 
   const mapping = {
     COMPONENT_NAME: componentName,
     JSX: jsx,
-    EXPORTS: exports,
     NEWLINE: '\n',
   };
 

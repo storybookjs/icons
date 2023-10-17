@@ -21,5 +21,3 @@ export const Outline = forwardRef<SVGSVGElement, IconProps>(
     );
   }
 );
-
-export default Outline;
