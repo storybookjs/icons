@@ -1,8 +1,4 @@
-function componentTemplate(
-  { template },
-  opts,
-  { componentName, jsx, exports }
-) {
+function componentTemplate({ template }, opts, { componentName, jsx }) {
   const code = `
     import * as React from 'react';
     import { IconProps } from '../types';
