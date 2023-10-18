@@ -16,7 +16,7 @@ export const createIndex = ({ downloadedSVGsData }: createIndexProps) => {
 
   downloadedSVGsData.forEach((component) => {
     // Convert name to pascal case
-    const componentName = toPascalCase(component.name);
+    const componentName = `${toPascalCase(component.name)}Icon`;
 
     // Export statement
     const componentExport = `export { ${componentName} } from './icons/${componentName}';`;

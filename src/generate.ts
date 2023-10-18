@@ -60,7 +60,7 @@ export const getGroups = async (figmaFileId: string) => {
     console.log(chalk.cyanBright('-> Converting to React components'));
     downloadedSVGsData.forEach((svg) => {
       const svgCode = svg.data;
-      const componentName = toPascalCase(svg.name);
+      const componentName = `${toPascalCase(svg.name)}Icon`;
       const componentFileName = `${componentName}.tsx`;
       const storyFileName = `${componentName}.stories.ts`;
 
@@ -114,7 +114,7 @@ export const getGroups = async (figmaFileId: string) => {
       })
     );
 
-    // 8. Generate icons.ts
+    // 8. Generate index.ts
     console.log(chalk.yellowBright('-> Generating icons file'));
     createIndex({ downloadedSVGsData, groupsWithComponents });
 

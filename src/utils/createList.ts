@@ -21,7 +21,7 @@ export const createList = ({
           (svg: { id: any }) => svg.id === component
         );
         const name = findComponent?.name;
-        const componentName = toPascalCase(name || '');
+        const componentName = `${toPascalCase(name || '')}Icon`;
         return componentName;
       }),
     })
