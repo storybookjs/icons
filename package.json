@@ -22,15 +22,17 @@
     "chromatic": "npx chromatic --project-token=chpt_d0c5927e55681dd",
     "generate-icons": "ts-node ./src/generate.ts"
   },
-  "sideEffect": false,
-  "types": "./dist/index.d.ts",
+  "sideEffects": false,
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "exports": {
     ".": {
       "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
     }
   },
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
