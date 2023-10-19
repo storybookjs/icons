@@ -1,3 +1,19 @@
+# v1.2.1 (Thu Oct 19 2023)
+
+#### 🐛 Bug Fix
+
+- Fix tree shaking [#21](https://github.com/storybookjs/icons/pull/21) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### ⚠️ Pushed to `main`
+
+- Update README.md ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.2.0 (Thu Oct 12 2023)
 
 #### 🚀 Enhancement
