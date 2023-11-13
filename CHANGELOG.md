@@ -1,3 +1,15 @@
+# v1.2.2 (Mon Nov 13 2023)
+
+#### 🐛 Bug Fix
+
+- Added new small chevron icons [#22](https://github.com/storybookjs/icons/pull/22) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.2.1 (Thu Oct 19 2023)
 
 #### 🐛 Bug Fix
