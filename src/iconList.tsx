@@ -50,12 +50,13 @@ export const iconList = [
       'GraphLineIcon',
       'CalendarIcon',
       'GraphBarIcon',
-      'MenuIcon',
-      'MenuReverseIcon',
+      'AlignLeftIcon',
+      'AlignRightIcon',
       'FilterIcon',
       'DocChartIcon',
       'DocListIcon',
       'DragIcon',
+      'MenuIcon',
     ]
   },
   {
