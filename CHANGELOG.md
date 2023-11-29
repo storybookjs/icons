@@ -1,3 +1,15 @@
+# v1.2.3 (Wed Nov 29 2023)
+
+#### 🐛 Bug Fix
+
+- Update menu icon [#23](https://github.com/storybookjs/icons/pull/23) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.2.2 (Mon Nov 13 2023)
 
 #### 🐛 Bug Fix
