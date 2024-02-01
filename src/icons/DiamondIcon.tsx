@@ -20,7 +20,7 @@ export const DiamondIcon = /* @__PURE__ */ React.forwardRef<
           fillRule="evenodd"
           clipRule="evenodd"
           d="M8.414 1.586a2 2 0 00-2.828 0l-4 4a2 2 0 000 2.828l4 4a2 2 0 002.828 0l4-4a2 2 0 000-2.828l-4-4zm.707-.707a3 3 0 00-4.242 0l-4 4a3 3 0 000 4.242l4 4a3 3 0 004.242 0l4-4a3 3 0 000-4.242l-4-4z"
-          fill="#2E3438"
+          fill={color}
         />
       </g>
       <defs>
