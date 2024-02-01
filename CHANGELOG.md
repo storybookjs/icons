@@ -1,3 +1,15 @@
+# v1.2.4 (Thu Feb 01 2024)
+
+#### 🐛 Bug Fix
+
+- Fix DiamondIcon color [#24](https://github.com/storybookjs/icons/pull/24) ([@ghengeveld](https://github.com/ghengeveld))
+
+#### Authors: 1
+
+- Gert Hengeveld ([@ghengeveld](https://github.com/ghengeveld))
+
+---
+
 # v1.2.3 (Wed Nov 29 2023)
 
 #### 🐛 Bug Fix
