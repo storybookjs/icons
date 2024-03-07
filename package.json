@@ -65,7 +65,7 @@
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
     "@vitejs/plugin-react": "3.1.0",
-    "auto": "10.46.0",
+    "auto": "11.1.1",
     "axios": "1.4.0",
     "chalk": "4.1.2",
     "chromatic": "6.17.3",
