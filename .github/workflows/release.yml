@@ -7,8 +7,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          # Ensure that git uses your token with admin access to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Prepare repository
+        # Fetch full git history and tags
         run: git fetch --unshallow --tags
 
       - name: Setup pnpm
