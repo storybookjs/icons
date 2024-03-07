@@ -104,7 +104,7 @@
   },
   "auto": {
     "plugins": [
-      "pnpm"
+      "npm"
     ]
   }
 }
