@@ -11,14 +11,14 @@
     "url": "git+https://github.com/storybookjs/icons.git"
   },
   "scripts": {
-    "dev": "concurrently  -n \"Build,SB\" \"yarn build --watch\" \"yarn storybook\" ",
+    "dev": "concurrently  -n \"Build,SB\" \"pnpm build --watch\" \"pnpm storybook\" ",
     "build": "tsup --onSuccess \"cp -a public/. dist/public\"",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
-    "lint:fix": "yarn lint --fix && prettier --write .",
+    "lint:fix": "pnpm lint --fix && prettier --write .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "release": "yarn build && auto shipit",
+    "release": "pnpm build && auto shipit",
     "chromatic": "npx chromatic --project-token=chpt_d0c5927e55681dd",
     "generate-icons": "ts-node ./src/generate.ts"
   },
