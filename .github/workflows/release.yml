@@ -13,7 +13,7 @@ jobs:
         run: git fetch --unshallow --tags
 
       - name: Install dependencies
-        uses: bahmutov/npm-install@v1
+        run: pnpm install
 
       - name: Create Release
         env:
