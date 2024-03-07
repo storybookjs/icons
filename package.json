@@ -11,14 +11,14 @@
     "url": "git+https://github.com/storybookjs/icons.git"
   },
   "scripts": {
-    "dev": "concurrently  -n \"Build,SB\" \"yarn build --watch\" \"yarn storybook\" ",
+    "dev": "concurrently  -n \"Build,SB\" \"pnpm build --watch\" \"pnpm storybook\" ",
     "build": "tsup --onSuccess \"cp -a public/. dist/public\"",
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
-    "lint:fix": "yarn lint --fix && prettier --write .",
+    "lint:fix": "pnpm lint --fix && prettier --write .",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "release": "yarn build && auto shipit",
+    "release": "pnpm build && auto shipit",
     "chromatic": "npx chromatic --project-token=chpt_d0c5927e55681dd",
     "generate-icons": "ts-node ./src/generate.ts"
   },
@@ -46,15 +46,16 @@
     "node": ">=14.0.0"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "7.0.15",
-    "@storybook/addon-essentials": "^7.0.15",
-    "@storybook/addon-interactions": "^7.0.15",
-    "@storybook/addon-mdx-gfm": "7.0.15",
-    "@storybook/blocks": "^7.0.15",
+    "@storybook/addon-a11y": "^8.0.0-rc.3",
+    "@storybook/addon-essentials": "^8.0.0-rc.3",
+    "@storybook/addon-interactions": "^8.0.0-rc.3",
+    "@storybook/addon-mdx-gfm": "^8.0.0-rc.3",
+    "@storybook/blocks": "^8.0.0-rc.3",
     "@storybook/eslint-config-storybook": "3.1.2",
-    "@storybook/react": "^7.0.15",
-    "@storybook/react-vite": "^7.0.15",
-    "@storybook/testing-library": "^0.1.0",
+    "@storybook/react": "^8.0.0-rc.3",
+    "@storybook/react-vite": "^8.0.0-rc.3",
+    "@storybook/test": "^8.0.0-rc.3",
+    "@storybook/theming": "^8.0.0-rc.3",
     "@svgr/core": "5.5.0",
     "@svgr/plugin-prettier": "5.5.0",
     "@svgr/plugin-svgo": "5.5.0",
@@ -65,10 +66,10 @@
     "@typescript-eslint/eslint-plugin": "5.55.0",
     "@typescript-eslint/parser": "5.55.0",
     "@vitejs/plugin-react": "3.1.0",
-    "auto": "10.46.0",
+    "auto": "11.1.1",
     "axios": "1.4.0",
     "chalk": "4.1.2",
-    "chromatic": "6.17.3",
+    "chromatic": "11.0.4",
     "concurrently": "8.0.1",
     "dotenv": "16.3.1",
     "eslint": "8.36.0",
@@ -82,7 +83,7 @@
     "prettier": "2.8.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "storybook": "7.0.15",
+    "storybook": "^8.0.0-rc.3",
     "ts-node": "10.9.1",
     "tsup": "6.6.3",
     "typescript": "5.0.2",
@@ -102,7 +103,7 @@
   },
   "auto": {
     "plugins": [
-      "npm"
+      "pnpm"
     ]
   }
 }
