@@ -1,3 +1,20 @@
+# v1.2.4 (Thu Mar 07 2024)
+
+#### 🐛 Bug Fix
+
+- Fix permissions auto [#27](https://github.com/storybookjs/icons/pull/27) ([@cdedreuille](https://github.com/cdedreuille))
+- Update package.json [#26](https://github.com/storybookjs/icons/pull/26) ([@cdedreuille](https://github.com/cdedreuille))
+- Added new arrows ↗️↘️↙️↖️ [#25](https://github.com/storybookjs/icons/pull/25) ([@cdedreuille](https://github.com/cdedreuille) [@yannbf](https://github.com/yannbf))
+- Fix DiamondIcon color [#24](https://github.com/storybookjs/icons/pull/24) ([@ghengeveld](https://github.com/ghengeveld))
+
+#### Authors: 3
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+- Gert Hengeveld ([@ghengeveld](https://github.com/ghengeveld))
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v1.2.3 (Wed Nov 29 2023)
 
 #### 🐛 Bug Fix
