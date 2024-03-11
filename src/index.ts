@@ -87,6 +87,7 @@ export { TwitterIcon } from './icons/TwitterIcon';
 export { YoutubeIcon } from './icons/YoutubeIcon';
 export { VSCodeIcon } from './icons/VSCodeIcon';
 export { LinkedinIcon } from './icons/LinkedinIcon';
+export { XIcon } from './icons/XIcon';
 export { BrowserIcon } from './icons/BrowserIcon';
 export { TabletIcon } from './icons/TabletIcon';
 export { MobileIcon } from './icons/MobileIcon';

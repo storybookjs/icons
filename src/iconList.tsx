@@ -114,6 +114,7 @@ export const iconList = [
       'YoutubeIcon',
       'VSCodeIcon',
       'LinkedinIcon',
+      'XIcon',
     ]
   },
   {
