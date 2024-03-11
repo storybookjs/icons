@@ -1,3 +1,15 @@
+# v1.2.9 (Mon Mar 11 2024)
+
+#### 🐛 Bug Fix
+
+- Add the X icon [#28](https://github.com/storybookjs/icons/pull/28) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.2.4 (Thu Mar 07 2024)
 
 #### 🐛 Bug Fix
