@@ -1,8 +1,6 @@
 import React from 'react';
-import { IconGallery, IconItem } from '@storybook/blocks';
-import { iconList } from './iconList';
+import { IconGallery } from './IconGallery';
 import Cover from './cover.png';
-import * as Icon from './';
 
 <style>
   {`
@@ -25,20 +23,4 @@ An Icon is a piece of visual element, but we must ensure its accessibility while
 
 <div className="spacer" />
 
-{iconList.map((group) => (
-
-<div key={group.name}>
-  <h2 style={{ marginTop: 32, marginBottom: 24 }}>{group.name}</h2>
-  <IconGallery>
-    {group.icons.map((item) => {
-      const MyIcon = Icon[item];
-      return (
-        <IconItem key={item} name={item}>
-          <MyIcon />
-        </IconItem>
-      );
-    })}
-  </IconGallery>
-</div>
-
-))}
+<IconGallery mode="categorized" />
