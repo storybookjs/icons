@@ -36,7 +36,7 @@ export const iconList = [
       'StackedIcon',
       'SunIcon',
       'MoonIcon',
-    ],
+    ]
   },
   {
     name: 'Documents',
@@ -57,7 +57,7 @@ export const iconList = [
       'DocListIcon',
       'DragIcon',
       'MenuIcon',
-    ],
+    ]
   },
   {
     name: 'Editing',
@@ -70,7 +70,7 @@ export const iconList = [
       'ListUnorderedIcon',
       'ParagraphIcon',
       'MarkdownIcon',
-    ],
+    ]
   },
   {
     name: 'Git',
@@ -80,7 +80,7 @@ export const iconList = [
       'BranchIcon',
       'PullRequestIcon',
       'MergeIcon',
-    ],
+    ]
   },
   {
     name: 'OS',
@@ -90,7 +90,7 @@ export const iconList = [
       'UbuntuIcon',
       'WindowsIcon',
       'ChromeIcon',
-    ],
+    ]
   },
   {
     name: 'Logos',
@@ -115,7 +115,7 @@ export const iconList = [
       'VSCodeIcon',
       'LinkedinIcon',
       'XIcon',
-    ],
+    ]
   },
   {
     name: 'Devices',
@@ -136,7 +136,7 @@ export const iconList = [
       'StructureIcon',
       'BoxIcon',
       'PowerIcon',
-    ],
+    ]
   },
   {
     name: 'CRUD',
@@ -220,7 +220,10 @@ export const iconList = [
       'CloudHollowIcon',
       'CloudIcon',
       'StickerIcon',
-    ],
+      'StatusFailIcon',
+      'StatusWarnIcon',
+      'StatusPassIcon',
+    ]
   },
   {
     name: 'Wayfinding',
@@ -269,7 +272,7 @@ export const iconList = [
       'HomeIcon',
       'AdminIcon',
       'DirectionIcon',
-    ],
+    ]
   },
   {
     name: 'People',
@@ -284,6 +287,6 @@ export const iconList = [
       'FaceSadIcon',
       'AccessibilityIcon',
       'AccessibilityAltIcon',
-    ],
+    ]
   },
 ];
