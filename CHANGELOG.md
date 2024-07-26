@@ -1,3 +1,17 @@
+# v1.2.10 (Fri Jul 26 2024)
+
+#### 🐛 Bug Fix
+
+- Add StatusFailIcon, StatusPassIcon, StatusWarnIcon [#31](https://github.com/storybookjs/icons/pull/31) ([@cdedreuille](https://github.com/cdedreuille))
+- Upgrade storybook and add icon search [#30](https://github.com/storybookjs/icons/pull/30) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 2
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v1.2.9 (Mon Mar 11 2024)
 
 #### 🐛 Bug Fix
