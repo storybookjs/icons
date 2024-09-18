@@ -32,6 +32,8 @@ export const iconList = [
       'RewindIcon',
       'FastForwardIcon',
       'StopAltIcon',
+      'PlayHollowIcon',
+      'PlayAllHollowIcon',
       'SideBySideIcon',
       'StackedIcon',
       'SunIcon',
@@ -181,7 +183,8 @@ export const iconList = [
       'PointerDefaultIcon',
       'PointerHandIcon',
       'CommandIcon',
-    ],
+      'SaveIcon',
+    ]
   },
   {
     name: 'Communicate',
