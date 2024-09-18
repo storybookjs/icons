@@ -1,3 +1,15 @@
+# v1.2.12 (Wed Sep 18 2024)
+
+#### 🐛 Bug Fix
+
+- Add StopAltHollow icon [#33](https://github.com/storybookjs/icons/pull/33) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.2.11 (Wed Sep 18 2024)
 
 #### 🐛 Bug Fix
