@@ -1,3 +1,15 @@
+# v1.2.11 (Wed Sep 18 2024)
+
+#### 🐛 Bug Fix
+
+- Add 3 new icons (PlayAll, PlayHollow, Save) [#32](https://github.com/storybookjs/icons/pull/32) ([@cdedreuille](https://github.com/cdedreuille))
+
+#### Authors: 1
+
+- Charles de Dreuille ([@cdedreuille](https://github.com/cdedreuille))
+
+---
+
 # v1.2.10 (Fri Jul 26 2024)
 
 #### 🐛 Bug Fix
