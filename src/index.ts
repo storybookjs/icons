@@ -30,6 +30,7 @@ export { PlayNextIcon } from './icons/PlayNextIcon';
 export { RewindIcon } from './icons/RewindIcon';
 export { FastForwardIcon } from './icons/FastForwardIcon';
 export { StopAltIcon } from './icons/StopAltIcon';
+export { StopAltHollowIcon } from './icons/StopAltHollowIcon';
 export { PlayHollowIcon } from './icons/PlayHollowIcon';
 export { PlayAllHollowIcon } from './icons/PlayAllHollowIcon';
 export { SideBySideIcon } from './icons/SideBySideIcon';

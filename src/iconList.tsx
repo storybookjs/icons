@@ -32,6 +32,7 @@ export const iconList = [
       'RewindIcon',
       'FastForwardIcon',
       'StopAltIcon',
+      'StopAltHollowIcon',
       'PlayHollowIcon',
       'PlayAllHollowIcon',
       'SideBySideIcon',
