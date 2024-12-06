@@ -1,3 +1,15 @@
+# v1.3.0 (Fri Dec 06 2024)
+
+#### 🚀 Enhancement
+
+- Support React 19 [#35](https://github.com/storybookjs/icons/pull/35) ([@yannbf](https://github.com/yannbf))
+
+#### Authors: 1
+
+- Yann Braga ([@yannbf](https://github.com/yannbf))
+
+---
+
 # v1.2.12 (Wed Sep 18 2024)
 
 #### 🐛 Bug Fix
