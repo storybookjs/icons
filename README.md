@@ -31,7 +31,15 @@ pnpm add @storybook/icons
 
 ## Generating new icons from Figma
 
-Fetch all icons from Figma locally and create React components + stories automatically:
+First, set local environment variables:
+
+```console
+FIGMA_API_TOKEN=<YOUR_FIGMA_API_TOKEN>
+FIGMA_FILE_ID=<FIGMA_FILE_ID>
+FIGMA_CANVAS=Icons
+```
+
+Then, fetch all icons from Figma locally and create React components + stories automatically:
 
 ```console
 pnpm generate-icons
