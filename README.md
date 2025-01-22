@@ -23,11 +23,11 @@ This command will fetch all icons from Figma locally and create react components
 yarn generate-icons
 ```
 
-Inpired from [this article](https://blog.certa.dev/generating-react-icon-components-from-figma).
+Inspired by [this article](https://blog.certa.dev/generating-react-icon-components-from-figma).
 
 ## Developing
 
-Watch and rebuild code with `tsup` and runs Storybook to preview your UI during development.
+Watch and rebuild code with `tsup` and run Storybook to preview your UI during development.
 
 ```console
 yarn storybook
