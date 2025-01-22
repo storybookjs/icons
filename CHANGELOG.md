@@ -1,3 +1,15 @@
+# v1.3.1 (Wed Jan 22 2025)
+
+#### 🐛 Bug Fix
+
+- Fix a couple minor typos [#36](https://github.com/storybookjs/icons/pull/36) ([@andrewortwein](https://github.com/andrewortwein))
+
+#### Authors: 1
+
+- Andrew Ortwein ([@andrewortwein](https://github.com/andrewortwein))
+
+---
+
 # v1.3.0 (Fri Dec 06 2024)
 
 #### 🚀 Enhancement
