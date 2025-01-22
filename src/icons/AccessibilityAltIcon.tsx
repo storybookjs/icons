@@ -9,7 +9,7 @@ export const AccessibilityAltIcon = /* @__PURE__ */ React.forwardRef<
     <svg
       width={size}
       height={size}
-      viewBox="0 0 15 14"
+      viewBox="0 0 14 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       ref={forwardedRef}
