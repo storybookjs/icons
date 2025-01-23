@@ -1,3 +1,20 @@
+# v1.3.2 (Thu Jan 23 2025)
+
+#### 🐛 Bug Fix
+
+- Generate new icons [#38](https://github.com/storybookjs/icons/pull/38) ([@andrewortwein](https://github.com/andrewortwein))
+
+#### 📝 Documentation
+
+- Update docs to use pnpm instead of yarn [#37](https://github.com/storybookjs/icons/pull/37) ([@andrewortwein](https://github.com/andrewortwein) [@JReinhold](https://github.com/JReinhold))
+
+#### Authors: 2
+
+- Andrew Ortwein ([@andrewortwein](https://github.com/andrewortwein))
+- Jeppe Reinhold ([@JReinhold](https://github.com/JReinhold))
+
+---
+
 # v1.3.1 (Wed Jan 22 2025)
 
 #### 🐛 Bug Fix
