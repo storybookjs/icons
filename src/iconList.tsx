@@ -153,6 +153,7 @@ export const iconList = [
       'WrenchIcon',
       'EllipsisIcon',
       'WandIcon',
+      'SweepIcon',
       'CheckIcon',
       'FormIcon',
       'BatchDenyIcon',

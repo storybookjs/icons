@@ -116,6 +116,7 @@ export { NutIcon } from './icons/NutIcon';
 export { WrenchIcon } from './icons/WrenchIcon';
 export { EllipsisIcon } from './icons/EllipsisIcon';
 export { WandIcon } from './icons/WandIcon';
+export { SweepIcon } from './icons/SweepIcon';
 export { CheckIcon } from './icons/CheckIcon';
 export { FormIcon } from './icons/FormIcon';
 export { BatchDenyIcon } from './icons/BatchDenyIcon';
