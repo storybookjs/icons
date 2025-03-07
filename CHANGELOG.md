@@ -1,3 +1,15 @@
+# v1.4.0 (Fri Mar 07 2025)
+
+#### 🚀 Enhancement
+
+- Add sweep icon [#40](https://github.com/storybookjs/icons/pull/40) ([@ghengeveld](https://github.com/ghengeveld))
+
+#### Authors: 1
+
+- Gert Hengeveld ([@ghengeveld](https://github.com/ghengeveld))
+
+---
+
 # v1.3.2 (Thu Jan 23 2025)
 
 #### 🐛 Bug Fix
