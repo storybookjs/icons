@@ -1,3 +1,15 @@
+# v1.5.0 (Mon Sep 15 2025)
+
+#### 🚀 Enhancement
+
+- add bug icon [#41](https://github.com/storybookjs/icons/pull/41) ([@MichaelArestad](https://github.com/MichaelArestad))
+
+#### Authors: 1
+
+- Michael Arestad ([@MichaelArestad](https://github.com/MichaelArestad))
+
+---
+
 # v1.4.0 (Fri Mar 07 2025)
 
 #### 🚀 Enhancement
