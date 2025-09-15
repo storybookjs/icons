@@ -17,7 +17,7 @@ export const DirectionIcon = /* @__PURE__ */ React.forwardRef<
     >
       <g clipPath="url(#prefix__clip0_1107_3594)">
         <path
-          d="M11.451.537l.01 12.922h0L7.61 8.946a1.077 1.077 0 00-.73-.374L.964 8.087 11.45.537h0z"
+          d="M11.451.537l.01 12.922L7.61 8.946a1.078 1.078 0 00-.731-.374L.965 8.087 11.45.537z"
           stroke={color}
           strokeWidth={1.077}
         />
