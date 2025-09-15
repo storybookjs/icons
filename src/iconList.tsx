@@ -24,6 +24,7 @@ export const iconList = [
       'SwitchAltIcon',
       'ContrastIgnoredIcon',
       'PaintBrushIcon',
+      'PaintBrushAltIcon',
       'RulerIcon',
       'CameraIcon',
       'VideoIcon',
@@ -189,6 +190,9 @@ export const iconList = [
       'PointerHandIcon',
       'CommandIcon',
       'SaveIcon',
+      'SortDownIcon',
+      'SortUpIcon',
+      'BugIcon',
     ]
   },
   {
@@ -232,6 +236,7 @@ export const iconList = [
       'StatusIcon',
       'StatusWarnIcon',
       'StatusPassIcon',
+      'GiftIcon',
     ]
   },
   {
