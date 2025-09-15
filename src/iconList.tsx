@@ -24,7 +24,7 @@ export const iconList = [
       'SwitchAltIcon',
       'ContrastIgnoredIcon',
       'PaintBrushIcon',
-      'PaintBrushIcon',
+      'PaintBrushAltIcon',
       'RulerIcon',
       'CameraIcon',
       'VideoIcon',

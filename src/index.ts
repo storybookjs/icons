@@ -22,7 +22,7 @@ export { ContrastIcon } from './icons/ContrastIcon';
 export { SwitchAltIcon } from './icons/SwitchAltIcon';
 export { ContrastIgnoredIcon } from './icons/ContrastIgnoredIcon';
 export { PaintBrushIcon } from './icons/PaintBrushIcon';
-export { PaintBrushIcon } from './icons/PaintBrushIcon';
+export { PaintBrushAltIcon } from './icons/PaintBrushAltIcon';
 export { RulerIcon } from './icons/RulerIcon';
 export { CameraIcon } from './icons/CameraIcon';
 export { VideoIcon } from './icons/VideoIcon';
