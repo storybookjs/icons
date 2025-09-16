@@ -1,3 +1,15 @@
+# v1.5.1 (Tue Sep 16 2025)
+
+#### 🐛 Bug Fix
+
+- Update SB version and fix packages [#42](https://github.com/storybookjs/icons/pull/42) ([@MichaelArestad](https://github.com/MichaelArestad))
+
+#### Authors: 1
+
+- Michael Arestad ([@MichaelArestad](https://github.com/MichaelArestad))
+
+---
+
 # v1.5.0 (Mon Sep 15 2025)
 
 #### 🚀 Enhancement
