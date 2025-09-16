@@ -156,6 +156,7 @@ export { SaveIcon } from './icons/SaveIcon';
 export { SortDownIcon } from './icons/SortDownIcon';
 export { SortUpIcon } from './icons/SortUpIcon';
 export { BugIcon } from './icons/BugIcon';
+export { EditorIcon } from './icons/EditorIcon';
 export { InfoIcon } from './icons/InfoIcon';
 export { QuestionIcon } from './icons/QuestionIcon';
 export { SupportIcon } from './icons/SupportIcon';

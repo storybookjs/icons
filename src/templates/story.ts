@@ -1,5 +1,5 @@
 export const story = (name: string) => {
-  return `import type { Meta, StoryObj } from '@storybook/react';
+  return `import type { Meta, StoryObj } from '@storybook/react-vite';
 
 import { ${name} } from './${name}';
 

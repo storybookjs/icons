@@ -193,6 +193,7 @@ export const iconList = [
       'SortDownIcon',
       'SortUpIcon',
       'BugIcon',
+      'EditorIcon',
     ]
   },
   {
