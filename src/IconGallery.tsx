@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
-import { styled } from '@storybook/theming';
-import { IconGallery as GalleryBlock, IconItem } from '@storybook/blocks';
+import { styled } from 'storybook/theming';
+import {
+  IconGallery as GalleryBlock,
+  IconItem,
+} from '@storybook/addon-docs/blocks';
 
 import * as Icon from './index';
 import { iconList } from './iconList';
@@ -41,9 +44,9 @@ const Input = styled.input(({ theme }) => ({
     display: 'none',
   },
   '&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration':
-  {
-    display: 'none',
-  },
+    {
+      display: 'none',
+    },
 }));
 
 export const IconGallery = () => {
@@ -79,23 +82,29 @@ export const IconGallery = () => {
         onChange={handleSearchChange}
       />
       <div>
-        {filteredList.length === 0 ? <div style={{ paddingTop: 32 }}>No icons matched "{searchTerm}"</div> : filteredList.map((group) => {
-          return (
-            <div key={group?.name}>
-              <h2 style={{ marginTop: 32, marginBottom: 24 }}>{group?.name}</h2>
-              <GalleryBlock>
-                {group?.icons.map((item) => {
-                  const MyIcon = Icon[item as keyof typeof Icon] as any;
-                  return (
-                    <IconItem key={item} name={item}>
-                      <MyIcon />
-                    </IconItem>
-                  );
-                })}
-              </GalleryBlock>
-            </div>
-          )
-        })}
+        {filteredList.length === 0 ? (
+          <div style={{ paddingTop: 32 }}>No icons matched "{searchTerm}"</div>
+        ) : (
+          filteredList.map((group) => {
+            return (
+              <div key={group?.name}>
+                <h2 style={{ marginTop: 32, marginBottom: 24 }}>
+                  {group?.name}
+                </h2>
+                <GalleryBlock>
+                  {group?.icons.map((item) => {
+                    const MyIcon = Icon[item as keyof typeof Icon] as any;
+                    return (
+                      <IconItem key={item} name={item}>
+                        <MyIcon />
+                      </IconItem>
+                    );
+                  })}
+                </GalleryBlock>
+              </div>
+            );
+          })
+        )}
       </div>
     </div>
   );
