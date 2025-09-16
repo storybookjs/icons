@@ -1,3 +1,15 @@
+# v1.6.0 (Tue Sep 16 2025)
+
+#### 🚀 Enhancement
+
+- Add editor icon and fix story template [#43](https://github.com/storybookjs/icons/pull/43) ([@MichaelArestad](https://github.com/MichaelArestad))
+
+#### Authors: 1
+
+- Michael Arestad ([@MichaelArestad](https://github.com/MichaelArestad))
+
+---
+
 # v1.5.1 (Tue Sep 16 2025)
 
 #### 🐛 Bug Fix
