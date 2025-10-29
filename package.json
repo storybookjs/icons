@@ -28,9 +28,9 @@
   "module": "./dist/index.mjs",
   "exports": {
     ".": {
-      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     }
   },
   "types": "./dist/index.d.ts",
@@ -86,8 +86,8 @@
     "@storybook/addon-docs": "^9.1.6"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta"
+    "react": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "bugs": {
     "url": "https://github.com/storybookjs/icons/issues"
