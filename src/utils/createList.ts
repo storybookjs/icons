@@ -1,9 +1,9 @@
-import os from 'os';
-import fs from 'fs-extra';
-import path from 'path';
+import os from 'node:os';
+import path from 'node:path';
+import { writeFile } from 'node:fs/promises';
 import { toPascalCase } from './toPascalCase';
 
-export const createList = ({
+export const createList = async ({
   groupsWithComponents,
   downloadedSVGsData,
   indexDirectoryPath,
@@ -48,7 +48,7 @@ export const createList = ({
   // console.log(listContent);
 
   // Write the content to file system
-  fs.writeFileSync(
+  await writeFile(
     path.resolve(indexDirectoryPath, 'iconList.tsx'),
     listContent
   );

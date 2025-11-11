@@ -1,6 +1,6 @@
-import path from 'path';
-import fs from 'fs-extra';
-import chalk from 'chalk';
+import path from 'node:path';
+import { writeFile, mkdir } from 'node:fs/promises';
+import picocolors from 'picocolors';
 import dotenv from 'dotenv';
 import figmaApiExporter from 'figma-api-exporter';
 // eslint-disable-next-line import/no-extraneous-dependencies
@@ -44,7 +44,7 @@ const client = Figma.Client({
 export const getGroups = async (figmaFileId: string) => {
   try {
     // 2. Fetch icons metadata from Figma
-    console.log(chalk.magentaBright('-> Fetching icons metadata'));
+    console.log(picocolors.magentaBright('-> Fetching icons metadata'));
     const exporter = figmaApiExporter(FIGMA_API_TOKEN);
 
     const svgsData = await exporter.getSvgs({
@@ -53,42 +53,42 @@ export const getGroups = async (figmaFileId: string) => {
     });
 
     // 3. Download SVG files from Figma
-    console.log(chalk.blueBright('-> Downloading SVG code'));
+    console.log(picocolors.blueBright('-> Downloading SVG code'));
     const downloadedSVGsData = await downloadSVGsData(svgsData.svgs);
 
     // 4. Convert SVG to React Components
-    console.log(chalk.cyanBright('-> Converting to React components'));
-    downloadedSVGsData.forEach((svg) => {
+    console.log(picocolors.cyanBright('-> Converting to React components'));
+    for (const svg of downloadedSVGsData) {
       const svgCode = svg.data;
       const componentName = `${toPascalCase(svg.name)}Icon`;
       const componentFileName = `${componentName}.tsx`;
       const storyFileName = `${componentName}.stories.ts`;
 
       // Converts SVG code into React code using SVGR library
-      const componentCode = svgr.sync(svgCode, svgrConfig, {
+      const componentCode = await svgr(svgCode, svgrConfig, {
         componentName,
       });
 
       // 5. Write generated component to file system
-      fs.ensureDirSync(ICONS_DIRECTORY_PATH);
-      fs.outputFileSync(
+      await mkdir(ICONS_DIRECTORY_PATH, { recursive: true });
+      await writeFile(
         path.resolve(ICONS_DIRECTORY_PATH, componentFileName),
         componentCode
       );
 
       // 6. Create stories
-      fs.ensureDirSync(ICONS_DIRECTORY_PATH);
-      fs.outputFileSync(
+      await mkdir(ICONS_DIRECTORY_PATH, { recursive: true });
+      await writeFile(
         path.resolve(ICONS_DIRECTORY_PATH, storyFileName),
         story(componentName)
       );
-    });
+    };
 
-    console.log(chalk.cyanBright('-> Write generated component'));
-    console.log(chalk.yellow('-> Create stories'));
+    console.log(picocolors.cyanBright('-> Write generated component'));
+    console.log(picocolors.yellow('-> Create stories'));
 
     // 7. Get groups from Figma
-    console.log(chalk.magentaBright('-> Fetching groups'));
+    console.log(picocolors.magentaBright('-> Fetching groups'));
     const fileData = await client.file(figmaFileId);
     const processedFile = processFile(fileData.data, figmaFileId);
 
@@ -115,18 +115,18 @@ export const getGroups = async (figmaFileId: string) => {
     );
 
     // 8. Generate index.ts
-    console.log(chalk.yellowBright('-> Generating icons file'));
-    createIndex({ downloadedSVGsData, groupsWithComponents });
+    console.log(picocolors.yellowBright('-> Generating icons file'));
+    await createIndex({ downloadedSVGsData, groupsWithComponents });
 
     // 10. Generate list.ts
-    console.log(chalk.yellowBright('-> Generating list file'));
-    createList({
+    console.log(picocolors.yellowBright('-> Generating list file'));
+    await createList({
       groupsWithComponents,
       downloadedSVGsData,
       indexDirectoryPath: INDEX_DIRECTORY_PATH,
     });
 
-    console.log(chalk.greenBright('-> All done! ✅'));
+    console.log(picocolors.greenBright('-> All done! ✅'));
   } catch (error) {
     console.error(error);
     process.exit(1);
