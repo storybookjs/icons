@@ -3,9 +3,10 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "jsx": "react",
-    "module": "CommonJS",
+    "module": "preserve",
     "allowJs": true,
-    "moduleResolution": "node",
+    "isolatedModules": true,
+    "moduleResolution": "bundler",
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true
