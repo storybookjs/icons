@@ -67,6 +67,7 @@
     "lint-staged": "^16.2.6",
     "oxlint": "^1.28.0",
     "picocolors": "^1.1.1",
+    "pkg-pr-new": "^0.0.57",
     "prettier": "^3.6.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
