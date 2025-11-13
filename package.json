@@ -35,7 +35,7 @@
     "format": "prettier --write .",
     "generate-icons": "jiti ./src/generate.ts",
     "lint": "oxlint",
-    "release": "pnpm build && auto shipit",
+    "release": "pnpm build && pnpm changeset publish",
     "storybook": "storybook dev -p 6006",
     "type-check": "tsc"
   },
