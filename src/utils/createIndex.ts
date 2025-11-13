@@ -1,6 +1,6 @@
-import os from 'os';
-import fs from 'fs-extra';
-import path from 'path';
+import os from 'node:os';
+import path from 'node:path';
+import { writeFile } from 'node:fs/promises';
 import { toPascalCase } from './toPascalCase';
 
 interface createIndexProps {
@@ -8,7 +8,7 @@ interface createIndexProps {
   groupsWithComponents: { name: string; components: any }[];
 }
 
-export const createIndex = ({ downloadedSVGsData }: createIndexProps) => {
+export const createIndex = async ({ downloadedSVGsData }: createIndexProps) => {
   let indexContent = '';
 
   const imports = `export { iconList } from './iconList';`;
@@ -25,5 +25,5 @@ export const createIndex = ({ downloadedSVGsData }: createIndexProps) => {
   });
 
   // Write the content to file system
-  fs.writeFileSync(path.resolve('./src', 'index.ts'), indexContent);
+  await writeFile(path.resolve('./src', 'index.ts'), indexContent);
 };
