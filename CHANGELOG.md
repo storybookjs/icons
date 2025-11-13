@@ -1,5 +1,15 @@
 # v1.6.0 (Tue Sep 16 2025)
 
+## 2.0.0
+
+### Major Changes
+
+- 35f7dd8: ESM-only
+
+### Patch Changes
+
+- 693968c: remove react prerelease version compat
+
 #### 🚀 Enhancement
 
 - Add editor icon and fix story template [#43](https://github.com/storybookjs/icons/pull/43) ([@MichaelArestad](https://github.com/MichaelArestad))
