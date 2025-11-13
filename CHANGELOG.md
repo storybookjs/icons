@@ -1,5 +1,11 @@
 # v1.6.0 (Tue Sep 16 2025)
 
+## 2.0.1
+
+### Patch Changes
+
+- d1468a0: fix release script
+
 ## 2.0.0
 
 ### Major Changes
