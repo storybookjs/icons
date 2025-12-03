@@ -8,6 +8,9 @@ const config: StorybookConfig = {
     '@storybook/addon-docs',
   ],
   framework: '@storybook/react-vite',
+  managerHead: (head) => `${head || ''}
+    <meta name="google-site-verification" content="pEN4G_61OdhIR3Yl59I_M9QgF7FJsGNqWX1w-WcetC4" />
+`,
 };
 
 export default config;
