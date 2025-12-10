@@ -28,7 +28,7 @@
   ],
   "scripts": {
     "build": "tsup --onSuccess \"cp -a public/. dist/public\"",
-    "build-storybook": "storybook build --site-url=https://growth-observe-indexability--64b56e737c0aeefed9d5e675.chromatic.com/",
+    "build-storybook": "storybook build --site-url=https://main--64b56e737c0aeefed9d5e675.chromatic.com/",
     "changeset": "changeset",
     "chromatic": "npx chromatic --project-token=chpt_d0c5927e55681dd",
     "dev": "concurrently  -n \"Build,SB\" \"pnpm build --watch\" \"pnpm storybook\" ",
