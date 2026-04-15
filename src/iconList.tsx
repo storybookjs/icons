@@ -43,7 +43,7 @@ export const iconList = [
       'StopIcon',
       'SideBySideIcon',
       'StackedIcon',
-    ],
+    ]
   },
   {
     name: 'Documents',
@@ -51,6 +51,7 @@ export const iconList = [
       'BookIcon',
       'DocumentIcon',
       'CopyIcon',
+      'FilesIcon',
       'CategoryIcon',
       'FolderIcon',
       'PrintIcon',
@@ -64,7 +65,7 @@ export const iconList = [
       'DocListIcon',
       'DragIcon',
       'MenuIcon',
-    ],
+    ]
   },
   {
     name: 'Editing',
@@ -75,9 +76,10 @@ export const iconList = [
       'PaperClipIcon',
       'ListOrderedIcon',
       'ListUnorderedIcon',
+      'ChecklistIcon',
       'ParagraphIcon',
       'MarkdownIcon',
-    ],
+    ]
   },
   {
     name: 'Git',
@@ -87,7 +89,7 @@ export const iconList = [
       'BranchIcon',
       'PullRequestIcon',
       'MergeIcon',
-    ],
+    ]
   },
   {
     name: 'OS',
@@ -97,7 +99,7 @@ export const iconList = [
       'UbuntuIcon',
       'WindowsIcon',
       'ChromeIcon',
-    ],
+    ]
   },
   {
     name: 'Logos',
@@ -122,7 +124,7 @@ export const iconList = [
       'VSCodeIcon',
       'LinkedinIcon',
       'XIcon',
-    ],
+    ]
   },
   {
     name: 'Devices',
@@ -143,7 +145,7 @@ export const iconList = [
       'StructureIcon',
       'BoxIcon',
       'PowerIcon',
-    ],
+    ]
   },
   {
     name: 'CRUD',
@@ -194,7 +196,7 @@ export const iconList = [
       'SortUpIcon',
       'BugIcon',
       'EditorIcon',
-    ],
+    ]
   },
   {
     name: 'Communicate',
@@ -238,7 +240,9 @@ export const iconList = [
       'StatusWarnIcon',
       'StatusPassIcon',
       'GiftIcon',
-    ],
+      'StatusNewIcon',
+      'PopOutIcon',
+    ]
   },
   {
     name: 'Wayfinding',
@@ -287,7 +291,7 @@ export const iconList = [
       'HomeIcon',
       'AdminIcon',
       'DirectionIcon',
-    ],
+    ]
   },
   {
     name: 'People',
@@ -303,6 +307,6 @@ export const iconList = [
       'AccessibilityIcon',
       'AccessibilityAltIcon',
       'AccessibilityIgnoredIcon',
-    ],
+    ]
   },
 ];
