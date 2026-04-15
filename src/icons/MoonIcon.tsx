@@ -9,7 +9,7 @@ export const MoonIcon = /* @__PURE__ */ React.forwardRef<
     <svg
       width={size}
       height={size}
-      viewBox="0 0 15 15"
+      viewBox="0 0 14 14"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       ref={forwardedRef}
@@ -19,17 +19,13 @@ export const MoonIcon = /* @__PURE__ */ React.forwardRef<
         <path
           fillRule="evenodd"
           clipRule="evenodd"
-          d="M8.335.047l-.15-.015a7.499 7.499 0 106.14 10.577c.103-.229-.156-.447-.386-.346a5.393 5.393 0 01-.771.27A5.356 5.356 0 019.153.691C9.37.568 9.352.23 9.106.175a7.545 7.545 0 00-.77-.128zM6.977 1.092a6.427 6.427 0 005.336 10.671A6.427 6.427 0 116.977 1.092z"
+          d="M7.78.044A6.968 6.968 0 003.5.94a6.999 6.999 0 107 12.122 6.97 6.97 0 002.87-3.16c.098-.213-.144-.417-.359-.322a4.976 4.976 0 01-2.01.42A5 5 0 018.542.645C8.747.53 8.73.214 8.5.164a7.042 7.042 0 00-.72-.12zm-1.268.975a6 6 0 004.98 9.96 6 6 0 11-4.98-9.96z"
           fill={color}
         />
       </g>
       <defs>
         <clipPath id="prefix__clip0_1107_3493">
-          <path
-            fill="#fff"
-            transform="scale(1.07124)"
-            d="M0 0h14.001v14.002H0z"
-          />
+          <path fill="#fff" d="M0 0h14v14H0z" />
         </clipPath>
       </defs>
     </svg>

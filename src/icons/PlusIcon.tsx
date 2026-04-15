@@ -16,7 +16,7 @@ export const PlusIcon = /* @__PURE__ */ React.forwardRef<
       {...props}
     >
       <path
-        d="M7.5.5a.5.5 0 00-1 0v6h-6a.5.5 0 000 1h6v6a.5.5 0 001 0v-6h6a.5.5 0 000-1h-6v-6z"
+        d="M7 1a.5.5 0 01.5.5v5h5a.5.5 0 010 1h-5v5a.5.5 0 01-1 0v-5h-5a.5.5 0 010-1h5v-5A.5.5 0 017 1z"
         fill={color}
       />
     </svg>
