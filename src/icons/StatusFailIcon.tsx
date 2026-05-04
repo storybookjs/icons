@@ -16,9 +16,7 @@ export const StatusFailIcon = /* @__PURE__ */ React.forwardRef<
       {...props}
     >
       <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M7 4a3 3 0 100 6 3 3 0 000-6zM3 7a4 4 0 118 0 4 4 0 01-8 0z"
+        d="M9.147 4.146a.5.5 0 11.707.707L7.707 7l2.147 2.146a.5.5 0 11-.707.707L7 7.707 4.854 9.853a.5.5 0 01-.707-.707L6.293 7 4.147 4.853a.5.5 0 11.707-.707L7 6.293l2.147-2.147z"
         fill={color}
       />
     </svg>
