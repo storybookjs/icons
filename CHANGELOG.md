@@ -1,5 +1,11 @@
 # v1.6.0 (Tue Sep 16 2025)
 
+## 2.0.2
+
+### Patch Changes
+
+- 4c2f998: Add Checklist, Files, PopOut and StatusNew icons
+
 ## 2.0.1
 
 ### Patch Changes
