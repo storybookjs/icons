@@ -43,6 +43,7 @@ export const iconList = [
       'StopIcon',
       'SideBySideIcon',
       'StackedIcon',
+      'SnapshotIcon',
     ]
   },
   {
@@ -145,6 +146,7 @@ export const iconList = [
       'StructureIcon',
       'BoxIcon',
       'PowerIcon',
+      'QRIcon',
     ]
   },
   {
@@ -240,8 +242,10 @@ export const iconList = [
       'StatusWarnIcon',
       'StatusPassIcon',
       'GiftIcon',
-      'StatusNewIcon',
+      'SparkleIcon',
       'PopOutIcon',
+      'StatusAddIcon',
+      'StatusRemoveIcon',
     ]
   },
   {
