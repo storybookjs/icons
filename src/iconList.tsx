@@ -43,7 +43,6 @@ export const iconList = [
       'StopIcon',
       'SideBySideIcon',
       'StackedIcon',
-      'SnapshotIcon',
     ]
   },
   {

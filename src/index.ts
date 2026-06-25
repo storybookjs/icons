@@ -41,7 +41,6 @@ export { PlayAllHollowIcon } from './icons/PlayAllHollowIcon';
 export { StopIcon } from './icons/StopIcon';
 export { SideBySideIcon } from './icons/SideBySideIcon';
 export { StackedIcon } from './icons/StackedIcon';
-export { SnapshotIcon } from './icons/SnapshotIcon';
 export { BookIcon } from './icons/BookIcon';
 export { DocumentIcon } from './icons/DocumentIcon';
 export { CopyIcon } from './icons/CopyIcon';
