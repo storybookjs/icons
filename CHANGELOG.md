@@ -1,5 +1,11 @@
 # v1.6.0 (Tue Sep 16 2025)
 
+## 2.1.0
+
+### Minor Changes
+
+- 148719e: Add QRIcon, SparkleIcon, StatusAddIcon, and StatusRemoveIcon. Replace StatusNewIcon with SparkleIcon.
+
 ## 2.0.2
 
 ### Patch Changes
