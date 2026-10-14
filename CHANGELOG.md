@@ -1,5 +1,11 @@
 # v1.6.0 (Tue Sep 16 2025)
 
+## 2.2.0
+
+### Minor Changes
+
+- d800a73: Export the `Icon` component type and `IconProps` from the package root, so consumers can type props accepting any icon component (e.g. `Icon` for toolbar icon slots) without mirroring the shape locally.
+
 ## 2.1.0
 
 ### Minor Changes
