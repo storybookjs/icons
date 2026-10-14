@@ -1,4 +1,5 @@
 export { iconList } from './iconList';
+export type { Icon, IconProps } from './types';
 
 export { PhotoIcon } from './icons/PhotoIcon';
 export { ComponentIcon } from './icons/ComponentIcon';
