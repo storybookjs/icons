@@ -11,7 +11,10 @@ interface createIndexProps {
 export const createIndex = async ({ downloadedSVGsData }: createIndexProps) => {
   let indexContent = '';
 
-  const imports = `export { iconList } from './iconList';`;
+  const imports = [
+    `export { iconList } from './iconList';`,
+    `export type { Icon, IconProps } from './types';`,
+  ].join(os.EOL);
   indexContent += imports + os.EOL + os.EOL;
 
   downloadedSVGsData.forEach((component) => {
