@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<!-- Contact sheet for storybook-icon render.mjs. Open with ?theme=dark to flip. -->
+<head>
+<meta charset="utf-8">
+<title>Icon sheet</title>
+<style>
+  :root { --canvas: #fff; --ink: #2E3438; --muted: #73828C; --rule: rgba(46,52,56,.12); --whole: rgba(46,52,56,.22); --half: rgba(46,52,56,.07); }
+  body.theme-dark { --canvas: #171C23; --ink: #C9CDCF; --muted: #798186; --rule: rgba(201,205,207,.14); --whole: rgba(201,205,207,.26); --half: rgba(201,205,207,.08); }
+  body { margin: 0; padding: 24px; background: var(--canvas); color: var(--ink); font: 13px/1.4 -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; display: flex; flex-direction: column; gap: 32px; align-items: flex-start; }
+  .sheet { border-collapse: collapse; background: var(--canvas); padding: 8px; }
+  .sheet th { text-align: left; font-weight: 400; padding: 10px 24px 10px 8px; white-space: nowrap; }
+  .sheet code { font: 12px/1 ui-monospace, "JetBrains Mono", Menlo, monospace; color: var(--ink); }
+  .sheet td.cell { padding: 10px 14px; text-align: center; vertical-align: bottom; }
+  .sheet .box { display: grid; place-items: center; min-width: 112px; min-height: 112px; }
+  .sheet .box svg { display: block; color: var(--ink); }
+  .sheet .size { margin-top: 6px; font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .sheet tr.first td, .sheet tr.first th { border-bottom: 1px solid var(--rule); }
+  .sheet tr.first th code { font-weight: 700; }
+  .grid { background: var(--canvas); padding: 8px; }
+  .gridbox { position: relative; width: 280px; height: 280px; background-color: var(--canvas);
+    background-image:
+      linear-gradient(to right, var(--half) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--half) 1px, transparent 1px),
+      linear-gradient(to right, var(--whole) 1px, transparent 1px),
+      linear-gradient(to bottom, var(--whole) 1px, transparent 1px);
+    background-size: 10px 10px, 10px 10px, 20px 20px, 20px 20px; background-position: 0 0;
+    outline: 1px solid var(--whole); }
+  .gridbox svg { position: absolute; inset: 0; color: var(--ink); }
+  .grid .caption { margin-top: 8px; color: var(--muted); font-size: 11px; max-width: 280px; }
+</style>
+</head>
+<body class="theme-{{theme}}">
+<table class="sheet">
+{{rows}}
+</table>
+<div class="grid">
+  <div class="gridbox">{{grid}}</div>
+  <div class="caption">20x with the 14 grid. Dark lines are whole pixels, faint lines half pixels. Every edge should sit on one of them.</div>
+</div>
+<script>
+  const t = new URLSearchParams(location.search).get('theme');
+  if (t) document.body.className = 'theme-' + t;
+</script>
+</body>
+</html>
