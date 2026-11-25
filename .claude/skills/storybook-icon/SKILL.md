@@ -61,9 +61,10 @@ mkdir -p .claude/skills/storybook-icon/work/<Name>Icon
 cp .claude/skills/storybook-icon/assets/template.svg .claude/skills/storybook-icon/work/<Name>Icon/<Name>Icon.svg
 ```
 
-Draw in that file: paths only, `fill="#000"` on every shape, every edge on
-a whole or half pixel, 1px lines as fills with the `.5` arc caps from
-style.md, no strokes, groups, clipPaths or ids. Copy the exemplar's path
+Draw in that file as 1px outlines unless the family is a solid one: paths
+only, `fill="#000"` on every shape, every edge on a whole or half pixel
+(pixel hinted), 1px lines as fills with the `.5` arc caps from style.md,
+no text, no strokes, groups, clipPaths or ids. Copy the exemplar's path
 and change the glyph rather than drawing from nothing.
 
 For a change to an existing icon, start from the shipped source instead of

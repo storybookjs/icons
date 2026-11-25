@@ -107,8 +107,10 @@ the solid one is "on" or "selected".
 - Joins on the filled shape are rounded, radius .5 (PlayIcon) or .75
   (StarIcon, CloseAltIcon); the Hollow twin keeps or widens them
   (PlayHollowIcon uses .8).
-- Draw the filled one first; the Hollow one is derived from it, never the
-  other way round.
+- A new concept is drawn as an outline under the plain name (the set's
+  preference, see style.md). `Hollow` appears only when a solid twin exists
+  for an "on" state; then the solid one takes the plain name and the two
+  share one outer contour.
 
 Members: StarIcon/StarHollowIcon, HeartIcon/HeartHollowIcon,
 CircleIcon/CircleHollowIcon, CloudIcon/CloudHollowIcon,

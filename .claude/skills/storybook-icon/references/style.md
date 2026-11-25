@@ -36,15 +36,20 @@ the first is the one that goes wrong silently.
 Comment, Contrast and others); their drawing still fits in 14 by 14. An
 edited one keeps its box unless the brief is a redraw. Never copy the 15.
 
-The set draws edge to edge. Nothing is inset "for safety"; the box is the
-drawing box and the host UI adds the space around it.
+The box is the drawing box and the host UI adds the space around it, so
+nothing is inset "for safety". But the shapes differ, by the designer's
+rule: a circle usually fills the box (the rings and discs run 0 to 14),
+and a square never does (StopAltIcon, SidebarIcon, StackedIcon, GridIcon
+and the Status frames all stop short, 1 to 13 or 3 to 11), because a
+square of the same span carries more ink and looks bigger. A rectangle may
+run the full 14 on its long axis (BrowserIcon is 0 to 14 by 1 to 13).
 
 | Family | Occupies | Measured on |
 | --- | --- | --- |
 | Ring glyph (a glyph inside a 1px ring, or on a filled disc) | the full 14 by 14; ring outer radius 7, inner 6; the glyph inside spans about 3 to 11 | AddIcon, CloseIcon, PassedIcon, InfoIcon |
 | Bare glyph | 10 to 14 wide; Plus 1 to 13, Cross 2 to 12, Check 0 to 14 by 2.5 to 12, Alert 0 to 14 by 1 to 13 | PlusIcon, CrossIcon, CheckIcon, AlertIcon |
 | Status glyph | an 8 by 8 box from (3,3) to (11,11), centred on (7,7); round or diagonal shapes may sit in the inner 6 by 6 from (4,4) | StatusPassIcon 3 to 11 by 4 to 10, StatusWarnIcon 3 to 11 by 3 to 10, StatusIcon 4 to 10, StatusAddIcon 3 to 11 |
-| Object or frame (1px outline of a thing) | 12 to 14 on the long axis, so 0 to 1 px clear; Trash 1 to 13 by 0 to 13, Folder 0 to 14 by 1 to 12, Document 1 to 13 by 0 to 14, Browser 0 to 14 by 1 to 13 | TrashIcon, FolderIcon, DocumentIcon, BrowserIcon |
+| Object or frame (1px outline of a thing) | a square 1 to 13, never the full box; a rectangle up to 14 on its long axis with 1 px clear on the other: Trash 1 to 13 by 0 to 13, Folder 0 to 14 by 1 to 12, Document 1 to 13 by 0 to 14, Browser 0 to 14 by 1 to 13 | TrashIcon, FolderIcon, DocumentIcon, BrowserIcon |
 | Device | full height, 8 to 10 wide: Mobile 3 to 11, Tablet 2 to 12 | MobileIcon, TabletIcon |
 | Chevron | 6.5 wide by 12 tall (4.75 to 11.25 by 1 to 13); the Small variant 4.5 by 8 (4.75 to 9.25 by 3 to 11) | ChevronRightIcon, ChevronSmallRightIcon |
 | Arrow | full width, 10 tall: shaft on y 7 from x 0.5, head 5 long from (8.5,2) to the tip at (13.5,7) | ArrowRightIcon |
@@ -56,11 +61,13 @@ CircleHollowIcon).
 
 ## Line
 
-Every line in the set is 1px wide, has round caps, and is a filled shape.
-There is not one `stroke` attribute among the 260 icons (DirectionIcon's
-stroke is the exception that proves it). Draw lines as fills from the
-start; converting a stroked drawing afterwards is where geometry bugs come
-from.
+Lines are 1px wide, have round caps, and are filled shapes, pixel hinted:
+the designer's phrase for edges that sit on whole or half pixels, so a 1px
+line fills exactly one device pixel at 14px instead of smearing over two.
+One icon of 260 uses a `stroke` attribute, DirectionIcon; do not copy it.
+One has 1.5px bars, CloseAltIcon; do not copy that either unless you are
+drawing the heavy twin of a 1px icon. Draw lines as fills from the start;
+converting a stroked drawing afterwards is where geometry bugs come from.
 
 The idiom, in the words of PlusIcon: a round cap is a half-circle of radius
 0.5, written `a.5.5 0 010 1` (or `-1`), and a quarter cap on a corner is
@@ -107,6 +114,11 @@ M10.5 3a.5.5 0 01.5.5v7a.5.5 0 01-.5.5h-7a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5h7zM4
 
 ## Fill
 
+- Outline is the preference. A new icon is drawn as 1px outlines; 168 of
+  the 260 icons are outlines with their counters cut by evenodd. A solid
+  shape is for four cases: the "on" twin of an outline (StarIcon beside
+  StarHollowIcon), a disc glyph (PassedIcon), a dot (StatusIcon) and a
+  solid arrow (ArrowSolidRightIcon).
 - A filled variant is a solid shape (StarIcon, HeartIcon, CircleIcon,
   PassedIcon's disc with the check cut out of it).
 - A Hollow variant is the same outline with the inside cut away:
@@ -121,6 +133,10 @@ M10.5 3a.5.5 0 01.5.5v7a.5.5 0 01-.5.5h-7a.5.5 0 01-.5-.5v-7a.5.5 0 01.5-.5h7zM4
 
 ## Geometry
 
+- No text. Letters, digits and glyphs from type do not survive 14px; the
+  only letters in the set are the Editing group's own (BoldIcon,
+  ItalicIcon, ParagraphIcon), where the thing is the letter.
+  ListOrderedIcon's 1px digits are the limit.
 - Every edge sits on a whole or half pixel (7, 7.5), never 7.3. The only
   other values the set uses are the cap offsets (0.146, 0.354, 0.854,
   0.707) and the arc flags they come with.
@@ -232,8 +248,9 @@ Run it against the rendered sheet and grid, not against the code.
 
 1. At 14px, with no label, the icon still reads as its meaning; ask what
    else it could be and compare with the "also reads as" line of the brief.
-2. Its weight matches the siblings in the rows below it: lines look the
-   same thickness, filled areas the same darkness.
+2. Its optical weight matches the siblings in the rows below it: lines
+   look the same thickness, filled areas the same darkness, and nothing
+   about it is bigger or blacker than its neighbours.
 3. Nothing is thinner than 1px and no gap or counter is narrower than 1px.
 4. It sits where its family sits: a ring runs edge to edge, a Status glyph
    stays inside its 8 by 8 box, an object keeps at most a pixel clear.
