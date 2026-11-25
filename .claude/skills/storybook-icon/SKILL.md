@@ -36,9 +36,9 @@ whether it has a negation or mirrors in right-to-left layouts.
 
 Ask the user to confirm: with the question tool when the harness has one
 (AskUserQuestion in Claude Code), in chat otherwise, as meaning.md
-describes. The recommended shape is the first option, every alternative
-from the brief is an option, "Describe it differently" is the last. Then
-stop and wait.
+describes. The recommended shape is the first option, each alternative
+from the brief (at most two) is an option, "Describe it differently" is
+the last. Then stop and wait.
 
 Nothing is drawn before the user has confirmed. This is the gate.
 
@@ -75,7 +75,8 @@ node scripts/render.mjs --export <Name>Icon
 For a logo, start from the brand's official single-colour mark and fit it
 to the grid; never invent a mark.
 
-Check as you go:
+Check as you go; `--check` enforces the Geometry list in style.md and
+nothing more, so draw to that list rather than reading the script:
 
 ```
 node scripts/add.mjs work/<slug>/<Name>Icon.svg --check

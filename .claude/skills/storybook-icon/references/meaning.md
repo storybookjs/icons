@@ -163,7 +163,9 @@ One question, asked after the brief and before any drawing. Its parts:
   brief back in their own words.
 
 With the question tool (AskUserQuestion in Claude Code), the options are
-the shapes:
+the shapes. The tool takes at most four options, which is why the brief
+carries at most two alternatives; a third shape goes in the "Alternatives"
+line as rejected, with its reason:
 
 ```
 question: "Which shape should the flaky-test status glyph take? It sits in
