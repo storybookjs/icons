@@ -89,3 +89,27 @@ test('buildSheet puts the first icon first, labels rows, sizes cells and fills t
   assert.doesNotMatch(html, /\{\{/);
   assert.match(html, /class="grid"/);
 });
+
+test('svgToSvg fills a shape that has neither fill nor stroke, as add.mjs will at write time', () => {
+  const svg = svgToSvg('<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1"/><path d="M1 1h1" stroke="#000"/><clipPath id="c"><rect width="14" height="14"/></clipPath></svg>');
+  assert.match(svg, /<path[^>]*d="M0 0h1"[^>]*fill="currentColor"/);
+  assert.match(svg, /<path[^>]*d="M1 1h1"[^>]*stroke="currentColor"/);
+  assert.doesNotMatch(svg, /<path[^>]*d="M1 1h1"[^>]*fill=/);
+  assert.doesNotMatch(svg, /<rect[^>]*fill=/);
+});
+
+test('svgToSource maps a currentColor stroke back to #000', () => {
+  const src = svgToSource('<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1" stroke="currentColor" stroke-width="1.077"/></svg>');
+  assert.match(src, /stroke="#000"/);
+  assert.doesNotMatch(src, /currentColor/);
+});
+
+test('buildSheet sizes the grid box from the viewBox so a 14x15 icon stays on the grid', () => {
+  const tpl = read('.claude/skills/storybook-icon/assets/sheet.html');
+  const html15 = buildSheet([resolveIcon('Lock', repo)], [14], 'light', tpl);
+  assert.match(html15, /class="gridbox" style="width:280px;height:300px"/);
+  assert.match(html15, /<svg[^>]*width="280" height="300"/);
+  const html14 = buildSheet([resolveIcon('Add', repo)], [14], 'light', tpl);
+  assert.match(html14, /class="gridbox" style="width:280px;height:280px"/);
+  assert.match(html14, /<svg[^>]*width="280" height="280"/);
+});

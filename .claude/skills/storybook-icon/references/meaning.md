@@ -129,7 +129,7 @@ something else (a bare check is CheckIcon; a check in a ring is
 PassedIcon; a small check is StatusPassIcon). A duplicate is the set
 already having your meaning under another shape (if "retry" is wanted,
 RefreshIcon and SyncIcon are already there). Render the nearest three to
-six with `scripts/render.mjs` and put the result in "Already in the set".
+six with `node .claude/skills/storybook-icon/scripts/render.mjs` and put the result in "Already in the set".
 
 ### Pairs and states
 

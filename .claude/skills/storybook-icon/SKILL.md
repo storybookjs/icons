@@ -15,8 +15,9 @@ An icon matches the set in five senses, checked in this order: meaning,
 family, form, name and home, code. Read
 [references/style.md](references/style.md) (the senses and the drawing
 rules) and [references/meaning.md](references/meaning.md) (the brief and
-the confirmation) before step 1. Paths below are relative to this skill's
-folder, `.claude/skills/storybook-icon/`.
+the confirmation) before step 1. The commands below run from the
+repository root; the skill's drafts and renders go in
+`.claude/skills/storybook-icon/work/<Name>Icon/`, which is gitignored.
 
 ## Steps
 
@@ -26,7 +27,7 @@ List the neighbours by name: `ls src/icons`, and read the target group in
 `src/iconList.tsx`. Render the closest three to six so you have seen them:
 
 ```
-node scripts/render.mjs StatusPassIcon --with StatusFailIcon,StatusWarnIcon
+node .claude/skills/storybook-icon/scripts/render.mjs StatusPassIcon --with StatusFailIcon,StatusWarnIcon
 ```
 
 Then write the semantic brief in chat, all nine lines from meaning.md, and
@@ -56,8 +57,8 @@ render from step 1 has been looked at.
 ### 3. Draw
 
 ```
-mkdir -p work/<slug>
-cp assets/template.svg work/<slug>/<Name>Icon.svg
+mkdir -p .claude/skills/storybook-icon/work/<Name>Icon
+cp .claude/skills/storybook-icon/assets/template.svg .claude/skills/storybook-icon/work/<Name>Icon/<Name>Icon.svg
 ```
 
 Draw in that file: paths only, `fill="#000"` on every shape, every edge on
@@ -69,7 +70,7 @@ For a change to an existing icon, start from the shipped source instead of
 the template:
 
 ```
-node scripts/render.mjs --export <Name>Icon
+node .claude/skills/storybook-icon/scripts/render.mjs --export <Name>Icon
 ```
 
 For a logo, start from the brand's official single-colour mark and fit it
@@ -79,15 +80,16 @@ Check as you go; `--check` enforces the Geometry list in style.md and
 nothing more, so draw to that list rather than reading the script:
 
 ```
-node scripts/add.mjs work/<slug>/<Name>Icon.svg --check
+node .claude/skills/storybook-icon/scripts/add.mjs .claude/skills/storybook-icon/work/<Name>Icon/<Name>Icon.svg --check
 ```
 
-Done when the check prints `ok` with no warnings.
+Done when the check prints `ok`, with no warnings or only inherited ones
+(an edit checked with `--check --replace`).
 
 ### 4. Render and look
 
 ```
-node scripts/render.mjs work/<slug>/<Name>Icon.svg --with <Sibling>Icon,<Sibling>Icon
+node .claude/skills/storybook-icon/scripts/render.mjs .claude/skills/storybook-icon/work/<Name>Icon/<Name>Icon.svg --with <Sibling>Icon,<Sibling>Icon
 ```
 
 On first use it may report `playwright-core missing` or no browser found;
@@ -102,7 +104,7 @@ at 14px and the family row reads as one set.
 ### 5. Wire in
 
 ```
-node scripts/add.mjs work/<slug>/<Name>Icon.svg --group <Group> --after <Sibling>Icon --changeset "<summary>"
+node .claude/skills/storybook-icon/scripts/add.mjs .claude/skills/storybook-icon/work/<Name>Icon/<Name>Icon.svg --group <Group> --after <Sibling>Icon --changeset "<summary>"
 pnpm type-check
 ```
 
@@ -162,7 +164,7 @@ thought and what to do instead.
 | "The shape is obvious, I'll draw it and list other meanings at the end" | Two runs chose two different shapes for the same brief. Write the brief, ask, wait. The meanings go in before the choice, not after. |
 | "It's a status icon, so sidebar, Status box, Status prefix" | That was an assumption that fixed the family, name and group. Ask where it sits; a toolbar button or a badge is a different icon. |
 | "Other readings: gambling, random. Done." | Check who reads it differently (region, generation, context in the product), what the product already calls and draws for this, and whether a label will be there. |
-| "I'll build an svgr pipeline and a renderer" | `scripts/add.mjs` and `scripts/render.mjs` exist; each run that rebuilt them spent 50 to 70 tool calls on tooling. |
+| "I'll build an svgr pipeline and a renderer" | `.claude/skills/storybook-icon/scripts/add.mjs` and `.claude/skills/storybook-icon/scripts/render.mjs` exist; each run that rebuilt them spent 50 to 70 tool calls on tooling. |
 | "I'll draw strokes and expand them to outlines" | Hand expansion produced a geometry bug only a pixel diff caught. Draw fills with the `.5` arc idiom from the start. |
 | "The code looks right, ship it" | Look at the PNGs. The checklist runs against the render, on both themes, at 14px, beside the siblings. |
 | "It renders, so it's in the set" | It is not in Figma. Say so, with the wording from step 6, every time. |

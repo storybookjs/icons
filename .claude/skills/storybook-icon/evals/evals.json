@@ -21,6 +21,13 @@
       "prompt": "Make the BellIcon's clapper a bit bigger, it disappears at 14px.",
       "expected_output": "A brief that says what changes and that the meaning does not; an export of the current BellIcon SVG; an edit that keeps the icon's family and introduces no new rule break; a before/after render looked at 14px; add.mjs --replace writing only the TSX plus a patch changeset; a delivery note that the Figma component must be updated or the next regenerate reverts the change.",
       "files": []
+    },
+    {
+      "id": 4,
+      "name": "draft-story",
+      "prompt": "Add an icon for a draft story, one that is not yet published to the team.",
+      "expected_output": "A brief that confirms what 'draft' means here (unpublished, unfinished or hidden), where it sits (beside the story name in the sidebar, or a badge) and whether a 'published' twin is implied; a check that nothing in the set already means draft (DocumentIcon, EditIcon and EyeCloseIcon are the neighbours); a stop for confirmation; then an icon in the family the place implies, rendered beside those neighbours and wired in. No reference file pre-answers this request.",
+      "files": []
     }
   ]
 }

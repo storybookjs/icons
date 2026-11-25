@@ -5,7 +5,10 @@ family's geometry, so a row of siblings reads as one set. Find the family
 first, then copy its exemplar's paths and change only the glyph. Every
 number here is measured from the shipped component named beside it, on the
 14 by 14 grid; the drawing rules those numbers obey are in
-[style.md](style.md).
+[style.md](style.md). A span such as "3 to 11" is the ink's bounding box,
+round caps included; a number with three decimals (4.146, 9.854) is a
+point on the path where a cap arc meets the line, and the ink reaches
+about half a pixel beyond it.
 
 ## Ring glyphs
 
@@ -101,8 +104,9 @@ the solid one is "on" or "selected".
   CircleHollowIcon 0 to 14, CloudIcon and CloudHollowIcon 0 to 14 by 2 to
   12, PlayIcon and PlayHollowIcon 3 to 12.8, BookmarkIcon and
   BookmarkHollowIcon 3 to 11 by 0 to 14.
-- Joins on the filled shape are rounded with radius .75 (StarIcon,
-  CloseAltIcon) or .8 (PlayIcon); the Hollow twin keeps them.
+- Joins on the filled shape are rounded, radius .5 (PlayIcon) or .75
+  (StarIcon, CloseAltIcon); the Hollow twin keeps or widens them
+  (PlayHollowIcon uses .8).
 - Draw the filled one first; the Hollow one is derived from it, never the
   other way round.
 
@@ -223,9 +227,10 @@ hint of its chrome.
 - **Toggle**: the frame plus a 1px arrow in the main panel pointing at the
   side panel (SidebarToggleIcon, BottomBarToggleIcon).
 - **Device**: 1px outline, corner radius 1.5, full height. MobileIcon 3 to
-  11 by 0 to 13 with a 2px chin (screen 4 to 10 by 1 to 11); TabletIcon 2 to
-  12 by 0 to 14 with a 2px home dash `h2` on y 12.5; WatchIcon body 4 to 10
-  with 1px strap bars on y 0.5 and 13.5. MobileIcon, TabletIcon and
+  11 by 0 to 14 with a 2px band at the top and the bottom (screen 4 to 10
+  by 2 to 12); TabletIcon 2 to 12 by 0 to 14 with a 2px home dash `h2` on
+  y 12.5; WatchIcon case 3 to 11 by 2 to 12 (face 4 to 10 by 3 to 11) with
+  1px strap bars 4 to 10 on y 0.5 and 13.5. MobileIcon, TabletIcon and
   WatchIcon ship in a `0 0 14 15` box; draw a new one in 14 by 14.
 - A panel inside a frame is at least 3px wide, a chrome band 2px.
 
@@ -244,9 +249,10 @@ nothing in it (StopAltIcon is that shape and means stop).
 
 Reads as: a page, a card or a list, told by a few short 1px "text" lines.
 
-- **Page**: 1px outline 1 to 13 by 0 to 14 with a dog-ear of about 2.7px
-  at the top right (DocumentIcon: the corner runs from (9.8, 0) to
-  (12.5, 2.7)). Text lines are 1px with round caps, 6 long, x 4 to 10, on
+- **Page**: 1px outline 1 to 13 by 0 to 14 with a dog-ear at the top right
+  cut 2.7px on each axis (DocumentIcon: the outer slant runs from
+  (10.15, 0.15) to (12.85, 2.85); inside, the fold is the notch from
+  (9.5, 1) to (12, 3.5)). Text lines are 1px with round caps, 6 long, x 4 to 10, on
   y 5.5, 8 and 10.5 (a 2.5px pitch), 2px inside the frame.
 - **Card**: DocListIcon is a .5 radius frame 1 to 13 with a 2px header band
   (inner from y 4) and two lines x 3.5 to 10.5 on y 6.5 and 9.5. CommentIcon

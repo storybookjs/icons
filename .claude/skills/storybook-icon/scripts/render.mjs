@@ -44,7 +44,14 @@ export function tsxToSvg(tsx) {
 /** An SVG source file as the sheet wants it: comments gone, #000 fills as currentColor. */
 export function svgToSvg(svgText) {
   let s = svgText.replace(/<!--[\s\S]*?-->/g, '');
-  s = s.replace(/fill="(#000000|#000|black)"/gi, 'fill="currentColor"');
+  s = s.replace(/(fill|stroke)="(#000000|#000|black)"/gi, '$1="currentColor"');
+  // A shape with neither fill nor stroke is invisible under the root fill="none"; add.mjs gives it
+  // fill="#000" at write time, so the sheet shows it the same way. clipPath contents are left alone.
+  const clips = [];
+  s = s.replace(/<clipPath\b[\s\S]*?<\/clipPath>/g, (m) => { clips.push(m); return `\u0000${clips.length - 1}\u0000`; });
+  s = s.replace(/<(path|circle|rect|ellipse|polygon|line)\b([^>]*?)(\/?)>/g, (all, tag, attrs, close) =>
+    /\b(fill|stroke)=/.test(attrs) ? all : `<${tag}${attrs} fill="currentColor"${close}>`);
+  s = s.replace(/\u0000(\d+)\u0000/g, (m, i) => clips[+i]);
   return tidy(s);
 }
 
@@ -59,7 +66,7 @@ function orderRootAttrs(attrs) {
 
 /** The inverse of svgToSvg/tsxToSvg: an SVG source file (fill="#000", Figma attribute order). */
 export function svgToSource(svg) {
-  let s = svg.replace(/fill="currentColor"/g, 'fill="#000"');
+  let s = svg.replace(/(fill|stroke)="currentColor"/g, '$1="#000"');
   s = s.replace(/prefix__/g, '');
   s = s.replace(/^<svg\b([^>]*)>/, (all, attrs) => `<svg ${orderRootAttrs(attrs)}>`);
   return s.replace(/></g, '>\n<') + '\n';
@@ -79,9 +86,9 @@ export function resolveIcon(arg, repo = repoRoot) {
   return { name: path.basename(file, '.tsx'), svg: tsxToSvg(fs.readFileSync(file, 'utf8')), source: file };
 }
 
-const sized = (svg, size) =>
+const sized = (svg, w, h = w) =>
   svg.replace(/^<svg([^>]*)>/, (all, attrs) =>
-    '<svg' + attrs.replace(/\bwidth="[^"]*"/, `width="${size}"`).replace(/\bheight="[^"]*"/, `height="${size}"`) + '>');
+    '<svg' + attrs.replace(/\bwidth="[^"]*"/, `width="${w}"`).replace(/\bheight="[^"]*"/, `height="${h}"`) + '>');
 
 /** Fill assets/sheet.html for one theme. First icon first; the grid shows the first icon at 20x. */
 export function buildSheet(icons, sizes, theme, template) {
@@ -93,8 +100,13 @@ export function buildSheet(icons, sizes, theme, template) {
       return `<tr class="${i === 0 ? 'first' : ''}"><th><code>${ic.name}</code></th>${cells}</tr>`;
     })
     .join('\n');
-  const grid = sized(icons[0].svg, 280);
-  return template.split('{{theme}}').join(theme).split('{{rows}}').join(rows).split('{{grid}}').join(grid);
+  // The grid box follows the first icon's viewBox (20px per unit), so a 14x15 icon is not letterboxed off the grid.
+  const vb = ((icons[0].svg.match(/viewBox="([^"]+)"/) || [])[1] || '0 0 14 14').trim().split(/\s+/).map(Number);
+  const gw = 280;
+  const gh = Math.round((gw * vb[3]) / vb[2]);
+  const grid = sized(icons[0].svg, gw, gh);
+  return template.split('{{theme}}').join(theme).split('{{rows}}').join(rows)
+    .split('{{gridstyle}}').join(`width:${gw}px;height:${gh}px`).split('{{grid}}').join(grid);
 }
 
 function usage(msg) {

@@ -183,11 +183,14 @@ export function normalizeSvg(svgSource) {
   });
   s = s.replace(/<(path|circle|rect|ellipse|polygon|line)\b([^>]*?)(\/?)>/g, (all, tag, attrs, close) => {
     let pairs = parseAttrs(attrs);
-    const fill = new Map(pairs).get('fill');
-    if (fill === undefined || fill === 'currentColor') {
+    const byName = new Map(pairs);
+    const fill = byName.get('fill');
+    // A stroked shape with no fill stays unfilled (DirectionIcon); anything else gets the one colour.
+    if ((fill === undefined && !byName.has('stroke')) || fill === 'currentColor') {
       pairs = pairs.filter(([k]) => k !== 'fill');
       pairs.push(['fill', '#000']);
     }
+    if (byName.get('stroke') === 'currentColor') pairs = pairs.map(([k, v]) => (k === 'stroke' ? [k, '#000'] : [k, v]));
     return `<${tag} ${orderAttrs(pairs, SHAPE_ORDER)}${close}>`;
   });
   return s.replace(/\s+/g, ' ').replace(/>\s+</g, '><').trim();

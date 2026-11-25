@@ -8,6 +8,7 @@ import {
   checkSvg, componentName, insertExport, insertListEntry, changesetMarkdown, changesetName,
   normalizeSvg, svgrComponent, storySource,
 } from '../add.mjs';
+import { tsxToSvg, svgToSource } from '../render.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const repo = path.resolve(here, '..', '..', '..', '..', '..');
@@ -198,4 +199,51 @@ test('svgrComponent reproduces PlusIcon.tsx byte for byte from the template', as
 test('storySource reproduces a story byte for byte', async () => {
   const out = await storySource('PlusTestIcon', repo);
   assert.equal(out, read('src/icons/PlusIcon.stories.ts').replace(/PlusIcon/g, 'PlusTestIcon'));
+});
+
+test('normalizeSvg does not add a fill to a stroked shape', () => {
+  const out = normalizeSvg('<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1" stroke="#000" stroke-width="1.077"/></svg>');
+  assert.doesNotMatch(out, /fill="#000"/);
+  assert.match(out, /stroke="#000"/);
+});
+
+test('DirectionIcon survives export and replace: the stroke takes the color prop and no fill is added', async () => {
+  const tsx = read('src/icons/DirectionIcon.tsx');
+  const out = await svgrComponent(svgToSource(tsxToSvg(tsx)), 'DirectionIcon', repo);
+  assert.match(out, /stroke=\{color\}/);
+  assert.doesNotMatch(out, /fill=\{color\}/);
+  assert.doesNotMatch(out, /(stroke|fill)="currentColor"/);
+});
+
+test('every shipped icon exports and passes --check --replace with no errors', () => {
+  const dir = path.join(repo, 'src', 'icons');
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith('Icon.tsx'));
+  assert.ok(files.length >= 260, `only ${files.length} icons found`);
+  const bad = [];
+  for (const f of files) {
+    const tsx = fs.readFileSync(path.join(dir, f), 'utf8');
+    const { errors } = checkSvg(svgToSource(tsxToSvg(tsx)), tsx);
+    if (errors.length) bad.push(`${f}: ${errors[0]}`);
+  }
+  assert.deepEqual(bad, []);
+});
+
+test('the CLI refuses an existing name, a bad group and a sibling in another group before writing', () => {
+  const plus = path.join(here, 'fixtures', 'ok-plus.svg');
+  let r = run(plus, '--name', 'PlusIcon', '--group', 'CRUD', '--dry-run');
+  assert.equal(r.status, 1); assert.match(r.stderr, /already exists; pass --replace/);
+  r = run(plus, '--name', 'PlusProbeIcon', '--group', 'Nope', '--dry-run');
+  assert.equal(r.status, 1); assert.match(r.stderr, /Communicate/);
+  r = run(plus, '--name', 'PlusProbeIcon', '--group', 'CRUD', '--after', 'PhotoIcon', '--dry-run');
+  assert.equal(r.status, 1); assert.match(r.stderr, /PhotoIcon is not in group CRUD/);
+  assert.ok(!fs.existsSync(path.join(repo, 'src', 'icons', 'PlusProbeIcon.tsx')));
+});
+
+test('--replace --dry-run lists only the component and the changeset', () => {
+  const plus = path.join(here, 'fixtures', 'ok-plus.svg');
+  const r = run(plus, '--name', 'PlusIcon', '--replace', '--dry-run', '--changeset', 'probe replace');
+  assert.equal(r.status, 0, r.stderr);
+  const files = [...r.stdout.matchAll(/^--- (.+) ---$/gm)].map((m) => m[1]);
+  assert.deepEqual(files, ['src/icons/PlusIcon.tsx', '.changeset/probe-replace.md']);
+  assert.match(r.stdout, /dry run: nothing written/);
 });
