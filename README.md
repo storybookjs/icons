@@ -47,6 +47,10 @@ pnpm generate-icons
 
 Inspired by [this article](https://blog.certa.dev/generating-react-icon-components-from-figma).
 
+## Adding an icon with an agent
+
+The repo ships a Claude Code skill, `.claude/skills/storybook-icon/`, that draws an icon in this set's style and wires it in (component, story, export, list entry, changeset). Ask Claude Code for the icon by its meaning and where it will be used, for example "add an icon for a flaky test, for the sidebar status column"; the skill confirms the meaning and the shape with you before drawing, then renders the icon beside its siblings and runs `scripts/add.mjs`. An icon added this way is not in Figma: add it to the Icons canvas under the same name before the next `pnpm generate-icons`, or that run drops it from `src/index.ts` and `src/iconList.tsx`.
+
 ## Developing
 
 Watch and rebuild code with `tsup` and run Storybook to preview your UI during development:
