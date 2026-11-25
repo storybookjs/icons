@@ -1,0 +1,22 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!--
+  Starting file for one icon in @storybook/icons. Keep the root exactly as above,
+  in this attribute order; svgr turns it into the component verbatim.
+
+  Grid: 14 x 14. Put every edge on a whole or half pixel (7, 7.5), never 7.3.
+  Lines: 1px wide, drawn as a FILLED shape, never a stroke. A horizontal 1px line
+         from x=1 to x=13 at y=7 with round caps is:
+           M1.5 6.5h11a.5.5 0 010 1h-11a.5.5 0 010-1z
+         The ".5 .5 0 01" arcs are the round caps; keep them.
+  Hollow shapes: draw the outer outline, then the inner outline inside the same
+         path, and give the path fill-rule="evenodd" clip-rule="evenodd".
+  Colour: every shape gets fill="#000"; svgr maps it to the color prop. No other
+         colour, no stroke, no <g>, <defs>, <clipPath>, id or transform.
+  Order on each path: fill-rule clip-rule d fill (as Figma exports it).
+  These comments are stripped by svgo; you do not have to delete them.
+
+  The path below is PlusIcon: two 1px round-capped lines, 11px long, crossing
+  at (7, 7). Replace it with your own.
+-->
+<path d="M7 1a.5.5 0 01.5.5v5h5a.5.5 0 010 1h-5v5a.5.5 0 01-1 0v-5h-5a.5.5 0 010-1h5v-5A.5.5 0 017 1z" fill="#000"/>
+</svg>

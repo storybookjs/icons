@@ -1,0 +1,9 @@
+{
+  "name": "storybook-icon-scripts",
+  "private": true,
+  "type": "module",
+  "description": "Renders and wires in icons for the storybook-icon skill",
+  "dependencies": {
+    "playwright-core": "^1.65.1"
+  }
+}
