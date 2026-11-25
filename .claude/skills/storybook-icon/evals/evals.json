@@ -1,0 +1,26 @@
+{
+  "skill_name": "storybook-icon",
+  "evals": [
+    {
+      "id": 1,
+      "name": "flaky-test",
+      "prompt": "Add an icon for a flaky test (a test that passes and fails without a code change) to this icon set, ready to ship.",
+      "expected_output": "Before drawing: a semantic brief in chat (meaning in product words, where it is used, the shape, what else that shape reads as, who may read it differently, nearest icons in the set, implied siblings, alternatives, name and group) and a stop for confirmation. After confirmation: a 14x14 fill-only SVG built from a named exemplar, a contact sheet the agent looked at, component + story + index export + iconList entry + minor changeset written by add.mjs, type-check passing, and a delivery note with the remaining readings and the Figma gap.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "status-skipped",
+      "prompt": "We need a StatusSkipped icon to go with StatusPass/StatusFail/StatusWarn.",
+      "expected_output": "A brief that names the Status glyph family and its box, confirms what 'skipped' means to the team (not run vs. ignored vs. pending), checks collisions with StatusIcon (the plain dot) and StatusRemoveIcon; then a glyph in the same box as its siblings, rendered beside them, wired into the Communicate group next to the other Status icons.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "update-bell",
+      "prompt": "Make the BellIcon's clapper a bit bigger, it disappears at 14px.",
+      "expected_output": "A brief that says what changes and that the meaning does not; an export of the current BellIcon SVG; an edit that keeps the icon's family and introduces no new rule break; a before/after render looked at 14px; add.mjs --replace writing only the TSX plus a patch changeset; a delivery note that the Figma component must be updated or the next regenerate reverts the change.",
+      "files": []
+    }
+  ]
+}
